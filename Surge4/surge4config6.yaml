@@ -1,0 +1,50 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/thuhollow2/cn/main/Surge4/surge4config.yaml interval=86400 strict=false
+
+[General]
+loglevel = notify
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
+#DNS设置或根据自己网络情况进行相应设置
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+dns-server = 119.29.29.29,223.5.5.5
+
+[Proxy]
+DIRECT = direct
+本文件创建时间：Sun May 28 01:01:15 UTC 2023 = vmess, 255.255.255.255, 10086, username=00000000-0000-0000-0000-000000000000, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-101.32.201.222-443 = vmess, hk.biutefor.icu, 443, username=71b2655e-07d9-4dad-a770-a2b08275142b, tls=true, vmess-aead=true, tls13=false, ws=true, ws-path=/biutefor.icu, sni=hk.biutefor.icu, ws-headers=Host:hk.biutefor.icu, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-112.132.215.189-50002 = vmess, 112.132.215.189, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-118.140.27.231-443 = vmess, hgc1.pmssr.xyz, 443, username=95b2dc83-a476-4a82-93b2-0d77b4c30c18, tls=true, vmess-aead=true, tls13=false, ws=true, ws-path=/sometimesnaive, sni=hgc1.pmssr.xyz, ws-headers=Host:hgc1.pmssr.xyz, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-123.249.101.15-19709 = vmess, 123.249.101.15, 19709, username=2f278a45-940a-46c1-c886-77f3b2d33987, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=123.249.101.15, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-36.133.171.209-11023 = vmess, 36.133.171.209, 11023, username=8c042a38-71c1-1dcb-00df-54880236e0dc, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-36.134.16.171-11023 = vmess, 36.134.16.171, 11023, username=8c042a38-71c1-1dcb-00df-54880236e0dc, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-36.134.16.190-11023 = vmess, 36.134.16.190, 11023, username=8c042a38-71c1-1dcb-00df-54880236e0dc, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-47.93.231.218-53022 = vmess, 47.93.231.218, 53022, username=95fd7642-2160-4528-e909-3d526b533013, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=47.93.231.218, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-59.124.94.151-8443 = trojan, official.taipeicitygovernment.kiev.ua, 8443, password=5505f6ba-cd37-30ce-8f92-be4120c83d7f, skip-cert-verify=true, tfo=false, udp-relay=true
+♻️ IPv6-自动 = direct
+🚀 IPv6-手动 = direct
+
+[Proxy Group]
+♻️ 自动选择 = url-test,本文件创建时间：Sun May 28 01:01:15 UTC 2023,🇨🇳CN-101.32.201.222-443,🇨🇳CN-112.132.215.189-50002,🇨🇳CN-118.140.27.231-443,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-36.133.171.209-11023,🇨🇳CN-36.134.16.171-11023,🇨🇳CN-36.134.16.190-11023,🇨🇳CN-47.93.231.218-53022,🇨🇳CN-59.124.94.151-8443,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🚀 手动切换-1 = select,本文件创建时间：Sun May 28 01:01:15 UTC 2023,🇨🇳CN-101.32.201.222-443,🇨🇳CN-112.132.215.189-50002,🇨🇳CN-118.140.27.231-443,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-36.133.171.209-11023,🇨🇳CN-36.134.16.171-11023,🇨🇳CN-36.134.16.190-11023,🇨🇳CN-47.93.231.218-53022,🇨🇳CN-59.124.94.151-8443
+🚀 手动切换-2 = select,本文件创建时间：Sun May 28 01:01:15 UTC 2023,🇨🇳CN-101.32.201.222-443,🇨🇳CN-112.132.215.189-50002,🇨🇳CN-118.140.27.231-443,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-36.133.171.209-11023,🇨🇳CN-36.134.16.171-11023,🇨🇳CN-36.134.16.190-11023,🇨🇳CN-47.93.231.218-53022,🇨🇳CN-59.124.94.151-8443
+🛑 广告拦截 = select,DIRECT,REJECT
+🌏 国内媒体 = select,♻️ 自动选择,🚀 手动切换-1,🚀 手动切换-2,♻️ IPv6-自动,🚀 IPv6-手动,DIRECT,REJECT
+🎯 国内网站 = select,♻️ 自动选择,🚀 手动切换-1,🚀 手动切换-2,♻️ IPv6-自动,🚀 IPv6-手动,DIRECT,REJECT
+🐟 其他网站 = select,DIRECT,♻️ 自动选择,🚀 手动切换-1,🚀 手动切换-2,♻️ IPv6-自动,🚀 IPv6-手动,REJECT
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/BanAD.list,🛑 广告拦截,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/BanProgramAD.list,🛑 广告拦截,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaMedia.list,🌏 国内媒体,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/UnBan.list,🎯 国内网站,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaDomain.list,🎯 国内网站,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaCompanyIp.list,🎯 国内网站,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIp.list,🎯 国内网站,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIpV6.list,🎯 国内网站,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/GoogleCN.list,🎯 国内网站,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/SteamCN.list,🎯 国内网站,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/Download.list,🎯 国内网站,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/Direct.list,🎯 国内网站,update-interval=86400
+GEOIP,CN,🎯 国内网站
+FINAL,🐟 其他网站
+
