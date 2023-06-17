@@ -1,0 +1,64 @@
+[General]
+allow-udp-proxy=false
+bypass-tun=10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+dns-server=system,119.29.29.29,223.5.5.5
+host=127.0.0.1
+skip-proxy=192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
+
+[Proxy]
+本文件创建时间：Mon Jun  5 03:21:59 UTC 2023 = vmess,255.255.255.255,10086,chacha20-ietf-poly1305,"00000000-0000-0000-0000-000000000000",over-tls:false,transport:tcp,skip-cert-verify:1
+🇨🇳CN-101.200.185.52-8080 = http,101.200.185.52,8080,,
+🇨🇳CN-101.251.204.174-8080 = http,101.251.204.174,8080,,
+🇨🇳CN-103.6.177.174-8002 = http,103.6.177.174,8002,,
+🇨🇳CN-112.132.212.112-50002 = vmess,112.132.212.112,50002,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls:false,transport:tcp,skip-cert-verify:1
+🇨🇳CN-123.249.101.15-19709 = vmess,123.249.101.15,19709,chacha20-ietf-poly1305,"2f278a45-940a-46c1-c886-77f3b2d33987",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+🇨🇳CN-183.221.242.102-9443 = http,183.221.242.102,9443,,
+🇨🇳CN-183.221.242.103-9443 = http,183.221.242.103,9443,,
+🇨🇳CN-183.221.242.107-9443 = http,183.221.242.107,9443,,
+🇨🇳CN-223.244.226.26-7777 = http,223.244.226.26,7777,,
+🇨🇳CN-36.133.171.209-11023 = vmess,36.133.171.209,11023,chacha20-ietf-poly1305,"8c042a38-71c1-1dcb-00df-54880236e0dc",over-tls:false,transport:tcp,skip-cert-verify:1
+🇨🇳CN-36.137.106.45-11023 = Shadowsocks,36.137.106.45,11023,aes-256-gcm,"ll668668@"
+🇨🇳CN-36.138.140.208-11023 = Shadowsocks,36.138.140.208,11023,aes-256-gcm,"ll668668@"
+🇨🇳CN-36.138.193.128-11023 = Shadowsocks,36.138.193.128,11023,aes-256-gcm,"ll668668@"
+🇨🇳CN-36.139.166.247-11023 = Shadowsocks,36.139.166.247,11023,aes-256-gcm,"ll668668@"
+🇨🇳CN-39.103.165.178-56002 = vmess,39.103.165.178,56002,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls:false,transport:tcp,skip-cert-verify:1
+🇨🇳CN-47.242.3.214-8081 = http,47.242.3.214,8081,,
+🇨🇳CN-47.93.231.218-53022 = vmess,47.93.231.218,53022,chacha20-ietf-poly1305,"95fd7642-2160-4528-e909-3d526b533013",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+
+[Remote Proxy]
+
+[Proxy Group]
+🚀 节点选择 = select,♻️ 自动选择,🚀 手动切换-1,🚀 手动切换-2,♻️ IPv6-自动,🚀 IPv6-手动,DIRECT,REJECT
+♻️ 自动选择 = url-test,本文件创建时间：Mon Jun  5 03:21:59 UTC 2023,🇨🇳CN-101.200.185.52-8080,🇨🇳CN-101.251.204.174-8080,🇨🇳CN-103.6.177.174-8002,🇨🇳CN-112.132.212.112-50002,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-183.221.242.102-9443,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-183.221.242.107-9443,🇨🇳CN-223.244.226.26-7777,🇨🇳CN-36.133.171.209-11023,🇨🇳CN-36.137.106.45-11023,🇨🇳CN-36.138.140.208-11023,🇨🇳CN-36.138.193.128-11023,🇨🇳CN-36.139.166.247-11023,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-47.242.3.214-8081,🇨🇳CN-47.93.231.218-53022,url=http://www.gstatic.com/generate_204,interval=300
+🚀 手动切换-1 = select,本文件创建时间：Mon Jun  5 03:21:59 UTC 2023,🇨🇳CN-101.200.185.52-8080,🇨🇳CN-101.251.204.174-8080,🇨🇳CN-103.6.177.174-8002,🇨🇳CN-112.132.212.112-50002,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-183.221.242.102-9443,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-183.221.242.107-9443,🇨🇳CN-223.244.226.26-7777,🇨🇳CN-36.133.171.209-11023,🇨🇳CN-36.137.106.45-11023,🇨🇳CN-36.138.140.208-11023,🇨🇳CN-36.138.193.128-11023,🇨🇳CN-36.139.166.247-11023,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-47.242.3.214-8081,🇨🇳CN-47.93.231.218-53022
+🚀 手动切换-2 = select,本文件创建时间：Mon Jun  5 03:21:59 UTC 2023,🇨🇳CN-101.200.185.52-8080,🇨🇳CN-101.251.204.174-8080,🇨🇳CN-103.6.177.174-8002,🇨🇳CN-112.132.212.112-50002,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-183.221.242.102-9443,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-183.221.242.107-9443,🇨🇳CN-223.244.226.26-7777,🇨🇳CN-36.133.171.209-11023,🇨🇳CN-36.137.106.45-11023,🇨🇳CN-36.138.140.208-11023,🇨🇳CN-36.138.193.128-11023,🇨🇳CN-36.139.166.247-11023,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-47.242.3.214-8081,🇨🇳CN-47.93.231.218-53022
+♻️ IPv6-自动 = url-test,REJECT,url=http://www.gstatic.com/generate_204,interval=300
+🚀 IPv6-手动 = select,REJECT
+🛑 广告拦截 = select,DIRECT,REJECT
+🌏 国内媒体 = select,🚀 节点选择,♻️ 自动选择,🚀 手动切换-1,🚀 手动切换-2,♻️ IPv6-自动,🚀 IPv6-手动,DIRECT,REJECT
+🎯 国内网站 = select,🚀 节点选择,♻️ 自动选择,🚀 手动切换-1,🚀 手动切换-2,♻️ IPv6-自动,🚀 IPv6-手动,DIRECT,REJECT
+🐟 其他网站 = select,DIRECT,🚀 节点选择,♻️ 自动选择,🚀 手动切换-1,🚀 手动切换-2,♻️ IPv6-自动,🚀 IPv6-手动,REJECT
+
+[Rule]
+GEOIP,CN,🎯 国内网站
+FINAL,🐟 其他网站
+
+[Remote Rule]
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/BanAD.list,🛑 广告拦截
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaMedia.list,🌏 国内媒体
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIPv4.list,🎯 国内网站
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIPv6.list,🎯 国内网站
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaDomain.list,🎯 国内网站
+
+[URL Rewrite]
+enable=true
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+
+[Remote Rewrite]
+https://raw.githubusercontent.com/thuhollow2/rule/main/Loon/AutoRewrite_Example.list,auto
+
+[MITM]
+enable=true
+hostname=*.example.com,*.sample.com
+skip-server-cert-verify=true
+
