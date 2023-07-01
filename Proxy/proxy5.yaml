@@ -1,0 +1,20 @@
+proxies:
+  - {name: 本文件创建时间：Thu Jun 15 11:21:39 UTC 2023, server: 255.255.255.255, port: 10086, type: vmess, uuid: 00000000-0000-0000-0000-000000000000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-101.91.147.77-7890, server: 101.91.147.77, port: 7890, client-fingerprint: chrome, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-112.132.212.112-50002, server: 112.132.212.112, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-112.132.215.189-50002, server: 112.132.215.189, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-120.77.203.0-443, server: 120.77.203.0, port: 443, client-fingerprint: chrome, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-123.126.158.50-80, server: 123.126.158.50, port: 80, client-fingerprint: chrome, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-123.249.101.15-19709, server: 123.249.101.15, port: 19709, client-fingerprint: chrome, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 123.249.101.15}}, udp: true}
+  - {name: 🇨🇳CN-175.178.157.227-18888, server: 42.193.240.65, port: 18888, client-fingerprint: chrome, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-183.221.242.107-9443, server: 183.221.242.107, port: 9443, client-fingerprint: chrome, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-202.86.138.18-8080, server: 202.86.138.18, port: 8080, client-fingerprint: chrome, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-36.133.171.209-11023, server: 36.133.171.209, port: 11023, client-fingerprint: chrome, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-36.138.140.208-11023, server: 36.138.140.208, port: 11023, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: ll668668@, tfo: false, udp: true}
+  - {name: 🇨🇳CN-39.103.165.178-56002, server: 39.103.165.178, port: 56002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-42.192.17.34-50002, server: 42.192.17.34, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-43.225.198.58-80, server: 43.225.198.58, port: 80, client-fingerprint: chrome, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-47.242.3.214-8081, server: 47.242.3.214, port: 8081, client-fingerprint: chrome, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-47.93.231.218-53022, server: 47.93.231.218, port: 53022, client-fingerprint: chrome, type: vmess, uuid: 95fd7642-2160-4528-e909-3d526b533013, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇨🇳CN-8.210.126.176-50001, server: hk03.xstarship.com, port: 50001, client-fingerprint: chrome, type: trojan, password: 672e99da-6f42-49d3-8557-04ba96104619, tfo: false, sni: hk03.xstarship.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-8.217.99.62-47807, server: 8.217.99.62, port: 47807, client-fingerprint: chrome, type: ssr, cipher: dummy, password: 344fg4344, tfo: false, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
