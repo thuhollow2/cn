@@ -11,32 +11,25 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-本文件创建时间：Tue Jul  4 10:23:44 UTC 2023 = vmess, 255.255.255.255, 10086, username=00000000-0000-0000-0000-000000000000, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-101.251.204.174-8080 = http, 101.251.204.174, 8080, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+本文件创建时间：Wed Jul  5 06:05:27 UTC 2023 = vmess, 255.255.255.255, 10086, username=00000000-0000-0000-0000-000000000000, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
 🇨🇳CN-103.234.53.23-50014 = trojan, cn-hk-51.fnhffffe4.cc, 50014, password=73658d71-be45-4495-bc3e-e69d36ce73b5, sni=getandroid.com, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-103.234.53.24-50178 = trojan, 103.234.53.24, 50178, password=bf89d5e9-a455-477f-bfe8-ba33ff71b957, sni=getandroid.com, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-111.230.252.149-50002 = vmess, 111.230.252.149, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
 🇨🇳CN-112.132.212.112-50002 = vmess, 112.132.212.112, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-120.79.86.138-57880 = socks5, 120.79.86.138, 57880, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-123.126.158.50-80 = http, 123.126.158.50, 80, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
 🇨🇳CN-123.249.101.15-19709 = vmess, 123.249.101.15, 19709, username=2f278a45-940a-46c1-c886-77f3b2d33987, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=123.249.101.15, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-139.159.240.64-1088 = socks5, 139.159.240.64, 1088, skip-cert-verify=true, tfo=false, udp-relay=true
 🇨🇳CN-175.27.154.61-50002 = vmess, 175.27.154.61, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
 🇨🇳CN-183.221.242.102-9443 = http, 183.221.242.102, 9443, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
 🇨🇳CN-183.221.242.103-9443 = http, 183.221.242.103, 9443, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
 🇨🇳CN-183.221.242.107-9443 = http, 183.221.242.107, 9443, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-35.236.147.203-29996 = vmess, tw.untilmu.com, 29996, username=d52412e2-5c6e-4190-8936-28f5778e7abb, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=tw.untilmu.com, ws-headers=Host:tw.untilmu.com, skip-cert-verify=true, tfo=false, udp-relay=true
 🇨🇳CN-39.103.165.178-56002 = vmess, 39.103.165.178, 56002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-42.192.17.34-50002 = vmess, 42.192.17.34, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-8.142.3.145-3306 = socks5, 8.142.3.145, 3306, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-47.243.89.46-55002 = trojan, hk01.xstarship.com, 55002, password=b21a4da1-53a5-4b90-ae4b-bc3c6c2cce4c, sni=hk01.xstarship.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-47.93.231.218-53022 = vmess, 47.93.231.218, 53022, username=95fd7642-2160-4528-e909-3d526b533013, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=47.93.231.218, skip-cert-verify=true, tfo=false, udp-relay=true
 ♻️ IPv6节点-自动 = reject
 🚀 IPv6节点-手动 = reject
 
 [Proxy Group]
 🚀 节点组选择 = select,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
-♻️ 所有节点-自动 = url-test,本文件创建时间：Tue Jul  4 10:23:44 UTC 2023,🇨🇳CN-101.251.204.174-8080,🇨🇳CN-103.234.53.23-50014,🇨🇳CN-103.234.53.24-50178,🇨🇳CN-111.230.252.149-50002,🇨🇳CN-112.132.212.112-50002,🇨🇳CN-120.79.86.138-57880,🇨🇳CN-123.126.158.50-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-139.159.240.64-1088,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-183.221.242.102-9443,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-183.221.242.107-9443,🇨🇳CN-35.236.147.203-29996,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-42.192.17.34-50002,🇨🇳CN-8.142.3.145-3306,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🚀 所有节点-手动-1 = select,本文件创建时间：Tue Jul  4 10:23:44 UTC 2023,🇨🇳CN-101.251.204.174-8080,🇨🇳CN-103.234.53.23-50014,🇨🇳CN-103.234.53.24-50178,🇨🇳CN-111.230.252.149-50002,🇨🇳CN-112.132.212.112-50002,🇨🇳CN-120.79.86.138-57880,🇨🇳CN-123.126.158.50-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-139.159.240.64-1088,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-183.221.242.102-9443,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-183.221.242.107-9443,🇨🇳CN-35.236.147.203-29996,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-42.192.17.34-50002,🇨🇳CN-8.142.3.145-3306
-🚀 所有节点-手动-2 = select,本文件创建时间：Tue Jul  4 10:23:44 UTC 2023,🇨🇳CN-101.251.204.174-8080,🇨🇳CN-103.234.53.23-50014,🇨🇳CN-103.234.53.24-50178,🇨🇳CN-111.230.252.149-50002,🇨🇳CN-112.132.212.112-50002,🇨🇳CN-120.79.86.138-57880,🇨🇳CN-123.126.158.50-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-139.159.240.64-1088,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-183.221.242.102-9443,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-183.221.242.107-9443,🇨🇳CN-35.236.147.203-29996,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-42.192.17.34-50002,🇨🇳CN-8.142.3.145-3306
+♻️ 所有节点-自动 = url-test,本文件创建时间：Wed Jul  5 06:05:27 UTC 2023,🇨🇳CN-103.234.53.23-50014,🇨🇳CN-112.132.212.112-50002,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-183.221.242.102-9443,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-183.221.242.107-9443,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-47.243.89.46-55002,🇨🇳CN-47.93.231.218-53022,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🚀 所有节点-手动-1 = select,本文件创建时间：Wed Jul  5 06:05:27 UTC 2023,🇨🇳CN-103.234.53.23-50014,🇨🇳CN-112.132.212.112-50002,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-183.221.242.102-9443,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-183.221.242.107-9443,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-47.243.89.46-55002,🇨🇳CN-47.93.231.218-53022
+🚀 所有节点-手动-2 = select,本文件创建时间：Wed Jul  5 06:05:27 UTC 2023,🇨🇳CN-103.234.53.23-50014,🇨🇳CN-112.132.212.112-50002,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-183.221.242.102-9443,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-183.221.242.107-9443,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-47.243.89.46-55002,🇨🇳CN-47.93.231.218-53022
 🌏 国内媒体 = select,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
 🎯 国内网站 = select,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
 🐟 其他网站 = select,DIRECT,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,REJECT
@@ -27729,6 +27722,7 @@ DOMAIN-SUFFIX,abiestem.com,🎯 国内网站
 DOMAIN-SUFFIX,abifsey.com,🎯 国内网站
 DOMAIN-SUFFIX,abilie.com,🎯 国内网站
 DOMAIN-SUFFIX,abitcg.com,🎯 国内网站
+DOMAIN-SUFFIX,abite.com,🎯 国内网站
 DOMAIN-SUFFIX,abiz.com,🎯 国内网站
 DOMAIN-SUFFIX,ablanxue.com,🎯 国内网站
 DOMAIN-SUFFIX,able-elec.com,🎯 国内网站
@@ -29383,6 +29377,7 @@ DOMAIN-SUFFIX,apicase.io,🎯 国内网站
 DOMAIN-SUFFIX,apicloud.com,🎯 国内网站
 DOMAIN-SUFFIX,apicvn.com,🎯 国内网站
 DOMAIN-SUFFIX,apifabric.net,🎯 国内网站
+DOMAIN-SUFFIX,apifox.com,🎯 国内网站
 DOMAIN-SUFFIX,apigwtencent.com,🎯 国内网站
 DOMAIN-SUFFIX,apimkt.net,🎯 国内网站
 DOMAIN-SUFFIX,apiqecz.com,🎯 国内网站
@@ -37191,7 +37186,6 @@ DOMAIN-SUFFIX,cosoar.com,🎯 国内网站
 DOMAIN-SUFFIX,cosplay8.com,🎯 国内网站
 DOMAIN-SUFFIX,cosplayla.com,🎯 国内网站
 DOMAIN-SUFFIX,cosyjoy.com,🎯 国内网站
-DOMAIN-SUFFIX,cosyroom.biz,🎯 国内网站
 DOMAIN-SUFFIX,coubei.com,🎯 国内网站
 DOMAIN-SUFFIX,counect.com,🎯 国内网站
 DOMAIN-SUFFIX,couns.com,🎯 国内网站
@@ -42518,6 +42512,7 @@ DOMAIN-SUFFIX,fangjia.com,🎯 国内网站
 DOMAIN-SUFFIX,fangjiadp.com,🎯 国内网站
 DOMAIN-SUFFIX,fangkeduo.net,🎯 国内网站
 DOMAIN-SUFFIX,fangkewang.com,🎯 国内网站
+DOMAIN-SUFFIX,fangkuai.link,🎯 国内网站
 DOMAIN-SUFFIX,fangkuaiwang.com,🎯 国内网站
 DOMAIN-SUFFIX,fangkuaiyi.com,🎯 国内网站
 DOMAIN-SUFFIX,fanglakeji.com,🎯 国内网站
@@ -57205,6 +57200,7 @@ DOMAIN-SUFFIX,lequyuanyi.com,🎯 国内网站
 DOMAIN-SUFFIX,lequz.com,🎯 国内网站
 DOMAIN-SUFFIX,lerengu.com,🎯 国内网站
 DOMAIN-SUFFIX,lergao.com,🎯 国内网站
+DOMAIN-SUFFIX,lerist.dev,🎯 国内网站
 DOMAIN-SUFFIX,lers123.com,🎯 国内网站
 DOMAIN-SUFFIX,lers168.com,🎯 国内网站
 DOMAIN-SUFFIX,lers168.net,🎯 国内网站
@@ -62377,6 +62373,7 @@ DOMAIN-SUFFIX,newstjk.com,🎯 国内网站
 DOMAIN-SUFFIX,newsv5.com,🎯 国内网站
 DOMAIN-SUFFIX,newsxc.com,🎯 国内网站
 DOMAIN-SUFFIX,newsyc.com,🎯 国内网站
+DOMAIN-SUFFIX,newszjk.com,🎯 国内网站
 DOMAIN-SUFFIX,newtalentaward.com,🎯 国内网站
 DOMAIN-SUFFIX,newtonghua.com,🎯 国内网站
 DOMAIN-SUFFIX,newtop100.com,🎯 国内网站
@@ -68216,6 +68213,7 @@ DOMAIN-SUFFIX,ruvar.com,🎯 国内网站
 DOMAIN-SUFFIX,ruvisas.com,🎯 国内网站
 DOMAIN-SUFFIX,ruxi.online,🎯 国内网站
 DOMAIN-SUFFIX,ruyig.com,🎯 国内网站
+DOMAIN-SUFFIX,ruyigu.com,🎯 国内网站
 DOMAIN-SUFFIX,ruyile.com,🎯 国内网站
 DOMAIN-SUFFIX,ruyim.com,🎯 国内网站
 DOMAIN-SUFFIX,ruyimjg.com,🎯 国内网站
@@ -74714,6 +74712,7 @@ DOMAIN-SUFFIX,toybaba.com,🎯 国内网站
 DOMAIN-SUFFIX,toycloud.com,🎯 国内网站
 DOMAIN-SUFFIX,toyean.com,🎯 国内网站
 DOMAIN-SUFFIX,toysir.com,🎯 国内网站
+DOMAIN-SUFFIX,tozzger.info,🎯 国内网站
 DOMAIN-SUFFIX,tp8.me,🎯 国内网站
 DOMAIN-SUFFIX,tpbook.com,🎯 国内网站
 DOMAIN-SUFFIX,tpcdnde88de.com,🎯 国内网站
@@ -79897,6 +79896,7 @@ DOMAIN-SUFFIX,wy213.net,🎯 国内网站
 DOMAIN-SUFFIX,wyaoqing.com,🎯 国内网站
 DOMAIN-SUFFIX,wybbao.com,🎯 国内网站
 DOMAIN-SUFFIX,wybgs.com,🎯 国内网站
+DOMAIN-SUFFIX,wycfw.com,🎯 国内网站
 DOMAIN-SUFFIX,wycntv.com,🎯 国内网站
 DOMAIN-SUFFIX,wydbw.com,🎯 国内网站
 DOMAIN-SUFFIX,wydfghjjh.live,🎯 国内网站
@@ -85054,6 +85054,7 @@ DOMAIN-SUFFIX,yumimobi.com,🎯 国内网站
 DOMAIN-SUFFIX,yuming.com,🎯 国内网站
 DOMAIN-SUFFIX,yumingguwen.com,🎯 国内网站
 DOMAIN-SUFFIX,yumixitong.com,🎯 国内网站
+DOMAIN-SUFFIX,yummy.tech,🎯 国内网站
 DOMAIN-SUFFIX,yumstone.com,🎯 国内网站
 DOMAIN-SUFFIX,yun-app.net,🎯 国内网站
 DOMAIN-SUFFIX,yun-gu.com,🎯 国内网站
