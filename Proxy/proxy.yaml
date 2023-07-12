@@ -1,0 +1,5 @@
+proxies:
+  - {name: 本文件创建时间：Wed Jul 12 12:16:16 UTC 2023, server: 255.255.255.255, port: 10086, type: vmess, uuid: 00000000-0000-0000-0000-000000000000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-112.132.212.112-50002, server: 45.199.138.56, port: 48344, client-fingerprint: chrome, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, servername: us45.encrypted.my.id, udp: true}
+  - {name: 🇨🇳CN-183.221.242.102-9443, server: 183.221.242.102, port: 9443, client-fingerprint: chrome, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-183.221.242.103-9443, server: 183.221.242.103, port: 9443, client-fingerprint: chrome, type: http, tls: false, skip-cert-verify: true, udp: true}
