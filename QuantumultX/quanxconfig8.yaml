@@ -1,0 +1,63 @@
+[general]
+excluded_routes=192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
+geo_location_checker=https://raw.githubusercontent.com/thuhollow2/qure/main/Other/IP_API.js
+network_check_url=http://www.baidu.com/
+server_check_url=http://www.gstatic.com/generate_204
+
+[dns]
+server=119.29.29.29
+server=223.5.5.5
+server=1.0.0.1
+server=8.8.8.8
+
+[policy]
+static=🚀 节点组选择, ♻️ 所有节点-自动, 🚀 所有节点-手动-1, 🚀 所有节点-手动-2, ♻️ IPv6节点-自动, 🚀 IPv6节点-手动, DIRECT, REJECT
+url-latency-benchmark=♻️ 所有节点-自动, 本文件创建时间：Mon Jul  3 06:22:01 UTC 2023, 🇨🇳CN-101.251.204.174-8080, 🇨🇳CN-103.20.223.4-50180, 🇨🇳CN-103.234.53.23-50014, 🇨🇳CN-103.234.53.27-50174, 🇨🇳CN-111.230.252.149-50002, 🇨🇳CN-112.132.212.112-50002, 🇨🇳CN-112.132.215.189-50002, 🇨🇳CN-122.9.183.228-8000, 🇨🇳CN-123.126.158.50-80, 🇨🇳CN-123.249.101.15-19709, 🇨🇳CN-139.159.240.64-1088, 🇨🇳CN-175.27.154.61-50002, 🇨🇳CN-183.221.242.103-9443, 🇨🇳CN-183.221.242.107-9443, 🇨🇳CN-36.224.213.174-60808, 🇨🇳CN-39.103.165.178-56002, 🇨🇳CN-42.192.17.34-50002, 🇨🇳CN-47.93.231.218-53022, 🇨🇳CN-8.210.153.117-443, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Auto.png
+static=🚀 所有节点-手动-1, 本文件创建时间：Mon Jul  3 06:22:01 UTC 2023, 🇨🇳CN-101.251.204.174-8080, 🇨🇳CN-103.20.223.4-50180, 🇨🇳CN-103.234.53.23-50014, 🇨🇳CN-103.234.53.27-50174, 🇨🇳CN-111.230.252.149-50002, 🇨🇳CN-112.132.212.112-50002, 🇨🇳CN-112.132.215.189-50002, 🇨🇳CN-122.9.183.228-8000, 🇨🇳CN-123.126.158.50-80, 🇨🇳CN-123.249.101.15-19709, 🇨🇳CN-139.159.240.64-1088, 🇨🇳CN-175.27.154.61-50002, 🇨🇳CN-183.221.242.103-9443, 🇨🇳CN-183.221.242.107-9443, 🇨🇳CN-36.224.213.174-60808, 🇨🇳CN-39.103.165.178-56002, 🇨🇳CN-42.192.17.34-50002, 🇨🇳CN-47.93.231.218-53022, 🇨🇳CN-8.210.153.117-443, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+static=🚀 所有节点-手动-2, 本文件创建时间：Mon Jul  3 06:22:01 UTC 2023, 🇨🇳CN-101.251.204.174-8080, 🇨🇳CN-103.20.223.4-50180, 🇨🇳CN-103.234.53.23-50014, 🇨🇳CN-103.234.53.27-50174, 🇨🇳CN-111.230.252.149-50002, 🇨🇳CN-112.132.212.112-50002, 🇨🇳CN-112.132.215.189-50002, 🇨🇳CN-122.9.183.228-8000, 🇨🇳CN-123.126.158.50-80, 🇨🇳CN-123.249.101.15-19709, 🇨🇳CN-139.159.240.64-1088, 🇨🇳CN-175.27.154.61-50002, 🇨🇳CN-183.221.242.103-9443, 🇨🇳CN-183.221.242.107-9443, 🇨🇳CN-36.224.213.174-60808, 🇨🇳CN-39.103.165.178-56002, 🇨🇳CN-42.192.17.34-50002, 🇨🇳CN-47.93.231.218-53022, 🇨🇳CN-8.210.153.117-443, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+static=♻️ IPv6节点-自动, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Auto.png
+static=🚀 IPv6节点-手动, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+static=🌏 国内媒体, 🚀 节点组选择, ♻️ 所有节点-自动, 🚀 所有节点-手动-1, 🚀 所有节点-手动-2, ♻️ IPv6节点-自动, 🚀 IPv6节点-手动, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Media.png
+static=🎯 国内网站, 🚀 节点组选择, ♻️ 所有节点-自动, 🚀 所有节点-手动-1, 🚀 所有节点-手动-2, ♻️ IPv6节点-自动, 🚀 IPv6节点-手动, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Direct.png
+static=🐟 其他网站, DIRECT, 🚀 节点组选择, ♻️ 所有节点-自动, 🚀 所有节点-手动-1, 🚀 所有节点-手动-2, ♻️ IPv6节点-自动, 🚀 IPv6节点-手动, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Final.png
+
+[server_remote]
+
+[filter_remote]
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/ChinaMedia.list, tag=🌏 国内媒体, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/ChinaIPv4.list, tag=🎯 国内网站, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/ChinaIPv6.list, tag=🎯 国内网站, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/ChinaDomain.list, tag=🎯 国内网站, enabled=true
+
+[rewrite_remote]
+
+[server_local]
+vmess = 255.255.255.255:10086, method=chacha20-ietf-poly1305, password=00000000-0000-0000-0000-000000000000, aead=true, fast-open=false, udp-relay=true, tag=本文件创建时间：Mon Jul  3 06:22:01 UTC 2023
+http = 101.251.204.174:8080, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-101.251.204.174-8080
+trojan = 103.20.223.4:50180, password=ba5305d8-bf3e-4eee-8ebf-1c7b9a6dbed2, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-103.20.223.4-50180
+trojan = cn-hk-51.fnhffffe4.cc:50014, password=73658d71-be45-4495-bc3e-e69d36ce73b5, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-103.234.53.23-50014
+trojan = 103.234.53.27:50174, password=6206d21a-81a4-43f6-b88e-052637dce46d, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-103.234.53.27-50174
+vmess = 111.230.252.149:50002, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-111.230.252.149-50002
+vmess = 112.132.212.112:50002, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-112.132.212.112-50002
+vmess = 112.132.215.189:50002, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-112.132.215.189-50002
+http = 122.9.183.228:8000, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-122.9.183.228-8000
+http = 123.126.158.50:80, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-123.126.158.50-80
+vmess = 123.249.101.15:19709, method=chacha20-ietf-poly1305, password=2f278a45-940a-46c1-c886-77f3b2d33987, aead=true, obfs=ws, obfs-host=, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇨🇳CN-123.249.101.15-19709
+socks5 = 139.159.240.64:1088, fast-open=false, udp-relay=true, tag=🇨🇳CN-139.159.240.64-1088
+vmess = 175.27.154.61:50002, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-175.27.154.61-50002
+http = 183.221.242.103:9443, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-183.221.242.103-9443
+http = 183.221.242.107:9443, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-183.221.242.107-9443
+http = 210-61-216-63.hinet-ip.hinet.net:60808, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-36.224.213.174-60808
+vmess = 39.103.165.178:56002, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-39.103.165.178-56002
+vmess = 42.192.17.34:50002, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-42.192.17.34-50002
+vmess = 47.93.231.218:53022, method=chacha20-ietf-poly1305, password=95fd7642-2160-4528-e909-3d526b533013, aead=true, obfs=ws, obfs-host=, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.93.231.218-53022
+shadowsocks = hk5.vfun.icu:443, method=aes-256-cfb, password=vyunme, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=16952:9bik8I, obfs=plain, obfs-host=c306116952.jd.h%%�[�%%�, fast-open=false, udp-relay=true, tag=🇨🇳CN-8.210.153.117-443
+
+[filter_local]
+GEOIP,CN,🎯 国内网站
+FINAL,🐟 其他网站
+
+[rewrite_local]
+
+[mitm]
+
