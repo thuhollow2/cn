@@ -1,0 +1,50 @@
+[General]
+allow-udp-proxy=false
+bypass-tun=10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+dns-server=system,119.29.29.29,223.5.5.5
+host=127.0.0.1
+skip-proxy=192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
+
+[Proxy]
+本文件创建时间：Fri Jul 14 17:38:38 UTC 2023 = vmess,255.255.255.255,10086,chacha20-ietf-poly1305,"00000000-0000-0000-0000-000000000000",over-tls:false,transport:tcp,skip-cert-verify:1
+🇨🇳CN-123.126.158.50-80 = http,101.91.147.77,7890,,
+🇨🇳CN-123.249.101.15-19709 = trojan,w12.udpgw.com,443,08964210-e7b8-11ec-95aa-1239d0255272,skip-cert-verify:1
+🇨🇳CN-183.221.242.103-9443 = http,183.221.242.103,9443,,
+🇨🇳CN-42.192.17.34-50002 = trojan,hk2.yihaobao.xyz,10023,eeeebdd2-5aa5-4325-b69f-5b8b2c16d9a0,tls-name:hk2.yihaobao.xyz,skip-cert-verify:1
+🇨🇳CN-47.104.240.230-50002 = trojan,fscsg.fscloud123456789.com,443,7fb75604-9656-4c30-8662-6533c580e794,skip-cert-verify:1
+
+[Remote Proxy]
+
+[Proxy Group]
+🚀 节点组选择 = select,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
+♻️ 所有节点-自动 = url-test,本文件创建时间：Fri Jul 14 17:38:38 UTC 2023,🇨🇳CN-123.126.158.50-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-42.192.17.34-50002,🇨🇳CN-47.104.240.230-50002,url=http://www.apple.com/library/test/success.html,interval=300
+🚀 所有节点-手动-1 = select,本文件创建时间：Fri Jul 14 17:38:38 UTC 2023,🇨🇳CN-123.126.158.50-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-42.192.17.34-50002,🇨🇳CN-47.104.240.230-50002
+🚀 所有节点-手动-2 = select,本文件创建时间：Fri Jul 14 17:38:38 UTC 2023,🇨🇳CN-123.126.158.50-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-42.192.17.34-50002,🇨🇳CN-47.104.240.230-50002
+♻️ IPv6节点-自动 = url-test,REJECT,url=http://www.apple.com/library/test/success.html,interval=300
+🚀 IPv6节点-手动 = select,REJECT
+🌏 国内媒体 = select,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
+🎯 国内网站 = select,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
+🐟 其他网站 = select,DIRECT,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,REJECT
+
+[Rule]
+GEOIP,CN,🎯 国内网站
+FINAL,🐟 其他网站
+
+[Remote Rule]
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaMedia.list,🌏 国内媒体
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIPv4.list,🎯 国内网站
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIPv6.list,🎯 国内网站
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaDomain.list,🎯 国内网站
+
+[URL Rewrite]
+enable=true
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+
+[Remote Rewrite]
+https://raw.githubusercontent.com/thuhollow2/rule/main/Loon/AutoRewrite_Example.list,auto
+
+[MITM]
+enable=true
+hostname=*.example.com,*.sample.com
+skip-server-cert-verify=true
+
