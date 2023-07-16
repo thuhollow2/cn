@@ -1,7 +1,0 @@
-proxies:
-  - {name: 本文件创建时间：Fri Jul 14 17:38:38 UTC 2023, server: 255.255.255.255, port: 10086, type: vmess, uuid: 00000000-0000-0000-0000-000000000000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳CN-123.126.158.50-80, server: 101.91.147.77, port: 7890, client-fingerprint: chrome, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳CN-123.249.101.15-19709, server: w12.udpgw.com, port: 443, client-fingerprint: chrome, type: trojan, password: 08964210-e7b8-11ec-95aa-1239d0255272, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳CN-183.221.242.103-9443, server: 183.221.242.103, port: 9443, client-fingerprint: chrome, type: http, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳CN-42.192.17.34-50002, server: hk2.yihaobao.xyz, port: 10023, client-fingerprint: chrome, type: trojan, password: eeeebdd2-5aa5-4325-b69f-5b8b2c16d9a0, tfo: false, sni: hk2.yihaobao.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳CN-47.104.240.230-50002, server: fscsg.fscloud123456789.com, port: 443, client-fingerprint: chrome, type: trojan, password: 7fb75604-9656-4c30-8662-6533c580e794, tfo: false, skip-cert-verify: true, udp: true}
