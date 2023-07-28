@@ -1,0 +1,41 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/thuhollow2/cn/main/Surge4/surge4config.yaml interval=86400 strict=false
+
+[General]
+loglevel = notify
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
+#DNS设置或根据自己网络情况进行相应设置
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+dns-server = 119.29.29.29,223.5.5.5
+
+[Proxy]
+DIRECT = direct
+本文件创建时间：Sun Jul 23 11:21:11 UTC 2023 = vmess, 255.255.255.255, 10086, username=00000000-0000-0000-0000-000000000000, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-111.230.252.149-50002 = vmess, 203.23.104.190, 443, username=1af4ba3d-e60f-4f83-b38b-23fc181f676d, tls=true, vmess-aead=true, tls13=false, ws=true, ws-path=/11201, sni=203.23.104.190, ws-headers=Host:franc.digires.shop, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-112.132.215.189-50002 = vmess, btbu996.icu, 443, username=16702ec2-3808-46e6-a7b5-582c062be13d, tls=true, vmess-aead=true, tls13=false, ws=true, ws-path=/, sni=btbu996.icu, ws-headers=Host:jpnat1.doinb.tk, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-123.126.158.50-80 = vmess, 112.132.215.189, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-175.27.154.61-50002 = vmess, 104.16.250.250, 443, username=c13277ce-cda6-4d01-cedc-1e3605a0eb72, tls=true, vmess-aead=true, tls13=false, ws=true, ws-path=/12796, sni=104.16.250.250, ws-headers=Host:amstd.digires.shop, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-183.221.242.103-9443 = http, 183.221.242.102, 9443, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-39.103.165.178-56002 = vmess, 140.99.57.46, 59418, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-47.93.231.218-53022 = vmess, 107.148.194.237, 55504, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-61.171.50.169-6688 = socks5, 60.190.195.146, 10800, skip-cert-verify=true, tfo=false, udp-relay=true
+♻️ IPv6节点-自动 = reject
+🚀 IPv6节点-手动 = reject
+
+[Proxy Group]
+🚀 节点组选择 = select,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
+♻️ 所有节点-自动 = url-test,本文件创建时间：Sun Jul 23 11:21:11 UTC 2023,🇨🇳CN-111.230.252.149-50002,🇨🇳CN-112.132.215.189-50002,🇨🇳CN-123.126.158.50-80,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-47.93.231.218-53022,🇨🇳CN-61.171.50.169-6688,url=http://www.apple.com/library/test/success.html,interval=300,tolerance=50
+🚀 所有节点-手动-1 = select,本文件创建时间：Sun Jul 23 11:21:11 UTC 2023,🇨🇳CN-111.230.252.149-50002,🇨🇳CN-112.132.215.189-50002,🇨🇳CN-123.126.158.50-80,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-47.93.231.218-53022,🇨🇳CN-61.171.50.169-6688
+🚀 所有节点-手动-2 = select,本文件创建时间：Sun Jul 23 11:21:11 UTC 2023,🇨🇳CN-111.230.252.149-50002,🇨🇳CN-112.132.215.189-50002,🇨🇳CN-123.126.158.50-80,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-47.93.231.218-53022,🇨🇳CN-61.171.50.169-6688
+🌏 国内媒体 = select,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
+🎯 国内网站 = select,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
+🐟 其他网站 = select,DIRECT,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,REJECT
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaMedia.list,🌏 国内媒体,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIPv4.list,🎯 国内网站,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIPv6.list,🎯 国内网站,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaDomain.list,🎯 国内网站,update-interval=86400
+GEOIP,CN,🎯 国内网站
+FINAL,🐟 其他网站
+
