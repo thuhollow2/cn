@@ -1,0 +1,61 @@
+[General]
+allow-udp-proxy=false
+bypass-tun=10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+dns-server=system,119.29.29.29,223.5.5.5
+host=127.0.0.1
+skip-proxy=192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
+
+[Proxy]
+本文件创建时间：Wed Aug  2 00:14:35 UTC 2023 = vmess,255.255.255.255,10086,chacha20-ietf-poly1305,"00000000-0000-0000-0000-000000000000",over-tls:false,transport:tcp,skip-cert-verify:1
+🇨🇳CN-101.42.30.206-80 = vmess,36.150.27.31,80,chacha20-ietf-poly1305,"db8d12d5-1968-4125-b775-77d50aa65923",over-tls:false,transport:ws,path:/,host:tms.dingtalk.com,skip-cert-verify:1
+🇨🇳CN-101.89.136.161-8888 = vmess,cn1.applebench.tech,80,chacha20-ietf-poly1305,"624ff807-9673-436c-80a3-671fadb95f18",over-tls:false,transport:ws,path:/,host:tms.dingtalk.com,skip-cert-verify:1
+🇨🇳CN-111.67.201.33-10000 = vmess,42.192.17.34,50002,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls:false,transport:tcp,skip-cert-verify:1
+🇨🇳CN-114.55.244.11-80 = vmess,101.42.30.206,80,chacha20-ietf-poly1305,"24bc9855-8f7c-4543-e29d-970045f205f2",over-tls:false,transport:ws,path:/,host:tms.dingtalk.com,skip-cert-verify:1
+🇨🇳CN-116.130.233.22-3129 = vmess,hz.jeidian.xyz,8888,chacha20-ietf-poly1305,"cc7484da-6041-4bcc-bc66-2b41e7896a6f",over-tls:false,transport:ws,path:/,host:tms.dingtalk.com,skip-cert-verify:1
+🇨🇳CN-123.207.75.74-80 = vmess,jiangxi4.209966.xyz,10000,chacha20-ietf-poly1305,"2037924f-3c1a-49ee-9f7d-b5c479ca955f",over-tls:false,transport:ws,path:/neimenggu001,host:jiangxi4.209966.xyz,skip-cert-verify:1
+🇨🇳CN-123.249.101.15-19709 = vmess,123.249.101.15,19709,chacha20-ietf-poly1305,"2f278a45-940a-46c1-c886-77f3b2d33987",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+🇨🇳CN-124.225.140.78-80 = vmess,114.55.244.11,80,chacha20-ietf-poly1305,"945f0adf-5255-459b-8fbd-54c9e781f2ee",over-tls:false,transport:ws,path:/,host:tms.dingtalk.com,skip-cert-verify:1
+🇨🇳CN-14.29.238.84-46794 = vmess,124.225.140.78,80,chacha20-ietf-poly1305,"55dd630e-969e-4c30-bc99-a6efe47b8502",over-tls:false,transport:ws,path:/,host:tms.dingtalk.com,skip-cert-verify:1
+🇨🇳CN-171.15.114.3-8888 = vmess,171.15.114.3,8888,chacha20-ietf-poly1305,"cc7484da-6041-4bcc-bc66-2b41e7896a6f",over-tls:false,transport:ws,path:/,host:tms.dingtalk.com,skip-cert-verify:1
+🇨🇳CN-175.27.154.61-50002 = vmess,175.27.154.61,50002,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls:false,transport:tcp,skip-cert-verify:1
+🇨🇳CN-183.56.253.129-8118 = http,183.221.242.111,8443,,
+🇨🇳CN-36.150.27.31-80 = vmess,123.207.75.74,80,chacha20-ietf-poly1305,"e2b73315-2fc1-4e86-8df3-023baf466438",over-tls:false,transport:ws,path:/,host:tms.dingtalk.com,skip-cert-verify:1
+🇨🇳CN-39.103.165.178-56002 = vmess,39.103.165.178,56002,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls:false,transport:tcp,skip-cert-verify:1
+🇨🇳CN-43.248.138.155-80 = vmess,14.29.191.228,46794,chacha20-ietf-poly1305,"ffe242ca-10d6-4d61-bbd4-9aed3e25d132",over-tls:false,transport:ws,path:/,host:tms.dingtalk.com,skip-cert-verify:1
+🇨🇳CN-47.93.231.218-53022 = vmess,47.93.231.218,53022,chacha20-ietf-poly1305,"95fd7642-2160-4528-e909-3d526b533013",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+
+[Remote Proxy]
+
+[Proxy Group]
+🚀 节点组选择 = select,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
+♻️ 所有节点-自动 = url-test,🇨🇳CN-101.42.30.206-80,🇨🇳CN-101.89.136.161-8888,🇨🇳CN-111.67.201.33-10000,🇨🇳CN-114.55.244.11-80,🇨🇳CN-116.130.233.22-3129,🇨🇳CN-123.207.75.74-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-124.225.140.78-80,🇨🇳CN-14.29.238.84-46794,🇨🇳CN-171.15.114.3-8888,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-183.56.253.129-8118,🇨🇳CN-36.150.27.31-80,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-43.248.138.155-80,🇨🇳CN-47.93.231.218-53022,url=http://www.apple.com/library/test/success.html,interval=300
+🚀 所有节点-手动-1 = select,本文件创建时间：Wed Aug  2 00:14:35 UTC 2023,🇨🇳CN-101.42.30.206-80,🇨🇳CN-101.89.136.161-8888,🇨🇳CN-111.67.201.33-10000,🇨🇳CN-114.55.244.11-80,🇨🇳CN-116.130.233.22-3129,🇨🇳CN-123.207.75.74-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-124.225.140.78-80,🇨🇳CN-14.29.238.84-46794,🇨🇳CN-171.15.114.3-8888,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-183.56.253.129-8118,🇨🇳CN-36.150.27.31-80,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-43.248.138.155-80,🇨🇳CN-47.93.231.218-53022
+🚀 所有节点-手动-2 = select,本文件创建时间：Wed Aug  2 00:14:35 UTC 2023,🇨🇳CN-101.42.30.206-80,🇨🇳CN-101.89.136.161-8888,🇨🇳CN-111.67.201.33-10000,🇨🇳CN-114.55.244.11-80,🇨🇳CN-116.130.233.22-3129,🇨🇳CN-123.207.75.74-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-124.225.140.78-80,🇨🇳CN-14.29.238.84-46794,🇨🇳CN-171.15.114.3-8888,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-183.56.253.129-8118,🇨🇳CN-36.150.27.31-80,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-43.248.138.155-80,🇨🇳CN-47.93.231.218-53022
+♻️ IPv6节点-自动 = url-test,REJECT,url=http://www.apple.com/library/test/success.html,interval=300
+🚀 IPv6节点-手动 = select,REJECT
+🌏 国内媒体 = select,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
+🎯 国内网站 = select,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
+🐟 其他网站 = select,DIRECT,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,REJECT
+
+[Rule]
+GEOIP,CN,🎯 国内网站
+FINAL,🐟 其他网站
+
+[Remote Rule]
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaMedia.list,🌏 国内媒体
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIPv4.list,🎯 国内网站
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIPv6.list,🎯 国内网站
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaDomain.list,🎯 国内网站
+
+[URL Rewrite]
+enable=true
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+
+[Remote Rewrite]
+https://raw.githubusercontent.com/thuhollow2/rule/main/Loon/AutoRewrite_Example.list,auto
+
+[MITM]
+enable=true
+hostname=*.example.com,*.sample.com
+skip-server-cert-verify=true
+
