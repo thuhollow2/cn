@@ -12,9 +12,9 @@ server=8.8.8.8
 
 [policy]
 static=🚀 节点组选择, ♻️ 所有节点-自动, 🚀 所有节点-手动-1, 🚀 所有节点-手动-2, ♻️ IPv6节点-自动, 🚀 IPv6节点-手动, DIRECT, REJECT
-url-latency-benchmark=♻️ 所有节点-自动, 🇨🇳CN-101.42.30.206-80, 🇨🇳CN-111.178.11.20-8088, 🇨🇳CN-111.230.252.149-50002, 🇨🇳CN-114.132.168.187-8080, 🇨🇳CN-114.55.244.11-80, 🇨🇳CN-123.207.75.74-80, 🇨🇳CN-123.249.101.15-19709, 🇨🇳CN-175.27.154.61-50002, 🇨🇳CN-36.150.27.31-80, 🇨🇳CN-39.103.165.178-56002, 🇨🇳CN-47.93.231.218-53022, 🇨🇳CN-58.222.132.164-7300, 🇨🇳CN-60.190.195.146-10800, 🇨🇳CN-61.160.66.130-5555, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Auto.png
-static=🚀 所有节点-手动-1, 本文件创建时间：Fri Aug  4 13:50:25 UTC 2023, 🇨🇳CN-101.42.30.206-80, 🇨🇳CN-111.178.11.20-8088, 🇨🇳CN-111.230.252.149-50002, 🇨🇳CN-114.132.168.187-8080, 🇨🇳CN-114.55.244.11-80, 🇨🇳CN-123.207.75.74-80, 🇨🇳CN-123.249.101.15-19709, 🇨🇳CN-175.27.154.61-50002, 🇨🇳CN-36.150.27.31-80, 🇨🇳CN-39.103.165.178-56002, 🇨🇳CN-47.93.231.218-53022, 🇨🇳CN-58.222.132.164-7300, 🇨🇳CN-60.190.195.146-10800, 🇨🇳CN-61.160.66.130-5555, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
-static=🚀 所有节点-手动-2, 本文件创建时间：Fri Aug  4 13:50:25 UTC 2023, 🇨🇳CN-101.42.30.206-80, 🇨🇳CN-111.178.11.20-8088, 🇨🇳CN-111.230.252.149-50002, 🇨🇳CN-114.132.168.187-8080, 🇨🇳CN-114.55.244.11-80, 🇨🇳CN-123.207.75.74-80, 🇨🇳CN-123.249.101.15-19709, 🇨🇳CN-175.27.154.61-50002, 🇨🇳CN-36.150.27.31-80, 🇨🇳CN-39.103.165.178-56002, 🇨🇳CN-47.93.231.218-53022, 🇨🇳CN-58.222.132.164-7300, 🇨🇳CN-60.190.195.146-10800, 🇨🇳CN-61.160.66.130-5555, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+url-latency-benchmark=♻️ 所有节点-自动, 🇨🇳CN-111.230.252.149-50002, 🇨🇳CN-114.132.168.187-8080, 🇨🇳CN-114.55.244.11-80, 🇨🇳CN-123.126.158.50-80, 🇨🇳CN-123.249.101.15-19709, 🇨🇳CN-36.150.27.31-80, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Auto.png
+static=🚀 所有节点-手动-1, 本文件创建时间：Sat Aug  5 12:09:47 UTC 2023, 🇨🇳CN-111.230.252.149-50002, 🇨🇳CN-114.132.168.187-8080, 🇨🇳CN-114.55.244.11-80, 🇨🇳CN-123.126.158.50-80, 🇨🇳CN-123.249.101.15-19709, 🇨🇳CN-36.150.27.31-80, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+static=🚀 所有节点-手动-2, 本文件创建时间：Sat Aug  5 12:09:47 UTC 2023, 🇨🇳CN-111.230.252.149-50002, 🇨🇳CN-114.132.168.187-8080, 🇨🇳CN-114.55.244.11-80, 🇨🇳CN-123.126.158.50-80, 🇨🇳CN-123.249.101.15-19709, 🇨🇳CN-36.150.27.31-80, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
 static=♻️ IPv6节点-自动, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Auto.png
 static=🚀 IPv6节点-手动, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
 static=🌏 国内媒体, 🚀 节点组选择, ♻️ 所有节点-自动, 🚀 所有节点-手动-1, 🚀 所有节点-手动-2, ♻️ IPv6节点-自动, 🚀 IPv6节点-手动, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Media.png
@@ -32,21 +32,13 @@ https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/ChinaDomain.l
 [rewrite_remote]
 
 [server_local]
-vmess = 255.255.255.255:10086, method=chacha20-ietf-poly1305, password=00000000-0000-0000-0000-000000000000, aead=true, fast-open=false, udp-relay=true, tag=本文件创建时间：Fri Aug  4 13:50:25 UTC 2023
-vmess = 101.42.30.206:80, method=chacha20-ietf-poly1305, password=24bc9855-8f7c-4543-e29d-970045f205f2, aead=true, obfs=ws, obfs-host=tms.dingtalk.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇨🇳CN-101.42.30.206-80
-vmess = 112.132.215.189:50002, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-111.178.11.20-8088
-vmess = 111.230.252.149:50002, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-111.230.252.149-50002
-vmess = 42.192.17.34:50002, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-114.132.168.187-8080
-vmess = jiangxi4.209966.xyz:10000, method=chacha20-ietf-poly1305, password=3097c8db-70a5-4b3f-a54d-54685a00d086, aead=true, obfs=ws, obfs-host=tms.dingtalk.com, obfs-uri=/neimenggu001, fast-open=false, udp-relay=true, tag=🇨🇳CN-114.55.244.11-80
-vmess = 114.55.244.11:80, method=chacha20-ietf-poly1305, password=945f0adf-5255-459b-8fbd-54c9e781f2ee, aead=true, obfs=ws, obfs-host=tms.dingtalk.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇨🇳CN-123.207.75.74-80
-http = 123.126.158.50:80, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-123.249.101.15-19709
-vmess = 123.249.101.15:19709, method=chacha20-ietf-poly1305, password=2f278a45-940a-46c1-c886-77f3b2d33987, aead=true, obfs=ws, obfs-host=123.249.101.15, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇨🇳CN-175.27.154.61-50002
-vmess = 14.29.191.228:46794, method=chacha20-ietf-poly1305, password=ffe242ca-10d6-4d61-bbd4-9aed3e25d132, aead=true, obfs=ws, obfs-host=tms.dingtalk.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇨🇳CN-36.150.27.31-80
-vmess = 175.27.154.61:50002, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-39.103.165.178-56002
-vmess = 36.150.27.31:80, method=chacha20-ietf-poly1305, password=db8d12d5-1968-4125-b775-77d50aa65923, aead=true, obfs=ws, obfs-host=tms.dingtalk.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.93.231.218-53022
-socks5 = 58.222.132.164:7300, fast-open=false, udp-relay=true, tag=🇨🇳CN-58.222.132.164-7300
-vmess = hz.jeidian.xyz:8888, method=chacha20-ietf-poly1305, password=cc7484da-6041-4bcc-bc66-2b41e7896a6f, aead=true, obfs=ws, obfs-host=tms.dingtalk.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇨🇳CN-60.190.195.146-10800
-vmess = 124.225.140.78:80, method=chacha20-ietf-poly1305, password=55dd630e-969e-4c30-bc99-a6efe47b8502, aead=true, obfs=ws, obfs-host=tms.dingtalk.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇨🇳CN-61.160.66.130-5555
+vmess = 255.255.255.255:10086, method=chacha20-ietf-poly1305, password=00000000-0000-0000-0000-000000000000, aead=true, fast-open=false, udp-relay=true, tag=本文件创建时间：Sat Aug  5 12:09:47 UTC 2023
+vmess = 101.42.30.206:80, method=chacha20-ietf-poly1305, password=24bc9855-8f7c-4543-e29d-970045f205f2, aead=true, obfs=ws, obfs-host=tms.dingtalk.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇨🇳CN-111.230.252.149-50002
+http = 183.221.242.107:9443, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-114.132.168.187-8080
+vmess = 1807516e-rr0tc0-1cwfu.hk.tcpbbr.net:8388, method=chacha20-ietf-poly1305, password=6550ed3c-f4de-11eb-a0fc-f23c913c8d2b, aead=false, tls13=false, obfs=over-tls, obfs-host=tms.dingtalk.com, fast-open=false, udp-relay=true, tls-verification=false, tag=🇨🇳CN-114.55.244.11-80
+vmess = 111.230.252.149:50002, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-123.126.158.50-80
+http = 104.129.204.105:10605, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-123.249.101.15-19709
+vmess = 172.64.194.98:2095, method=chacha20-ietf-poly1305, password=417d27fb-cb93-3bd8-9bf7-71cd91319821, aead=true, obfs=ws, obfs-host=amszx.66666654.xyz, obfs-uri=/hgcefomn, fast-open=false, udp-relay=true, tag=🇨🇳CN-36.150.27.31-80
 
 [filter_local]
 GEOIP,CN,🎯 国内网站
