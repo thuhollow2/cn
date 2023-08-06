@@ -6,17 +6,22 @@ host=127.0.0.1
 skip-proxy=192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
 
 [Proxy]
-本文件创建时间：Fri Jul 28 02:01:47 UTC 2023 = vmess,255.255.255.255,10086,chacha20-ietf-poly1305,"00000000-0000-0000-0000-000000000000",over-tls:false,transport:tcp,skip-cert-verify:1
-🇨🇳CN-183.221.242.103-9443 = vmess,111.230.252.149,50002,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls:false,transport:tcp,skip-cert-verify:1
-🇨🇳CN-183.221.242.107-9443 = http,183.221.242.103,9443,,
+本文件创建时间：Sat Jul 29 01:48:21 UTC 2023 = vmess,255.255.255.255,10086,chacha20-ietf-poly1305,"00000000-0000-0000-0000-000000000000",over-tls:false,transport:tcp,skip-cert-verify:1
+🇨🇳CN-111.230.252.149-50002 = vmess,111.230.252.149,50002,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls:false,transport:tcp,skip-cert-verify:1
+🇨🇳CN-112.132.212.112-50002 = vmess,112.132.212.112,50002,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls:false,transport:tcp,skip-cert-verify:1
+🇨🇳CN-123.126.158.50-80 = http,123.126.158.50,80,,
+🇨🇳CN-123.249.101.15-19709 = vmess,47.93.231.218,53022,chacha20-ietf-poly1305,"95fd7642-2160-4528-e909-3d526b533013",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+🇨🇳CN-175.27.154.61-50002 = vmess,175.27.154.61,50002,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls:false,transport:tcp,skip-cert-verify:1
+🇨🇳CN-47.93.231.218-53022 = vmess,39.103.165.178,56002,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls:false,transport:tcp,skip-cert-verify:1
+🇨🇳CN-60.190.195.146-10800 = http,114.132.168.187,8080,,
 
 [Remote Proxy]
 
 [Proxy Group]
 🚀 节点组选择 = select,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
-♻️ 所有节点-自动 = url-test,本文件创建时间：Fri Jul 28 02:01:47 UTC 2023,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-183.221.242.107-9443,url=http://www.apple.com/library/test/success.html,interval=300
-🚀 所有节点-手动-1 = select,本文件创建时间：Fri Jul 28 02:01:47 UTC 2023,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-183.221.242.107-9443
-🚀 所有节点-手动-2 = select,本文件创建时间：Fri Jul 28 02:01:47 UTC 2023,🇨🇳CN-183.221.242.103-9443,🇨🇳CN-183.221.242.107-9443
+♻️ 所有节点-自动 = url-test,本文件创建时间：Sat Jul 29 01:48:21 UTC 2023,🇨🇳CN-111.230.252.149-50002,🇨🇳CN-112.132.212.112-50002,🇨🇳CN-123.126.158.50-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-47.93.231.218-53022,🇨🇳CN-60.190.195.146-10800,url=http://www.apple.com/library/test/success.html,interval=300
+🚀 所有节点-手动-1 = select,本文件创建时间：Sat Jul 29 01:48:21 UTC 2023,🇨🇳CN-111.230.252.149-50002,🇨🇳CN-112.132.212.112-50002,🇨🇳CN-123.126.158.50-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-47.93.231.218-53022,🇨🇳CN-60.190.195.146-10800
+🚀 所有节点-手动-2 = select,本文件创建时间：Sat Jul 29 01:48:21 UTC 2023,🇨🇳CN-111.230.252.149-50002,🇨🇳CN-112.132.212.112-50002,🇨🇳CN-123.126.158.50-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-47.93.231.218-53022,🇨🇳CN-60.190.195.146-10800
 ♻️ IPv6节点-自动 = url-test,REJECT,url=http://www.apple.com/library/test/success.html,interval=300
 🚀 IPv6节点-手动 = select,REJECT
 🌏 国内媒体 = select,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
