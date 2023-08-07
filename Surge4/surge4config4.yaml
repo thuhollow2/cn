@@ -10,33 +10,17 @@ dns-server = 119.29.29.29,223.5.5.5
 
 [Proxy]
 DIRECT = direct
-本文件创建时间：Wed Aug  2 20:43:55 UTC 2023 = vmess, 255.255.255.255, 10086, username=00000000-0000-0000-0000-000000000000, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
+本文件创建时间：Thu Aug  3 15:37:16 UTC 2023 = vmess, 255.255.255.255, 10086, username=00000000-0000-0000-0000-000000000000, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
 🇨🇳CN-101.42.30.206-80 = vmess, 101.42.30.206, 80, username=24bc9855-8f7c-4543-e29d-970045f205f2, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=101.42.30.206, ws-headers=Host:tms.dingtalk.com, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-111.178.11.20-8088 = socks5, 106.13.4.250, 9000, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-111.230.252.149-50002 = vmess, 111.230.252.149, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-111.67.201.33-10000 = vmess, jiangxi4.209966.xyz, 10000, username=3097c8db-70a5-4b3f-a54d-54685a00d086, tls=false, vmess-aead=true, ws=true, ws-path=/neimenggu001, sni=jiangxi4.209966.xyz, ws-headers=Host:tms.dingtalk.com, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-114.132.168.187-8080 = vmess, 42.192.17.34, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-114.55.244.11-80 = vmess, 114.55.244.11, 80, username=945f0adf-5255-459b-8fbd-54c9e781f2ee, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=114.55.244.11, ws-headers=Host:tms.dingtalk.com, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-116.130.233.22-3129 = vmess, hz.jeidian.xyz, 8888, username=cc7484da-6041-4bcc-bc66-2b41e7896a6f, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=hz.jeidian.xyz, ws-headers=Host:tms.dingtalk.com, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-122.9.183.228-8000 = socks5, 64.227.108.25, 31908, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-123.126.158.50-80 = http, 123.126.158.50, 80, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-123.207.75.74-80 = vmess, 123.207.75.74, 80, username=e2b73315-2fc1-4e86-8df3-023baf466438, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=123.207.75.74, ws-headers=Host:tms.dingtalk.com, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-123.249.101.15-19709 = vmess, 123.249.101.15, 19709, username=2f278a45-940a-46c1-c886-77f3b2d33987, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=123.249.101.15, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-175.27.154.61-50002 = vmess, 175.27.154.61, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-182.34.20.126-15800 = http, 111.178.11.20, 8088, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-183.56.253.129-8118 = http, 183.56.253.129, 8118, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-39.103.165.178-56002 = vmess, 39.103.165.178, 56002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-43.248.138.155-80 = vmess, cn1.applebench.tech, 80, username=624ff807-9673-436c-80a3-671fadb95f18, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=cn1.applebench.tech, ws-headers=Host:tms.dingtalk.com, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-47.93.231.218-53022 = vmess, 47.93.231.218, 53022, username=95fd7642-2160-4528-e909-3d526b533013, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=47.93.231.218, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳CN-60.190.195.146-10800 = socks5, 60.190.195.146, 10800, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-111.178.11.20-8088 = http, 183.221.242.107, 9443, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
 ♻️ IPv6节点-自动 = reject
 🚀 IPv6节点-手动 = reject
 
 [Proxy Group]
 🚀 节点组选择 = select,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
-♻️ 所有节点-自动 = url-test,🇨🇳CN-101.42.30.206-80,🇨🇳CN-111.178.11.20-8088,🇨🇳CN-111.230.252.149-50002,🇨🇳CN-111.67.201.33-10000,🇨🇳CN-114.132.168.187-8080,🇨🇳CN-114.55.244.11-80,🇨🇳CN-116.130.233.22-3129,🇨🇳CN-122.9.183.228-8000,🇨🇳CN-123.126.158.50-80,🇨🇳CN-123.207.75.74-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-182.34.20.126-15800,🇨🇳CN-183.56.253.129-8118,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-43.248.138.155-80,🇨🇳CN-47.93.231.218-53022,🇨🇳CN-60.190.195.146-10800,url=http://www.apple.com/library/test/success.html,interval=300,tolerance=50
-🚀 所有节点-手动-1 = select,本文件创建时间：Wed Aug  2 20:43:55 UTC 2023,🇨🇳CN-101.42.30.206-80,🇨🇳CN-111.178.11.20-8088,🇨🇳CN-111.230.252.149-50002,🇨🇳CN-111.67.201.33-10000,🇨🇳CN-114.132.168.187-8080,🇨🇳CN-114.55.244.11-80,🇨🇳CN-116.130.233.22-3129,🇨🇳CN-122.9.183.228-8000,🇨🇳CN-123.126.158.50-80,🇨🇳CN-123.207.75.74-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-182.34.20.126-15800,🇨🇳CN-183.56.253.129-8118,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-43.248.138.155-80,🇨🇳CN-47.93.231.218-53022,🇨🇳CN-60.190.195.146-10800
-🚀 所有节点-手动-2 = select,本文件创建时间：Wed Aug  2 20:43:55 UTC 2023,🇨🇳CN-101.42.30.206-80,🇨🇳CN-111.178.11.20-8088,🇨🇳CN-111.230.252.149-50002,🇨🇳CN-111.67.201.33-10000,🇨🇳CN-114.132.168.187-8080,🇨🇳CN-114.55.244.11-80,🇨🇳CN-116.130.233.22-3129,🇨🇳CN-122.9.183.228-8000,🇨🇳CN-123.126.158.50-80,🇨🇳CN-123.207.75.74-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-182.34.20.126-15800,🇨🇳CN-183.56.253.129-8118,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-43.248.138.155-80,🇨🇳CN-47.93.231.218-53022,🇨🇳CN-60.190.195.146-10800
+♻️ 所有节点-自动 = url-test,🇨🇳CN-101.42.30.206-80,🇨🇳CN-111.178.11.20-8088,url=http://www.apple.com/library/test/success.html,interval=300,tolerance=50
+🚀 所有节点-手动-1 = select,本文件创建时间：Thu Aug  3 15:37:16 UTC 2023,🇨🇳CN-101.42.30.206-80,🇨🇳CN-111.178.11.20-8088
+🚀 所有节点-手动-2 = select,本文件创建时间：Thu Aug  3 15:37:16 UTC 2023,🇨🇳CN-101.42.30.206-80,🇨🇳CN-111.178.11.20-8088
 🌏 国内媒体 = select,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
 🎯 国内网站 = select,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
 🐟 其他网站 = select,DIRECT,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,REJECT
