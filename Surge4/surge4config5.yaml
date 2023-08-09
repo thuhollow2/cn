@@ -1,0 +1,47 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/thuhollow2/cn/main/Surge4/surge4config.yaml interval=86400 strict=false
+
+[General]
+loglevel = notify
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
+#DNS设置或根据自己网络情况进行相应设置
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+dns-server = 119.29.29.29,223.5.5.5
+
+[Proxy]
+DIRECT = direct
+本文件创建时间：Fri Aug  4 13:50:25 UTC 2023 = vmess, 255.255.255.255, 10086, username=00000000-0000-0000-0000-000000000000, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-101.42.30.206-80 = vmess, 101.42.30.206, 80, username=24bc9855-8f7c-4543-e29d-970045f205f2, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=101.42.30.206, ws-headers=Host:tms.dingtalk.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-111.178.11.20-8088 = vmess, 112.132.215.189, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-111.230.252.149-50002 = vmess, 111.230.252.149, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-114.132.168.187-8080 = vmess, 42.192.17.34, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-114.55.244.11-80 = vmess, jiangxi4.209966.xyz, 10000, username=3097c8db-70a5-4b3f-a54d-54685a00d086, tls=false, vmess-aead=true, ws=true, ws-path=/neimenggu001, sni=jiangxi4.209966.xyz, ws-headers=Host:tms.dingtalk.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-123.207.75.74-80 = vmess, 114.55.244.11, 80, username=945f0adf-5255-459b-8fbd-54c9e781f2ee, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=114.55.244.11, ws-headers=Host:tms.dingtalk.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-123.249.101.15-19709 = http, 123.126.158.50, 80, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-175.27.154.61-50002 = vmess, 123.249.101.15, 19709, username=2f278a45-940a-46c1-c886-77f3b2d33987, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=123.249.101.15, ws-headers=Host:123.249.101.15, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-36.150.27.31-80 = vmess, 14.29.191.228, 46794, username=ffe242ca-10d6-4d61-bbd4-9aed3e25d132, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=14.29.191.228, ws-headers=Host:tms.dingtalk.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-39.103.165.178-56002 = vmess, 175.27.154.61, 50002, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false, vmess-aead=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-47.93.231.218-53022 = vmess, 36.150.27.31, 80, username=db8d12d5-1968-4125-b775-77d50aa65923, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=36.150.27.31, ws-headers=Host:tms.dingtalk.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-58.222.132.164-7300 = socks5, 58.222.132.164, 7300, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-60.190.195.146-10800 = vmess, hz.jeidian.xyz, 8888, username=cc7484da-6041-4bcc-bc66-2b41e7896a6f, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=hz.jeidian.xyz, ws-headers=Host:tms.dingtalk.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-61.160.66.130-5555 = vmess, 124.225.140.78, 80, username=55dd630e-969e-4c30-bc99-a6efe47b8502, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=124.225.140.78, ws-headers=Host:tms.dingtalk.com, skip-cert-verify=true, tfo=false, udp-relay=true
+♻️ IPv6节点-自动 = reject
+🚀 IPv6节点-手动 = reject
+
+[Proxy Group]
+🚀 节点组选择 = select,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
+♻️ 所有节点-自动 = url-test,🇨🇳CN-101.42.30.206-80,🇨🇳CN-111.178.11.20-8088,🇨🇳CN-111.230.252.149-50002,🇨🇳CN-114.132.168.187-8080,🇨🇳CN-114.55.244.11-80,🇨🇳CN-123.207.75.74-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-36.150.27.31-80,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-47.93.231.218-53022,🇨🇳CN-58.222.132.164-7300,🇨🇳CN-60.190.195.146-10800,🇨🇳CN-61.160.66.130-5555,url=http://www.apple.com/library/test/success.html,interval=300,tolerance=50
+🚀 所有节点-手动-1 = select,本文件创建时间：Fri Aug  4 13:50:25 UTC 2023,🇨🇳CN-101.42.30.206-80,🇨🇳CN-111.178.11.20-8088,🇨🇳CN-111.230.252.149-50002,🇨🇳CN-114.132.168.187-8080,🇨🇳CN-114.55.244.11-80,🇨🇳CN-123.207.75.74-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-36.150.27.31-80,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-47.93.231.218-53022,🇨🇳CN-58.222.132.164-7300,🇨🇳CN-60.190.195.146-10800,🇨🇳CN-61.160.66.130-5555
+🚀 所有节点-手动-2 = select,本文件创建时间：Fri Aug  4 13:50:25 UTC 2023,🇨🇳CN-101.42.30.206-80,🇨🇳CN-111.178.11.20-8088,🇨🇳CN-111.230.252.149-50002,🇨🇳CN-114.132.168.187-8080,🇨🇳CN-114.55.244.11-80,🇨🇳CN-123.207.75.74-80,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-175.27.154.61-50002,🇨🇳CN-36.150.27.31-80,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-47.93.231.218-53022,🇨🇳CN-58.222.132.164-7300,🇨🇳CN-60.190.195.146-10800,🇨🇳CN-61.160.66.130-5555
+🌏 国内媒体 = select,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
+🎯 国内网站 = select,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,DIRECT,REJECT
+🐟 其他网站 = select,DIRECT,🚀 节点组选择,♻️ 所有节点-自动,🚀 所有节点-手动-1,🚀 所有节点-手动-2,♻️ IPv6节点-自动,🚀 IPv6节点-手动,REJECT
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaMedia.list,🌏 国内媒体,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIPv4.list,🎯 国内网站,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIPv6.list,🎯 国内网站,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaDomain.list,🎯 国内网站,update-interval=86400
+GEOIP,CN,🎯 国内网站
+FINAL,🐟 其他网站
+
