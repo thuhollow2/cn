@@ -1,0 +1,4 @@
+proxies:
+  - {name: 本文件创建时间：Thu Aug  3 15:37:16 UTC 2023, server: 255.255.255.255, port: 10086, type: vmess, uuid: 00000000-0000-0000-0000-000000000000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-101.42.30.206-80, server: 101.42.30.206, port: 80, client-fingerprint: chrome, type: vmess, uuid: 24bc9855-8f7c-4543-e29d-970045f205f2, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳CN-111.178.11.20-8088, server: 183.221.242.107, port: 9443, client-fingerprint: chrome, type: http, tls: false, skip-cert-verify: true, udp: true}
