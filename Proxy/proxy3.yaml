@@ -1,8 +1,0 @@
-proxies:
-  - {name: File Creation Time：Mon Sep  4 03:42:22 UTC 2023, server: 255.255.255.255, port: 10086, type: vmess, uuid: 00000000-0000-0000-0000-000000000000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳CN-111.230.252.149-50002, server: 111.230.252.149, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳CN-112.132.212.112-50002, server: 112.132.212.112, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳CN-123.249.101.15-19709, server: 123.249.101.15, port: 19709, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 123.249.101.15}}, udp: true}
-  - {name: 🇨🇳CN-175.27.154.61-50002, server: 175.27.154.61, port: 50002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳CN-39.103.165.178-56002, server: 221.224.44.91, port: 7302, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳CN-112.86.116.24-1080, server: 58.222.132.164, port: 7300, client-fingerprint: chrome, type: socks5, skip-cert-verify: true, udp: true}
