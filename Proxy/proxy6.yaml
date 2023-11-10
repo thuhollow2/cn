@@ -1,0 +1,30 @@
+proxies:
+  - {name: File Creation Time：Sun Oct 15 12:15:17 UTC 2023, server: 255.255.255.255, port: 10086, type: vmess, uuid: 00000000-0000-0000-0000-000000000000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-39.103.165.178-56002, server: 39.103.165.178, port: 56002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-39.78.128.169-8970, server: 39.78.128.169, port: 8970, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-60.204.168.179-7890, server: 60.204.168.179, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-8.142.3.145-3306, server: 8.142.3.145, port: 3306, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-8.142.94.217-7890, server: 8.142.94.217, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-81.68.230.25-7890, server: 81.68.230.25, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-81.69.228.131-7890, server: 81.69.228.131, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-81.69.8.97-27890, server: 81.69.8.97, port: 27890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-123.249.101.15-19709, server: 123.249.101.15, port: 19709, client-fingerprint: chrome, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇨🇳CN-219.137.67.146-7890, server: 219.137.67.146, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-39.184.16.19-7890, server: 39.184.16.19, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-121.37.68.136-7890, server: 121.37.68.136, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-47.242.109.138-443, server: 47.242.109.138, port: 443, type: vmess, uuid: 9DC41E4B-53A8-A442-E911-4BC5F490F2CD, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /myblog, headers: {Host: 47.242.109.138}}, udp: true}
+  - {name: 🇨🇳CN-113.225.170.77-7890, server: 113.225.170.77, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-82.157.164.56-7890, server: 82.157.164.56, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-120.36.202.195-7890, server: 59.61.83.86, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-124.71.182.12-7890, server: 124.71.182.12, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-47.108.68.172-7890, server: 47.108.68.172, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-47.120.15.105-7893, server: 47.120.15.105, port: 7893, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-49.233.62.148-7890, server: 49.233.62.148, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-8.217.135.145-80, server: 8.217.135.145, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: None}, udp: true}
+  - {name: 🇨🇳CN-222.187.238.9-20036, server: 222.187.238.9, port: 20036, type: vmess, uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇨🇳CN-175.178.65.137-80, server: 175.178.65.137, port: 80, type: vmess, uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /neimenggu001}, udp: true}
+  - {name: 🇨🇳CN-116.62.50.250-7890, server: 116.62.50.250, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-139.196.78.175-7890, server: 139.196.78.175, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-27.24.17.145-7890, server: 27.24.17.145, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-150.158.130.30-7890, server: 150.158.130.30, port: 7890, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳CN-1.117.69.235-80, server: 1.117.69.235, port: 80, type: vmess, uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1.117.69.235}}, udp: true}
