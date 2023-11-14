@@ -1,0 +1,81 @@
+[General]
+allow-udp-proxy=false
+bypass-tun=10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+dns-server=system,119.29.29.29,223.5.5.5
+host=127.0.0.1
+skip-proxy=192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
+
+[Proxy]
+File Creation Time：Mon Oct 16 14:45:00 UTC 2023 = vmess,255.255.255.255,10086,chacha20-ietf-poly1305,"00000000-0000-0000-0000-000000000000",over-tls:false,transport:tcp,skip-cert-verify:1
+🇨🇳CN-180.158.21.93-7890 = http,180.158.21.93,7890,,
+🇨🇳CN-183.47.123.115-9001 = trojan,183.47.123.115,9001,9d1bb718-f429-40eb-9373-3e6d588ff78c,tls-name:www.baidu.com,skip-cert-verify:1
+🇨🇳CN-202.112.237.232-7890 = http,202.112.237.232,7890,,
+🇨🇳CN-222.187.238.9-20036 = vmess,2667v2.mc5173.cn,20036,chacha20-ietf-poly1305,"ee0a4b54-be8d-4f56-be4d-521bd1ae443d",over-tls:false,transport:ws,path:/,host:gw.alicdn.com,skip-cert-verify:1
+🇨🇳CN-222.209.186.105-7890 = http,222.209.186.105,7890,,
+🇨🇳CN-39.103.165.178-56002 = vmess,39.103.165.178,56002,chacha20-ietf-poly1305,"418048af-a293-4b99-9b0c-98ca3580dd24",over-tls:false,transport:tcp,skip-cert-verify:1
+🇨🇳CN-39.78.128.169-8970 = http,39.78.128.169,8970,,
+🇨🇳CN-47.108.68.172-7890 = http,47.108.68.172,7890,,
+🇨🇳CN-47.120.15.105-7893 = http,47.120.15.105,7893,,
+🇨🇳CN-49.233.62.148-7890 = http,49.233.62.148,7890,,
+🇨🇳CN-60.204.168.179-7890 = http,60.204.168.179,7890,,
+🇨🇳CN-8.142.94.217-7890 = http,8.142.94.217,7890,,
+🇨🇳CN-81.68.230.25-7890 = http,81.68.230.25,7890,,
+🇨🇳CN-81.69.228.131-7890 = http,81.69.228.131,7890,,
+🇨🇳CN-81.69.8.97-27890 = http,81.69.8.97,27890,,
+🇨🇳CN-81.71.4.7-7890 = http,81.71.4.7,7890,,
+🇨🇳CN-223.166.201.161-8890 = http,223.166.201.161,8890,,
+🇨🇳CN-219.140.28.254-7890 = http,219.140.28.254,7890,,
+🇨🇳CN-123.249.101.15-19709 = vmess,123.249.101.15,19709,chacha20-ietf-poly1305,"2f278a45-940a-46c1-c886-77f3b2d33987",over-tls:false,transport:ws,path:/,host:,skip-cert-verify:1
+🇨🇳CN-39.184.16.19-7890 = http,39.184.16.19,7890,,
+🇨🇳CN-121.37.68.136-7890 = http,121.37.68.136,7890,,
+🇨🇳CN-120.36.200.49-7890 = http,59.61.83.86,7890,,
+🇨🇳CN-8.217.135.145-80 = Shadowsocks,8.217.135.145,80,aes-128-gcm,"a-wym4ovY4Yw",http,None
+🇨🇳CN-182.42.131.80-7890 = http,182.42.131.80,7890,,
+🇨🇳CN-202.112.51.218-7890 = http,202.112.51.218,7890,,
+🇨🇳CN-221.13.201.220-1080 = http,221.13.201.220,1080,,
+🇨🇳CN-112.91.139.123-7890 = http,112.91.139.123,7890,,
+🇨🇳CN-58.214.169.9-7890 = http,58.214.169.9,7890,,
+🇨🇳CN-117.184.37.22-7893 = http,117.184.37.22,7893,,
+🇨🇳CN-114.234.194.142-7890 = http,114.234.194.142,7890,,
+🇨🇳CN-8.210.172.202-80 = Shadowsocks,8.210.172.202,80,aes-128-gcm,"a-wym4ovY4Yw",http
+🇨🇳CN-117.30.38.56-7890 = http,117.30.38.56,7890,,
+🇨🇳CN-117.68.106.82-7890 = http,117.68.106.82,7890,,
+🇨🇳CN-183.173.195.53-7893 = http,183.173.195.53,7893,,
+🇨🇳CN-59.66.27.165-7893 = http,59.66.27.165,7893,,
+🇨🇳CN-182.16.1.194-80 = vmess,182.16.1.194,80,chacha20-ietf-poly1305,"00a1da14-d55f-5f75-e346-79b985e1a723",over-tls:false,transport:ws,path:/opt/video/images,host:182.16.1.194,skip-cert-verify:1
+
+[Remote Proxy]
+
+[Proxy Group]
+🚀 Node Group = select,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,♻️ IPv6 Nodes - Auto Select,🚀 IPv6 Nodes - Manual Select,DIRECT,REJECT
+🌏 China Media = select,🚀 Node Group,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,♻️ IPv6 Nodes - Auto Select,🚀 IPv6 Nodes - Manual Select,DIRECT,REJECT
+🎯 China Website = select,🚀 Node Group,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,♻️ IPv6 Nodes - Auto Select,🚀 IPv6 Nodes - Manual Select,DIRECT,REJECT
+🐟 Remaining Website = select,DIRECT,🚀 Node Group,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,♻️ IPv6 Nodes - Auto Select,🚀 IPv6 Nodes - Manual Select,REJECT
+♻️ All Nodes - Auto Select = url-test,🇨🇳CN-180.158.21.93-7890,🇨🇳CN-183.47.123.115-9001,🇨🇳CN-202.112.237.232-7890,🇨🇳CN-222.187.238.9-20036,🇨🇳CN-222.209.186.105-7890,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-39.78.128.169-8970,🇨🇳CN-47.108.68.172-7890,🇨🇳CN-47.120.15.105-7893,🇨🇳CN-49.233.62.148-7890,🇨🇳CN-60.204.168.179-7890,🇨🇳CN-8.142.94.217-7890,🇨🇳CN-81.68.230.25-7890,🇨🇳CN-81.69.228.131-7890,🇨🇳CN-81.69.8.97-27890,🇨🇳CN-81.71.4.7-7890,🇨🇳CN-223.166.201.161-8890,🇨🇳CN-219.140.28.254-7890,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-39.184.16.19-7890,🇨🇳CN-121.37.68.136-7890,🇨🇳CN-120.36.200.49-7890,🇨🇳CN-8.217.135.145-80,🇨🇳CN-182.42.131.80-7890,🇨🇳CN-202.112.51.218-7890,🇨🇳CN-221.13.201.220-1080,🇨🇳CN-112.91.139.123-7890,🇨🇳CN-58.214.169.9-7890,🇨🇳CN-117.184.37.22-7893,🇨🇳CN-114.234.194.142-7890,🇨🇳CN-8.210.172.202-80,🇨🇳CN-117.30.38.56-7890,🇨🇳CN-117.68.106.82-7890,🇨🇳CN-183.173.195.53-7893,🇨🇳CN-59.66.27.165-7893,🇨🇳CN-182.16.1.194-80,url=https://www.baidu.com,interval=300
+🚀 All Nodes - 1 - Manual Select = select,File Creation Time：Mon Oct 16 14:45:00 UTC 2023,🇨🇳CN-180.158.21.93-7890,🇨🇳CN-183.47.123.115-9001,🇨🇳CN-202.112.237.232-7890,🇨🇳CN-222.187.238.9-20036,🇨🇳CN-222.209.186.105-7890,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-39.78.128.169-8970,🇨🇳CN-47.108.68.172-7890,🇨🇳CN-47.120.15.105-7893,🇨🇳CN-49.233.62.148-7890,🇨🇳CN-60.204.168.179-7890,🇨🇳CN-8.142.94.217-7890,🇨🇳CN-81.68.230.25-7890,🇨🇳CN-81.69.228.131-7890,🇨🇳CN-81.69.8.97-27890,🇨🇳CN-81.71.4.7-7890,🇨🇳CN-223.166.201.161-8890,🇨🇳CN-219.140.28.254-7890,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-39.184.16.19-7890,🇨🇳CN-121.37.68.136-7890,🇨🇳CN-120.36.200.49-7890,🇨🇳CN-8.217.135.145-80,🇨🇳CN-182.42.131.80-7890,🇨🇳CN-202.112.51.218-7890,🇨🇳CN-221.13.201.220-1080,🇨🇳CN-112.91.139.123-7890,🇨🇳CN-58.214.169.9-7890,🇨🇳CN-117.184.37.22-7893,🇨🇳CN-114.234.194.142-7890,🇨🇳CN-8.210.172.202-80,🇨🇳CN-117.30.38.56-7890,🇨🇳CN-117.68.106.82-7890,🇨🇳CN-183.173.195.53-7893,🇨🇳CN-59.66.27.165-7893,🇨🇳CN-182.16.1.194-80
+🚀 All Nodes - 2 - Manual Select = select,File Creation Time：Mon Oct 16 14:45:00 UTC 2023,🇨🇳CN-180.158.21.93-7890,🇨🇳CN-183.47.123.115-9001,🇨🇳CN-202.112.237.232-7890,🇨🇳CN-222.187.238.9-20036,🇨🇳CN-222.209.186.105-7890,🇨🇳CN-39.103.165.178-56002,🇨🇳CN-39.78.128.169-8970,🇨🇳CN-47.108.68.172-7890,🇨🇳CN-47.120.15.105-7893,🇨🇳CN-49.233.62.148-7890,🇨🇳CN-60.204.168.179-7890,🇨🇳CN-8.142.94.217-7890,🇨🇳CN-81.68.230.25-7890,🇨🇳CN-81.69.228.131-7890,🇨🇳CN-81.69.8.97-27890,🇨🇳CN-81.71.4.7-7890,🇨🇳CN-223.166.201.161-8890,🇨🇳CN-219.140.28.254-7890,🇨🇳CN-123.249.101.15-19709,🇨🇳CN-39.184.16.19-7890,🇨🇳CN-121.37.68.136-7890,🇨🇳CN-120.36.200.49-7890,🇨🇳CN-8.217.135.145-80,🇨🇳CN-182.42.131.80-7890,🇨🇳CN-202.112.51.218-7890,🇨🇳CN-221.13.201.220-1080,🇨🇳CN-112.91.139.123-7890,🇨🇳CN-58.214.169.9-7890,🇨🇳CN-117.184.37.22-7893,🇨🇳CN-114.234.194.142-7890,🇨🇳CN-8.210.172.202-80,🇨🇳CN-117.30.38.56-7890,🇨🇳CN-117.68.106.82-7890,🇨🇳CN-183.173.195.53-7893,🇨🇳CN-59.66.27.165-7893,🇨🇳CN-182.16.1.194-80
+♻️ IPv6 Nodes - Auto Select = url-test,REJECT,url=https://www.baidu.com,interval=300
+🚀 IPv6 Nodes - Manual Select = select,REJECT
+
+[Rule]
+GEOIP,CN,🎯 China Website
+FINAL,🐟 Remaining Website
+
+[Remote Rule]
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaMedia.list,🌏 China Media
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIPv4.list,🎯 China Website
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIPv6.list,🎯 China Website
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaDomain.list,🎯 China Website
+
+[URL Rewrite]
+enable=true
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+
+[Remote Rewrite]
+https://raw.githubusercontent.com/thuhollow2/rule/main/Loon/AutoRewrite_Example.list,auto
+
+[MITM]
+enable=true
+hostname=*.example.com,*.sample.com
+skip-server-cert-verify=true
+
