@@ -1,0 +1,53 @@
+[general]
+excluded_routes=192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
+geo_location_checker=https://raw.githubusercontent.com/thuhollow2/qure/main/Other/IP_API.js
+network_check_url=http://www.apple.com/library/test/success.html
+server_check_url=http://www.gstatic.com/generate_204
+
+[dns]
+server=1.0.0.1
+server=8.8.4.4
+
+[policy]
+static=🚀 Node Group, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, ♻️ IPv6 Nodes - Auto Select, 🚀 IPv6 Nodes - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+static=🌏 China Media, 🚀 Node Group, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, ♻️ IPv6 Nodes - Auto Select, 🚀 IPv6 Nodes - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Media.png
+static=🎯 China Website, 🚀 Node Group, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, ♻️ IPv6 Nodes - Auto Select, 🚀 IPv6 Nodes - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Direct.png
+static=🐟 Remaining Website, DIRECT, 🚀 Node Group, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, ♻️ IPv6 Nodes - Auto Select, 🚀 IPv6 Nodes - Manual Select, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Final.png
+url-latency-benchmark=♻️ All Nodes - Auto Select, 🇨🇳CN-101.33.212.85-7890, 🇨🇳CN-111.230.252.149-50002, 🇨🇳CN-120.25.1.15-7890, 🇨🇳CN-159.75.33.234-7890, 🇨🇳CN-175.178.164.182-7890, 🇨🇳CN-182.43.110.114-33210, 🇨🇳CN-182.44.48.63-7892, 🇨🇳CN-43.136.77.52-54321, 🇨🇳CN-47.119.120.39-7890, 🇨🇳CN-47.120.35.23-3389, 🇨🇳CN-47.243.92.199-3128, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Auto.png
+static=🚀 All Nodes - 1 - Manual Select, File Creation Time: Tue Dec 12 05:53:35 GMT 2023, 🇨🇳CN-101.33.212.85-7890, 🇨🇳CN-111.230.252.149-50002, 🇨🇳CN-120.25.1.15-7890, 🇨🇳CN-159.75.33.234-7890, 🇨🇳CN-175.178.164.182-7890, 🇨🇳CN-182.43.110.114-33210, 🇨🇳CN-182.44.48.63-7892, 🇨🇳CN-43.136.77.52-54321, 🇨🇳CN-47.119.120.39-7890, 🇨🇳CN-47.120.35.23-3389, 🇨🇳CN-47.243.92.199-3128, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+static=🚀 All Nodes - 2 - Manual Select, File Creation Time: Tue Dec 12 05:53:35 GMT 2023, 🇨🇳CN-101.33.212.85-7890, 🇨🇳CN-111.230.252.149-50002, 🇨🇳CN-120.25.1.15-7890, 🇨🇳CN-159.75.33.234-7890, 🇨🇳CN-175.178.164.182-7890, 🇨🇳CN-182.43.110.114-33210, 🇨🇳CN-182.44.48.63-7892, 🇨🇳CN-43.136.77.52-54321, 🇨🇳CN-47.119.120.39-7890, 🇨🇳CN-47.120.35.23-3389, 🇨🇳CN-47.243.92.199-3128, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+static=♻️ IPv6 Nodes - Auto Select, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Auto.png
+static=🚀 IPv6 Nodes - Manual Select, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+
+[server_remote]
+
+[filter_remote]
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/ChinaMedia.list, tag=🌏 China Media, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/ChinaIPv4.list, tag=🎯 China Website, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/ChinaIPv6.list, tag=🎯 China Website, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/ChinaDomain.list, tag=🎯 China Website, enabled=true
+
+[rewrite_remote]
+
+[server_local]
+vmess = 255.255.255.255:10086, method=chacha20-ietf-poly1305, password=00000000-0000-0000-0000-000000000000, fast-open=false, udp-relay=true, tag=File Creation Time: Tue Dec 12 05:53:35 GMT 2023
+http = 101.33.212.85:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-101.33.212.85-7890
+vmess = 111.230.252.149:50002, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-111.230.252.149-50002
+http = 120.25.1.15:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-120.25.1.15-7890
+http = 159.75.33.234:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-159.75.33.234-7890
+http = 175.178.164.182:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-175.178.164.182-7890
+http = 182.43.110.114:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-182.43.110.114-33210
+http = 182.44.48.63:7892, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-182.44.48.63-7892
+http = 43.136.77.52:54321, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-43.136.77.52-54321
+http = 47.119.120.39:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.119.120.39-7890
+http = 47.120.35.23:3389, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.120.35.23-3389
+http = 47.243.92.199:3128, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.243.92.199-3128
+
+[filter_local]
+GEOIP,CN,🎯 China Website
+FINAL,🐟 Remaining Website
+
+[rewrite_local]
+
+[mitm]
+
