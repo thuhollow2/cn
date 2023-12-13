@@ -1,0 +1,8 @@
+proxies:
+  - {"name": "🇨🇳CN-101.33.212.85-7890", "server": "101.33.212.85", "port": 7890, "type": "http", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-111.230.252.149-50002", "server": "111.230.252.149", "port": 50002, "type": "vmess", "alterId": 64, "cipher": "auto", "client-fingerprint": "chrome", "skip-cert-verify": true, "tfo": false, "tls": false, "udp": true, "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24"}
+  - {"name": "🇨🇳CN-120.25.1.15-7890", "server": "120.25.1.15", "port": 7890, "type": "http", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-175.178.164.182-7890", "server": "175.178.164.182", "port": 7890, "type": "http", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-182.43.110.114-33210", "server": "182.43.110.114", "port": 33210, "type": "http", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-47.120.35.23-3389", "server": "47.120.35.23", "port": 3389, "type": "http", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-47.243.92.199-3128", "server": "47.243.92.199", "port": 3128, "type": "http", "skip-cert-verify": true, "tls": false, "udp": true}
