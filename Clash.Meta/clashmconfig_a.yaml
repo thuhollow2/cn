@@ -1,0 +1,452 @@
+proxies:
+  - {"name": "File Creation Time: Mon Jan  1 05:06:24 GMT 2024", "server": "255.255.255.255", "port": 10086, "type": "vmess", "alterId": 0, "cipher": "auto", "skip-cert-verify": true, "tls": false, "udp": true, "uuid": "00000000-0000-0000-0000-000000000000"}
+  - {"name": "🇨🇳CN-62.234.28.193-33210", "server": "62.234.28.193", "port": 33210, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+proxy-groups:
+  - name: 🚀 Node Group
+    type: select
+    proxies:
+      - ♻️ All Nodes - Auto Select
+      - 🚀 All Nodes - 1 - Manual Select
+      - 🚀 All Nodes - 2 - Manual Select
+      - ♻️ IPv6 Nodes - Auto Select
+      - 🚀 IPv6 Nodes - Manual Select
+      - DIRECT
+      - REJECT
+  - name: 🌏 China Media
+    type: select
+    proxies:
+      - 🚀 Node Group
+      - ♻️ All Nodes - Auto Select
+      - 🚀 All Nodes - 1 - Manual Select
+      - 🚀 All Nodes - 2 - Manual Select
+      - ♻️ IPv6 Nodes - Auto Select
+      - 🚀 IPv6 Nodes - Manual Select
+      - DIRECT
+      - REJECT
+  - name: 🎯 China Website
+    type: select
+    proxies:
+      - 🚀 Node Group
+      - ♻️ All Nodes - Auto Select
+      - 🚀 All Nodes - 1 - Manual Select
+      - 🚀 All Nodes - 2 - Manual Select
+      - ♻️ IPv6 Nodes - Auto Select
+      - 🚀 IPv6 Nodes - Manual Select
+      - DIRECT
+      - REJECT
+  - name: 🐟 Remaining Website
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 Node Group
+      - ♻️ All Nodes - Auto Select
+      - 🚀 All Nodes - 1 - Manual Select
+      - 🚀 All Nodes - 2 - Manual Select
+      - ♻️ IPv6 Nodes - Auto Select
+      - 🚀 IPv6 Nodes - Manual Select
+      - REJECT
+  - name: ♻️ All Nodes - Auto Select
+    type: url-test
+    url: http://www.baidu.com
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "🇨🇳CN-62.234.28.193-33210"
+  - name: 🚀 All Nodes - 1 - Manual Select
+    type: select
+    proxies:
+      - "File Creation Time: Mon Jan  1 05:06:24 GMT 2024"
+      - "🇨🇳CN-62.234.28.193-33210"
+  - name: 🚀 All Nodes - 2 - Manual Select
+    type: select
+    proxies:
+      - "File Creation Time: Mon Jan  1 05:06:24 GMT 2024"
+      - "🇨🇳CN-62.234.28.193-33210"
+  - name: ♻️ IPv6 Nodes - Auto Select
+    type: url-test
+    url: http://www.apple.com/library/test/success.html
+    interval: 300
+    tolerance: 50
+    proxies:
+      - REJECT
+  - name: 🚀 IPv6 Nodes - Manual Select
+    type: select
+    proxies:
+      - REJECT
+rules:
+ - DOMAIN,00713915daab0be43def5c338c02c80b.dlied1.cdntips.net,🌏 China Media
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,🌏 China Media
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,🌏 China Media
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com,🌏 China Media
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com,🌏 China Media
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com,🌏 China Media
+ - DOMAIN,0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com,🌏 China Media
+ - DOMAIN,0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com,🌏 China Media
+ - DOMAIN,0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com,🌏 China Media
+ - DOMAIN,0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com,🌏 China Media
+ - DOMAIN,0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com,🌏 China Media
+ - DOMAIN,0gr5dgmttgha1hcj38yzdncb3.ourdvsss.com,🌏 China Media
+ - DOMAIN,112-81-125-43.dhost.00cdn.com,🌏 China Media
+ - DOMAIN,113-219-145-1.ksyungslb.com,🌏 China Media
+ - DOMAIN,114-236-92-129.ksyungslb.com,🌏 China Media
+ - DOMAIN,17caa75e77d31e1f5a7841e0b3374569.dlied1.cdntips.net,🌏 China Media
+ - DOMAIN,180-101-74-1.ksyungslb.com,🌏 China Media
+ - DOMAIN,1geadrmttge3nhcjwgazdope.ourdvsss.com,🌏 China Media
+ - DOMAIN,1geadrmttge3nhcjwgwzdqqe.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr3uomttgr31hcjo8yzdnco.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr3uomttgr31hcjtgezdkcy.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr4uqmtt8y41hcjigazdqca.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr4uqmtt8y41hcjigazdqce.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr4uqmtt8y41hcjigazdqco.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr4uqmtt8y41hcjigazdqpo.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr4uqmtt8y41hcjzgwzdkqe.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr5dgmttgha1hcj38yzdcca.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr5dgmttgha1hcj38yzdcco.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkca.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkco.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkpe.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkpy.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkqy.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr5dgmttgha1hcj3gczdcpa.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr5dgmttgha1hcj3gczdcpe.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr5dgmttgha1hcj3gczdcpo.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr5dgmttgha1hcj3gczdcqy.ourdvsss.com,🌏 China Media
+ - DOMAIN,1gr5dgmttgha1hcttgrzdnpo.ourdvsss.com,🌏 China Media
+ - DOMAIN,1graukmttga4nhcjtgozdgce.ourdvsss.com,🌏 China Media
+ - DOMAIN,218-91-225-1.ksyungslb.com,🌏 China Media
+ - DOMAIN,219-155-150-1.ksyungslb.com,🌏 China Media
+ - DOMAIN,222-188-6-1.ksyungslb.com,🌏 China Media
+ - DOMAIN,36-104-134-1.ksyungslb.com,🌏 China Media
+ - DOMAIN,36-25-252-1.ksyungslb.com,🌏 China Media
+ - DOMAIN,3ge3drmttga5nhcbqge3ur.ourdvsss.com,🌏 China Media
+ - DOMAIN,3geauymtsgrzdnqbofa5do.ourdvsss.com,🌏 China Media
+ - DOMAIN,3geauymtsgrzdnqbofa5dy.ourdvsss.com,🌏 China Media
+ - DOMAIN,3geauymtsgrzdrcbzfahue.ourdvsss.com,🌏 China Media
+ - DOMAIN,3geauymtsgrzdrcbzfahuk.ourdvsss.com,🌏 China Media
+ - DOMAIN,4go41hcjtgazdoctqge4o.ourdvsss.com,🌏 China Media
+ - DOMAIN,apd-pcdnvodstat.teg.tencent-cloud.net,🌏 China Media
+ - DOMAIN,api.iplay.163.com,🌏 China Media
+ - DOMAIN,aqqmusic.tc.qq.com,🌏 China Media
+ - DOMAIN,dldir1.qq.com,🌏 China Media
+ - DOMAIN,iacc.qq.com,🌏 China Media
+ - DOMAIN,ins-eeww7kom.ias.tencent-cloud.net,🌏 China Media
+ - DOMAIN,ios.video.mpush.qq.com,🌏 China Media
+ - DOMAIN,mam.netease.com,🌏 China Media
+ - DOMAIN,moo.qq.com,🌏 China Media
+ - DOMAIN,rdelivery.qq.com,🌏 China Media
+ - DOMAIN,ts.qq.com,🌏 China Media
+ - DOMAIN,v.streaming.qq.com,🌏 China Media
+ - DOMAIN,video-public-1258344701.shiply-cdn.qq.com,🌏 China Media
+ - DOMAIN,video-search-1258344701.shiply-cdn.qq.com,🌏 China Media
+ - DOMAIN,video-vip-1258344701.shiply-cdn.qq.com,🌏 China Media
+ - DOMAIN,yoo.gtimg.com,🌏 China Media
+ - DOMAIN-KEYWORD,bilibili,🌏 China Media
+ - DOMAIN-KEYWORD,qiyi,🌏 China Media
+ - DOMAIN-SUFFIX,0co3geye.cn,🌏 China Media
+ - DOMAIN-SUFFIX,1.letvlive.com,🌏 China Media
+ - DOMAIN-SUFFIX,2.letvlive.com,🌏 China Media
+ - DOMAIN-SUFFIX,2isbbess.cn,🌏 China Media
+ - DOMAIN-SUFFIX,33lwhaoinc.cn,🌏 China Media
+ - DOMAIN-SUFFIX,52mtkvideo.cn,🌏 China Media
+ - DOMAIN-SUFFIX,56.com,🌏 China Media
+ - DOMAIN-SUFFIX,71.am,🌏 China Media
+ - DOMAIN-SUFFIX,71.am.com,🌏 China Media
+ - DOMAIN-SUFFIX,71edge.com,🌏 China Media
+ - DOMAIN-SUFFIX,71edge.net,🌏 China Media
+ - DOMAIN-SUFFIX,9xsecndns.cn,🌏 China Media
+ - DOMAIN-SUFFIX,acfun.cn,🌏 China Media
+ - DOMAIN-SUFFIX,acfun.com,🌏 China Media
+ - DOMAIN-SUFFIX,acfun.tv,🌏 China Media
+ - DOMAIN-SUFFIX,acg.tv,🌏 China Media
+ - DOMAIN-SUFFIX,acgvideo.com,🌏 China Media
+ - DOMAIN-SUFFIX,ads1.lfengmobile.com,🌏 China Media
+ - DOMAIN-SUFFIX,afp.pplive.com,🌏 China Media
+ - DOMAIN-SUFFIX,ai.xiaomi.com,🌏 China Media
+ - DOMAIN-SUFFIX,aianno.cn,🌏 China Media
+ - DOMAIN-SUFFIX,aianno.com,🌏 China Media
+ - DOMAIN-SUFFIX,aixifan.com,🌏 China Media
+ - DOMAIN-SUFFIX,androidgo.duapp.com,🌏 China Media
+ - DOMAIN-SUFFIX,animetamashi.cn,🌏 China Media
+ - DOMAIN-SUFFIX,animetamashi.com,🌏 China Media
+ - DOMAIN-SUFFIX,anitama.cn,🌏 China Media
+ - DOMAIN-SUFFIX,anitama.net,🌏 China Media
+ - DOMAIN-SUFFIX,api.game.letvstore.com,🌏 China Media
+ - DOMAIN-SUFFIX,b23.tv,🌏 China Media
+ - DOMAIN-SUFFIX,b82yxres.cn,🌏 China Media
+ - DOMAIN-SUFFIX,baiying.com,🌏 China Media
+ - DOMAIN-SUFFIX,baka.im,🌏 China Media
+ - DOMAIN-SUFFIX,bigfun.cn,🌏 China Media
+ - DOMAIN-SUFFIX,bigfunapp.cn,🌏 China Media
+ - DOMAIN-SUFFIX,bili22.cn,🌏 China Media
+ - DOMAIN-SUFFIX,bili2233.cn,🌏 China Media
+ - DOMAIN-SUFFIX,bili23.cn,🌏 China Media
+ - DOMAIN-SUFFIX,bili33.cn,🌏 China Media
+ - DOMAIN-SUFFIX,biliapi.com,🌏 China Media
+ - DOMAIN-SUFFIX,biliapi.net,🌏 China Media
+ - DOMAIN-SUFFIX,bilicdn1.com,🌏 China Media
+ - DOMAIN-SUFFIX,bilicdn2.com,🌏 China Media
+ - DOMAIN-SUFFIX,bilicdn3.com,🌏 China Media
+ - DOMAIN-SUFFIX,bilicdn4.com,🌏 China Media
+ - DOMAIN-SUFFIX,bilicdn5.com,🌏 China Media
+ - DOMAIN-SUFFIX,bilicomics.com,🌏 China Media
+ - DOMAIN-SUFFIX,biligame.cn,🌏 China Media
+ - DOMAIN-SUFFIX,biligame.co,🌏 China Media
+ - DOMAIN-SUFFIX,biligame.com,🌏 China Media
+ - DOMAIN-SUFFIX,biligame.net,🌏 China Media
+ - DOMAIN-SUFFIX,biligo.com,🌏 China Media
+ - DOMAIN-SUFFIX,biliimg.com,🌏 China Media
+ - DOMAIN-SUFFIX,biliplus.com,🌏 China Media
+ - DOMAIN-SUFFIX,bilivideo.cn,🌏 China Media
+ - DOMAIN-SUFFIX,bilivideo.com,🌏 China Media
+ - DOMAIN-SUFFIX,bilivideo.net,🌏 China Media
+ - DOMAIN-SUFFIX,cctv.cn,🌏 China Media
+ - DOMAIN-SUFFIX,cctv.com,🌏 China Media
+ - DOMAIN-SUFFIX,cctvlib.cn,🌏 China Media
+ - DOMAIN-SUFFIX,cctvlib.com.cn,🌏 China Media
+ - DOMAIN-SUFFIX,cctvlibrary.cn,🌏 China Media
+ - DOMAIN-SUFFIX,cctvlibrary.com.cn,🌏 China Media
+ - DOMAIN-SUFFIX,cctvpic.com,🌏 China Media
+ - DOMAIN-SUFFIX,cctvpro.cn,🌏 China Media
+ - DOMAIN-SUFFIX,cctvpro.com.cn,🌏 China Media
+ - DOMAIN-SUFFIX,cdn.zampdsp.com,🌏 China Media
+ - DOMAIN-SUFFIX,chinaepg.cn,🌏 China Media
+ - DOMAIN-SUFFIX,chinalive.com,🌏 China Media
+ - DOMAIN-SUFFIX,cibntv.net,🌏 China Media
+ - DOMAIN-SUFFIX,citv.net.cn,🌏 China Media
+ - DOMAIN-SUFFIX,cm.fancyapi.com,🌏 China Media
+ - DOMAIN-SUFFIX,cmvideo.cn,🌏 China Media
+ - DOMAIN-SUFFIX,cnms.net.cn,🌏 China Media
+ - DOMAIN-SUFFIX,cntv.cn,🌏 China Media
+ - DOMAIN-SUFFIX,cntv.com.cn,🌏 China Media
+ - DOMAIN-SUFFIX,cntvwb.cn,🌏 China Media
+ - DOMAIN-SUFFIX,corari.com,🌏 China Media
+ - DOMAIN-SUFFIX,dmhmusic.com,🌏 China Media
+ - DOMAIN-SUFFIX,dreamcast.hk,🌏 China Media
+ - DOMAIN-SUFFIX,dyhgames.com,🌏 China Media
+ - DOMAIN-SUFFIX,e8h2ty.tdum.alibaba.com,🌏 China Media
+ - DOMAIN-SUFFIX,gamenow.club,🌏 China Media
+ - DOMAIN-SUFFIX,gitv.cn,🌏 China Media
+ - DOMAIN-SUFFIX,gitv.tv,🌏 China Media
+ - DOMAIN-SUFFIX,gjgbdszt.cn,🌏 China Media
+ - DOMAIN-SUFFIX,gjgbdszt.com.cn,🌏 China Media
+ - DOMAIN-SUFFIX,gjgbdszt.net.cn,🌏 China Media
+ - DOMAIN-SUFFIX,hdslb.com,🌏 China Media
+ - DOMAIN-SUFFIX,hdslb.com.w.kunlunhuf.com,🌏 China Media
+ - DOMAIN-SUFFIX,hdslb.com.w.kunlunpi.com,🌏 China Media
+ - DOMAIN-SUFFIX,hdslb.net,🌏 China Media
+ - DOMAIN-SUFFIX,hdslb.org,🌏 China Media
+ - DOMAIN-SUFFIX,hifuntv.com,🌏 China Media
+ - DOMAIN-SUFFIX,hitv.com,🌏 China Media
+ - DOMAIN-SUFFIX,hunaniptv.com,🌏 China Media
+ - DOMAIN-SUFFIX,hunantv.com,🌏 China Media
+ - DOMAIN-SUFFIX,i.qq.com,🌏 China Media
+ - DOMAIN-SUFFIX,ibkstore.com,🌏 China Media
+ - DOMAIN-SUFFIX,im9.com,🌏 China Media
+ - DOMAIN-SUFFIX,imgo.tv,🌏 China Media
+ - DOMAIN-SUFFIX,ipanda.cn,🌏 China Media
+ - DOMAIN-SUFFIX,ipanda.com,🌏 China Media
+ - DOMAIN-SUFFIX,ipanda.com.cn,🌏 China Media
+ - DOMAIN-SUFFIX,ipanda.net,🌏 China Media
+ - DOMAIN-SUFFIX,itc.cn,🌏 China Media
+ - DOMAIN-SUFFIX,ixigua.com,🌏 China Media
+ - DOMAIN-SUFFIX,jiangbing.cn,🌏 China Media
+ - DOMAIN-SUFFIX,jstucdn.com,🌏 China Media
+ - DOMAIN-SUFFIX,koowo.com,🌏 China Media
+ - DOMAIN-SUFFIX,kugou.com,🌏 China Media
+ - DOMAIN-SUFFIX,kumiao.com,🌏 China Media
+ - DOMAIN-SUFFIX,kumiao.tv,🌏 China Media
+ - DOMAIN-SUFFIX,kuwo.cn,🌏 China Media
+ - DOMAIN-SUFFIX,kuxiaomiao.cn,🌏 China Media
+ - DOMAIN-SUFFIX,kuxiaomiao.com,🌏 China Media
+ - DOMAIN-SUFFIX,kuxiaomiao.com.cn,🌏 China Media
+ - DOMAIN-SUFFIX,kuxiaomiao.net,🌏 China Media
+ - DOMAIN-SUFFIX,le.com,🌏 China Media
+ - DOMAIN-SUFFIX,letv.com,🌏 China Media
+ - DOMAIN-SUFFIX,livechina.cn,🌏 China Media
+ - DOMAIN-SUFFIX,livechina.com,🌏 China Media
+ - DOMAIN-SUFFIX,maoercdn.com,🌏 China Media
+ - DOMAIN-SUFFIX,mcbbs.net,🌏 China Media
+ - DOMAIN-SUFFIX,mgtv.com,🌏 China Media
+ - DOMAIN-SUFFIX,migu.cn,🌏 China Media
+ - DOMAIN-SUFFIX,miguvideo.com,🌏 China Media
+ - DOMAIN-SUFFIX,mincdn.com,🌏 China Media
+ - DOMAIN-SUFFIX,mmstat.com,🌏 China Media
+ - DOMAIN-SUFFIX,music.126.net,🌏 China Media
+ - DOMAIN-SUFFIX,music.163.com,🌏 China Media
+ - DOMAIN-SUFFIX,music.qq.com,🌏 China Media
+ - DOMAIN-SUFFIX,music.tc.qq.com,🌏 China Media
+ - DOMAIN-SUFFIX,music.xiaomi.com,🌏 China Media
+ - DOMAIN-SUFFIX,noxagile.duapp.com,🌏 China Media
+ - DOMAIN-SUFFIX,ns6mitkxo.cn,🌏 China Media
+ - DOMAIN-SUFFIX,olympicchannelchina.cn,🌏 China Media
+ - DOMAIN-SUFFIX,pgdt.gtimg.cn,🌏 China Media
+ - DOMAIN-SUFFIX,pplive.cn,🌏 China Media
+ - DOMAIN-SUFFIX,pps.tv,🌏 China Media
+ - DOMAIN-SUFFIX,ppsimg.com,🌏 China Media
+ - DOMAIN-SUFFIX,ppstream.cn,🌏 China Media
+ - DOMAIN-SUFFIX,ppstream.com,🌏 China Media
+ - DOMAIN-SUFFIX,ppstream.com.cn,🌏 China Media
+ - DOMAIN-SUFFIX,ppstream.net,🌏 China Media
+ - DOMAIN-SUFFIX,ppstream.net.cn,🌏 China Media
+ - DOMAIN-SUFFIX,ppsurl.com,🌏 China Media
+ - DOMAIN-SUFFIX,pptv.com,🌏 China Media
+ - DOMAIN-SUFFIX,qianqian.com,🌏 China Media
+ - DOMAIN-SUFFIX,qqmusic.qq.com,🌏 China Media
+ - DOMAIN-SUFFIX,qqvideo.gtimg.com,🌏 China Media
+ - DOMAIN-SUFFIX,qy.com,🌏 China Media
+ - DOMAIN-SUFFIX,qy.net,🌏 China Media
+ - DOMAIN-SUFFIX,s.zampdsp.com,🌏 China Media
+ - DOMAIN-SUFFIX,sharejoytech.com,🌏 China Media
+ - DOMAIN-SUFFIX,sk2cdsnw.cn,🌏 China Media
+ - DOMAIN-SUFFIX,smtcdns.net,🌏 China Media
+ - DOMAIN-SUFFIX,sogoodtech1.cn,🌏 China Media
+ - DOMAIN-SUFFIX,sohu.com,🌏 China Media
+ - DOMAIN-SUFFIX,sohu.com.cn,🌏 China Media
+ - DOMAIN-SUFFIX,soku.com,🌏 China Media
+ - DOMAIN-SUFFIX,suike.cn,🌏 China Media
+ - DOMAIN-SUFFIX,taihe.com,🌏 China Media
+ - DOMAIN-SUFFIX,tazai.com,🌏 China Media
+ - DOMAIN-SUFFIX,tencentmusic.com,🌏 China Media
+ - DOMAIN-SUFFIX,tudou.com,🌏 China Media
+ - DOMAIN-SUFFIX,tvcc.cn,🌏 China Media
+ - DOMAIN-SUFFIX,tvcc.com.cn,🌏 China Media
+ - DOMAIN-SUFFIX,ukoo.com.cn,🌏 China Media
+ - DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net,🌏 China Media
+ - DOMAIN-SUFFIX,v-56.com,🌏 China Media
+ - DOMAIN-SUFFIX,v.qq.com,🌏 China Media
+ - DOMAIN-SUFFIX,video.qq.com,🌏 China Media
+ - DOMAIN-SUFFIX,videojj.com,🌏 China Media
+ - DOMAIN-SUFFIX,wenyupages.com,🌏 China Media
+ - DOMAIN-SUFFIX,wingsmobiletek.cn,🌏 China Media
+ - DOMAIN-SUFFIX,wwc.alicdn.com,🌏 China Media
+ - DOMAIN-SUFFIX,xiami.com,🌏 China Media
+ - DOMAIN-SUFFIX,xiami.net,🌏 China Media
+ - DOMAIN-SUFFIX,xn--fiq53l6wcx3kp9bc7joo6apn8a.cn,🌏 China Media
+ - DOMAIN-SUFFIX,xn--fiq53l6wcx3kp9bc7joo6apn8a.xn--fiqs8s,🌏 China Media
+ - DOMAIN-SUFFIX,xn--fiq53l90et9fpncc7joo6apn8a.cn,🌏 China Media
+ - DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.cn,🌏 China Media
+ - DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.xn--fiqs8s,🌏 China Media
+ - DOMAIN-SUFFIX,y.qq.com,🌏 China Media
+ - DOMAIN-SUFFIX,ykimg.com,🌏 China Media
+ - DOMAIN-SUFFIX,yo9.com,🌏 China Media
+ - DOMAIN-SUFFIX,yodou.com,🌏 China Media
+ - DOMAIN-SUFFIX,yoku.net.cn,🌏 China Media
+ - DOMAIN-SUFFIX,yoqoo.com,🌏 China Media
+ - DOMAIN-SUFFIX,yoqoo.net,🌏 China Media
+ - DOMAIN-SUFFIX,yoqoo.net.cn,🌏 China Media
+ - DOMAIN-SUFFIX,yoqoo.tv,🌏 China Media
+ - DOMAIN-SUFFIX,youku.com,🌏 China Media
+ - DOMAIN-SUFFIX,youku.com.cn,🌏 China Media
+ - DOMAIN-SUFFIX,youku.org,🌏 China Media
+ - DOMAIN-SUFFIX,youqoo.net,🌏 China Media
+ - DOMAIN-SUFFIX,zamplus.com,🌏 China Media
+ - DOMAIN-SUFFIX,zggbdszt.cn,🌏 China Media
+ - DOMAIN-SUFFIX,zggbdszt.com.cn,🌏 China Media
+ - DOMAIN-SUFFIX,zggbdszt.net.cn,🌏 China Media
+ - DOMAIN-SUFFIX,zimuzu.io,🌏 China Media
+ - DOMAIN-SUFFIX,zimuzu.tv,🌏 China Media
+ - DOMAIN-SUFFIX,zmz2019.com,🌏 China Media
+ - DOMAIN-SUFFIX,zmzapi.com,🌏 China Media
+ - DOMAIN-SUFFIX,zmzapi.net,🌏 China Media
+ - DOMAIN-SUFFIX,zmzfile.com,🌏 China Media
+ - DOMAIN-SUFFIX,zygbdszt.net.cn,🌏 China Media
+ - IP-CIDR,101.224.0.0/13,🌏 China Media,no-resolve
+ - IP-CIDR,101.71.154.241/32,🌏 China Media,no-resolve
+ - IP-CIDR,103.126.92.132/31,🌏 China Media,no-resolve
+ - IP-CIDR,103.44.56.0/22,🌏 China Media,no-resolve
+ - IP-CIDR,106.11.0.0/16,🌏 China Media,no-resolve
+ - IP-CIDR,106.75.74.76/32,🌏 China Media,no-resolve
+ - IP-CIDR,111.206.25.147/32,🌏 China Media,no-resolve
+ - IP-CIDR,112.13.119.17/32,🌏 China Media,no-resolve
+ - IP-CIDR,112.13.122.1/32,🌏 China Media,no-resolve
+ - IP-CIDR,115.236.118.33/32,🌏 China Media,no-resolve
+ - IP-CIDR,115.236.121.1/32,🌏 China Media,no-resolve
+ - IP-CIDR,118.24.63.156/32,🌏 China Media,no-resolve
+ - IP-CIDR,118.26.120.0/24,🌏 China Media,no-resolve
+ - IP-CIDR,118.26.32.0/23,🌏 China Media,no-resolve
+ - IP-CIDR,119.176.0.0/12,🌏 China Media,no-resolve
+ - IP-CIDR,119.3.238.64/32,🌏 China Media,no-resolve
+ - IP-CIDR,120.92.108.182/32,🌏 China Media,no-resolve
+ - IP-CIDR,120.92.113.99/32,🌏 China Media,no-resolve
+ - IP-CIDR,120.92.153.217/32,🌏 China Media,no-resolve
+ - IP-CIDR,134.175.207.130/32,🌏 China Media,no-resolve
+ - IP-CIDR,193.112.159.225/32,🌏 China Media,no-resolve
+ - IP-CIDR,203.107.1.0/24,🌏 China Media,no-resolve
+ - IP-CIDR,223.252.199.66/31,🌏 China Media,no-resolve
+ - IP-CIDR,23.211.15.99/32,🌏 China Media,no-resolve
+ - IP-CIDR,23.40.241.251/32,🌏 China Media,no-resolve
+ - IP-CIDR,39.105.63.80/32,🌏 China Media,no-resolve
+ - IP-CIDR,45.254.48.1/32,🌏 China Media,no-resolve
+ - IP-CIDR,47.100.127.239/32,🌏 China Media,no-resolve
+ - IP-CIDR,58.49.111.117/32,🌏 China Media,no-resolve
+ - IP-CIDR,58.49.111.79/32,🌏 China Media,no-resolve
+ - IP-CIDR,58.49.111.95/32,🌏 China Media,no-resolve
+ - IP-CIDR,59.111.160.195/32,🌏 China Media,no-resolve
+ - IP-CIDR,59.111.160.197/32,🌏 China Media,no-resolve
+ - IP-CIDR,59.111.181.35/32,🌏 China Media,no-resolve
+ - IP-CIDR,59.111.181.38/32,🌏 China Media,no-resolve
+ - IP-CIDR,59.111.181.60/32,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:113.248.172.245/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:114.235.96.186/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:115.236.128.112/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:115.236.128.120/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:115.236.128.24/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:115.236.128.80/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:117.64.75.196/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:117.68.200.210/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:117.87.144.24/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:121.56.126.255/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:124.73.198.81/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:124.73.200.142/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:175.6.84.30/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:175.6.84.96/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:183.161.144.133/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:183.161.144.230/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:183.161.149.105/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:198.18.5.138/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:198.18.6.81/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:198.18.6.83/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:223.240.191.238/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:27.157.209.46/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:58.217.232.117/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:58.217.232.68/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:58.217.232.79/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:58.58.0.90/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:60.171.183.161/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:60.171.183.186/128,🌏 China Media,no-resolve
+ - IP-CIDR6,::ffff:60.171.183.98/128,🌏 China Media,no-resolve
+ - IP-CIDR,101.5.0.0/16,🎯 China Website,no-resolve
+ - IP-CIDR,101.6.0.0/16,🎯 China Website,no-resolve
+ - IP-CIDR,118.229.0.0/21,🎯 China Website,no-resolve
+ - IP-CIDR,166.111.0.0/16,🎯 China Website,no-resolve
+ - IP-CIDR,183.172.0.0/16,🎯 China Website,no-resolve
+ - IP-CIDR,183.173.0.0/16,🎯 China Website,no-resolve
+ - IP-CIDR,202.112.39.2/32,🎯 China Website,no-resolve
+ - IP-CIDR,219.223.168.0/21,🎯 China Website,no-resolve
+ - IP-CIDR,219.223.176.0/20,🎯 China Website,no-resolve
+ - IP-CIDR,59.66.0.0/16,🎯 China Website,no-resolve
+ - IP-CIDR6,2001:250:200::/48,🎯 China Website,no-resolve
+ - IP-CIDR6,2001:da8:200::/48,🎯 China Website,no-resolve
+ - IP-CIDR6,2402:f000::/32,🎯 China Website,no-resolve
+ - DOMAIN,new-t.github.io,🎯 China Website
+ - DOMAIN,t-hole.github.io,🎯 China Website
+ - DOMAIN,thu.closed.social,🎯 China Website
+ - DOMAIN,thuhollow.github.io,🎯 China Website
+ - DOMAIN-KEYWORD,tsinghua,🎯 China Website
+ - DOMAIN-SUFFIX,13042332817.top,🎯 China Website
+ - DOMAIN-SUFFIX,ashitblake.top,🎯 China Website
+ - DOMAIN-SUFFIX,beasking.top,🎯 China Website
+ - DOMAIN-SUFFIX,c1.biz,🎯 China Website
+ - DOMAIN-SUFFIX,fakeopen.com,🎯 China Website
+ - DOMAIN-SUFFIX,hole-thu-qwertyuiop.xyz,🎯 China Website
+ - DOMAIN-SUFFIX,pp.ua,🎯 China Website
+ - DOMAIN-SUFFIX,sbsybqlaaaaaaa.buzz,🎯 China Website
+ - DOMAIN-SUFFIX,shudongdehouduan.click,🎯 China Website
+ - DOMAIN-SUFFIX,tholeapis.top,🎯 China Website
+ - DOMAIN-SUFFIX,zaiwen.top,🎯 China Website
+ - DOMAIN-SUFFIX,zaiwenai.top,🎯 China Website
+ - DOMAIN-SUFFIX,zaiwenback.top,🎯 China Website
+ - DOMAIN-SUFFIX,zaiwenbak.top,🎯 China Website
+ - GEOIP,CN,🎯 China Website
+ - MATCH,🐟 Remaining Website
