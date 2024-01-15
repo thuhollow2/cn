@@ -1,0 +1,176 @@
+[general]
+excluded_routes=192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
+geo_location_checker=https://raw.githubusercontent.com/thuhollow2/qure/main/Other/IP_API.js
+network_check_url=http://www.apple.com/library/test/success.html
+server_check_url=http://www.gstatic.com/generate_204
+
+[dns]
+server=1.0.0.1
+server=8.8.4.4
+
+[policy]
+static=🚀 Node Group, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, ♻️ IPv6 Nodes - Auto Select, 🚀 IPv6 Nodes - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+static=🌏 China Media, 🚀 Node Group, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, ♻️ IPv6 Nodes - Auto Select, 🚀 IPv6 Nodes - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Media.png
+static=🎯 China Website, 🚀 Node Group, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, ♻️ IPv6 Nodes - Auto Select, 🚀 IPv6 Nodes - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Direct.png
+static=🐟 Remaining Website, DIRECT, 🚀 Node Group, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, ♻️ IPv6 Nodes - Auto Select, 🚀 IPv6 Nodes - Manual Select, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Final.png
+url-latency-benchmark=♻️ All Nodes - Auto Select, 🇨🇳CN-1.116.50.118-33210, 🇨🇳CN-1.65.139.54-443, 🇨🇳CN-1.92.104.64-7890, 🇨🇳CN-101.132.118.201-7890, 🇨🇳CN-101.33.212.85-7890, 🇨🇳CN-101.35.55.43-3389, 🇨🇳CN-101.42.19.253-7890, 🇨🇳CN-101.6.142.98*-33210, 🇨🇳CN-103.151.172.93-7890, 🇨🇳CN-103.59.148.187-7899, 🇨🇳CN-106.124.137.81-33210, 🇨🇳CN-106.15.32.138-33210, 🇨🇳CN-106.52.121.30-7890, 🇨🇳CN-110.40.159.92-7891, 🇨🇳CN-111.163.123.27-17890, 🇨🇳CN-112.86.217.118-33210, 🇨🇳CN-113.141.94.84-33210, 🇨🇳CN-113.79.161.46-8881, 🇨🇳CN-114.214.196.155*-33210, 🇨🇳CN-116.196.121.11-7890, 🇨🇳CN-116.238.53.173-7890, 🇨🇳CN-116.62.50.250-7890, 🇨🇳CN-117.174.233.35-7890, 🇨🇳CN-117.23.6.48-33210, 🇨🇳CN-117.50.197.253-7893, 🇨🇳CN-117.63.48.145-7890, 🇨🇳CN-118.24.2.230-7890, 🇨🇳CN-119.189.104.212-6890, 🇨🇳CN-119.34.134.66-7898, 🇨🇳CN-119.57.114.62-7890, 🇨🇳CN-120.24.189.187-33210, 🇨🇳CN-120.25.253.193-33210, 🇨🇳CN-120.79.140.163-7890, 🇨🇳CN-121.224.185.47-7247, 🇨🇳CN-121.229.101.96-1080, 🇨🇳CN-121.33.221.44-7893, 🇨🇳CN-121.37.68.11-7890, 🇨🇳CN-121.4.210.45-33210, 🇨🇳CN-121.41.94.169-7890, 🇨🇳CN-121.5.52.156-7892, 🇨🇳CN-123.117.171.125-7890, 🇨🇳CN-123.249.118.252-18190, 🇨🇳CN-123.249.127.248-7899, 🇨🇳CN-123.56.99.153-33210, 🇨🇳CN-123.58.197.70-443, 🇨🇳CN-124.16.71.238*-33210, 🇨🇳CN-124.221.142.43-7890, 🇨🇳CN-124.221.230.222-7890, 🇨🇳CN-124.223.64.107-7890, 🇨🇳CN-124.234.245.125-37510, 🇨🇳CN-124.79.127.69-20482, 🇨🇳CN-125.124.9.27-7890, 🇨🇳CN-132.232.0.13-7890, 🇨🇳CN-139.224.131.134-7890, 🇨🇳CN-139.224.253.99-33210, 🇨🇳CN-139.227.219.181-7890, 🇨🇳CN-139.9.176.128-7890, 🇨🇳CN-14.115.89.151-7890, 🇨🇳CN-14.123.238.32-7890, 🇨🇳CN-14.212.140.43-7890, 🇨🇳CN-140.255.134.232-7890, 🇨🇳CN-150.158.214.98-33210, 🇨🇳CN-154.12.178.107-29985, 🇨🇳CN-159.75.125.46-7890, 🇨🇳CN-159.75.33.234-7890, 🇨🇳CN-162.14.64.240-7893, 🇨🇳CN-166.111.50.217*-7893, 🇨🇳CN-166.111.53.223*-33210, 🇨🇳CN-171.104.106.177-7902, 🇨🇳CN-175.27.247.28-7890, 🇨🇳CN-180.112.192.99-7890, 🇨🇳CN-180.120.5.37-7890, 🇨🇳CN-182.92.64.239-7890, 🇨🇳CN-182.98.36.167-7890, 🇨🇳CN-193.112.88.21-7890, 🇨🇳CN-194.156.98.99-443, 🇨🇳CN-20.239.80.27-443, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-202.38.67.107*-33210, 🇨🇳CN-202.38.71.143*-33210, 🇨🇳CN-210.45.64.116*-33210, 🇨🇳CN-210.77.29.242*-33210, 🇨🇳CN-218.73.52.42-7890, 🇨🇳CN-221.1.101.185-7890, 🇨🇳CN-222.195.82.132*-33210, 🇨🇳CN-222.64.182.4-7890, 🇨🇳CN-222.67.124.133-7890, 🇨🇳CN-223.165.4.173-989, 🇨🇳CN-27.150.30.119-33210, 🇨🇳CN-27.151.13.205-33210, 🇨🇳CN-27.157.204.162-7890, 🇨🇳CN-39.100.120.200-7890, 🇨🇳CN-39.106.80.73-7890, 🇨🇳CN-39.165.86.185-7890, 🇨🇳CN-39.96.93.57-7890, 🇨🇳CN-39.99.161.62-33336, 🇨🇳CN-42.194.234.236-7890, 🇨🇳CN-43.137.19.131-7890, 🇨🇳CN-43.139.224.158-33210, 🇨🇳CN-43.143.128.180-44789, 🇨🇳CN-43.143.26.175-7890, 🇨🇳CN-43.248.188.118-33210, 🇨🇳CN-47.103.5.145-7190, 🇨🇳CN-47.106.144.184-7890, 🇨🇳CN-47.108.69.115-33210, 🇨🇳CN-47.111.81.30-7890, 🇨🇳CN-47.120.32.61-7890, 🇨🇳CN-47.243.92.199-3128, 🇨🇳CN-47.93.220.24-7890, 🇨🇳CN-47.95.21.135-7890, 🇨🇳CN-47.97.125.212-7890, 🇨🇳CN-47.97.202.146-7893, 🇨🇳CN-47.98.46.112-443, 🇨🇳CN-47.99.180.88-7890, 🇨🇳CN-49.234.104.72-33210, 🇨🇳CN-49.7.133.6-33210, 🇨🇳CN-58.62.235.146-7890, 🇨🇳CN-60.204.132.217-7890, 🇨🇳CN-60.204.168.179-7890, 🇨🇳CN-60.25.246.48-7892, 🇨🇳CN-62.234.192.67-7890, 🇨🇳CN-62.234.193.73-7890, 🇨🇳CN-62.234.28.193-33210, 🇨🇳CN-8.140.135.120-7899, 🇨🇳CN-8.141.12.49-7890, 🇨🇳CN-8.217.135.205-443, 🇨🇳CN-8.217.217.138-80, 🇨🇳CN-81.68.166.248-7890, 🇨🇳CN-81.70.224.152-33210, 🇨🇳CN-81.70.46.92-7890, 🇨🇳CN-81.70.55.129-33210, 🇨🇳CN-81.71.4.7-7890, 🇨🇳CN-82.157.163.144-7890, 🇨🇳CN-82.157.75.151-6000, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Auto.png
+static=🚀 All Nodes - 1 - Manual Select, File Creation Time: Sun Jan 14 09:33:22 GMT 2024, 🇨🇳CN-1.116.50.118-33210, 🇨🇳CN-1.65.139.54-443, 🇨🇳CN-1.92.104.64-7890, 🇨🇳CN-101.132.118.201-7890, 🇨🇳CN-101.33.212.85-7890, 🇨🇳CN-101.35.55.43-3389, 🇨🇳CN-101.42.19.253-7890, 🇨🇳CN-101.6.142.98*-33210, 🇨🇳CN-103.151.172.93-7890, 🇨🇳CN-103.59.148.187-7899, 🇨🇳CN-106.124.137.81-33210, 🇨🇳CN-106.15.32.138-33210, 🇨🇳CN-106.52.121.30-7890, 🇨🇳CN-110.40.159.92-7891, 🇨🇳CN-111.163.123.27-17890, 🇨🇳CN-112.86.217.118-33210, 🇨🇳CN-113.141.94.84-33210, 🇨🇳CN-113.79.161.46-8881, 🇨🇳CN-114.214.196.155*-33210, 🇨🇳CN-116.196.121.11-7890, 🇨🇳CN-116.238.53.173-7890, 🇨🇳CN-116.62.50.250-7890, 🇨🇳CN-117.174.233.35-7890, 🇨🇳CN-117.23.6.48-33210, 🇨🇳CN-117.50.197.253-7893, 🇨🇳CN-117.63.48.145-7890, 🇨🇳CN-118.24.2.230-7890, 🇨🇳CN-119.189.104.212-6890, 🇨🇳CN-119.34.134.66-7898, 🇨🇳CN-119.57.114.62-7890, 🇨🇳CN-120.24.189.187-33210, 🇨🇳CN-120.25.253.193-33210, 🇨🇳CN-120.79.140.163-7890, 🇨🇳CN-121.224.185.47-7247, 🇨🇳CN-121.229.101.96-1080, 🇨🇳CN-121.33.221.44-7893, 🇨🇳CN-121.37.68.11-7890, 🇨🇳CN-121.4.210.45-33210, 🇨🇳CN-121.41.94.169-7890, 🇨🇳CN-121.5.52.156-7892, 🇨🇳CN-123.117.171.125-7890, 🇨🇳CN-123.249.118.252-18190, 🇨🇳CN-123.249.127.248-7899, 🇨🇳CN-123.56.99.153-33210, 🇨🇳CN-123.58.197.70-443, 🇨🇳CN-124.16.71.238*-33210, 🇨🇳CN-124.221.142.43-7890, 🇨🇳CN-124.221.230.222-7890, 🇨🇳CN-124.223.64.107-7890, 🇨🇳CN-124.234.245.125-37510, 🇨🇳CN-124.79.127.69-20482, 🇨🇳CN-125.124.9.27-7890, 🇨🇳CN-132.232.0.13-7890, 🇨🇳CN-139.224.131.134-7890, 🇨🇳CN-139.224.253.99-33210, 🇨🇳CN-139.227.219.181-7890, 🇨🇳CN-139.9.176.128-7890, 🇨🇳CN-14.115.89.151-7890, 🇨🇳CN-14.123.238.32-7890, 🇨🇳CN-14.212.140.43-7890, 🇨🇳CN-140.255.134.232-7890, 🇨🇳CN-150.158.214.98-33210, 🇨🇳CN-154.12.178.107-29985, 🇨🇳CN-159.75.125.46-7890, 🇨🇳CN-159.75.33.234-7890, 🇨🇳CN-162.14.64.240-7893, 🇨🇳CN-166.111.50.217*-7893, 🇨🇳CN-166.111.53.223*-33210, 🇨🇳CN-171.104.106.177-7902, 🇨🇳CN-175.27.247.28-7890, 🇨🇳CN-180.112.192.99-7890, 🇨🇳CN-180.120.5.37-7890, 🇨🇳CN-182.92.64.239-7890, 🇨🇳CN-182.98.36.167-7890, 🇨🇳CN-193.112.88.21-7890, 🇨🇳CN-194.156.98.99-443, 🇨🇳CN-20.239.80.27-443, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-202.38.67.107*-33210, 🇨🇳CN-202.38.71.143*-33210, 🇨🇳CN-210.45.64.116*-33210, 🇨🇳CN-210.77.29.242*-33210, 🇨🇳CN-218.73.52.42-7890, 🇨🇳CN-221.1.101.185-7890, 🇨🇳CN-222.195.82.132*-33210, 🇨🇳CN-222.64.182.4-7890, 🇨🇳CN-222.67.124.133-7890, 🇨🇳CN-223.165.4.173-989, 🇨🇳CN-27.150.30.119-33210, 🇨🇳CN-27.151.13.205-33210, 🇨🇳CN-27.157.204.162-7890, 🇨🇳CN-39.100.120.200-7890, 🇨🇳CN-39.106.80.73-7890, 🇨🇳CN-39.165.86.185-7890, 🇨🇳CN-39.96.93.57-7890, 🇨🇳CN-39.99.161.62-33336, 🇨🇳CN-42.194.234.236-7890, 🇨🇳CN-43.137.19.131-7890, 🇨🇳CN-43.139.224.158-33210, 🇨🇳CN-43.143.128.180-44789, 🇨🇳CN-43.143.26.175-7890, 🇨🇳CN-43.248.188.118-33210, 🇨🇳CN-47.103.5.145-7190, 🇨🇳CN-47.106.144.184-7890, 🇨🇳CN-47.108.69.115-33210, 🇨🇳CN-47.111.81.30-7890, 🇨🇳CN-47.120.32.61-7890, 🇨🇳CN-47.243.92.199-3128, 🇨🇳CN-47.93.220.24-7890, 🇨🇳CN-47.95.21.135-7890, 🇨🇳CN-47.97.125.212-7890, 🇨🇳CN-47.97.202.146-7893, 🇨🇳CN-47.98.46.112-443, 🇨🇳CN-47.99.180.88-7890, 🇨🇳CN-49.234.104.72-33210, 🇨🇳CN-49.7.133.6-33210, 🇨🇳CN-58.62.235.146-7890, 🇨🇳CN-60.204.132.217-7890, 🇨🇳CN-60.204.168.179-7890, 🇨🇳CN-60.25.246.48-7892, 🇨🇳CN-62.234.192.67-7890, 🇨🇳CN-62.234.193.73-7890, 🇨🇳CN-62.234.28.193-33210, 🇨🇳CN-8.140.135.120-7899, 🇨🇳CN-8.141.12.49-7890, 🇨🇳CN-8.217.135.205-443, 🇨🇳CN-8.217.217.138-80, 🇨🇳CN-81.68.166.248-7890, 🇨🇳CN-81.70.224.152-33210, 🇨🇳CN-81.70.46.92-7890, 🇨🇳CN-81.70.55.129-33210, 🇨🇳CN-81.71.4.7-7890, 🇨🇳CN-82.157.163.144-7890, 🇨🇳CN-82.157.75.151-6000, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+static=🚀 All Nodes - 2 - Manual Select, File Creation Time: Sun Jan 14 09:33:22 GMT 2024, 🇨🇳CN-1.116.50.118-33210, 🇨🇳CN-1.65.139.54-443, 🇨🇳CN-1.92.104.64-7890, 🇨🇳CN-101.132.118.201-7890, 🇨🇳CN-101.33.212.85-7890, 🇨🇳CN-101.35.55.43-3389, 🇨🇳CN-101.42.19.253-7890, 🇨🇳CN-101.6.142.98*-33210, 🇨🇳CN-103.151.172.93-7890, 🇨🇳CN-103.59.148.187-7899, 🇨🇳CN-106.124.137.81-33210, 🇨🇳CN-106.15.32.138-33210, 🇨🇳CN-106.52.121.30-7890, 🇨🇳CN-110.40.159.92-7891, 🇨🇳CN-111.163.123.27-17890, 🇨🇳CN-112.86.217.118-33210, 🇨🇳CN-113.141.94.84-33210, 🇨🇳CN-113.79.161.46-8881, 🇨🇳CN-114.214.196.155*-33210, 🇨🇳CN-116.196.121.11-7890, 🇨🇳CN-116.238.53.173-7890, 🇨🇳CN-116.62.50.250-7890, 🇨🇳CN-117.174.233.35-7890, 🇨🇳CN-117.23.6.48-33210, 🇨🇳CN-117.50.197.253-7893, 🇨🇳CN-117.63.48.145-7890, 🇨🇳CN-118.24.2.230-7890, 🇨🇳CN-119.189.104.212-6890, 🇨🇳CN-119.34.134.66-7898, 🇨🇳CN-119.57.114.62-7890, 🇨🇳CN-120.24.189.187-33210, 🇨🇳CN-120.25.253.193-33210, 🇨🇳CN-120.79.140.163-7890, 🇨🇳CN-121.224.185.47-7247, 🇨🇳CN-121.229.101.96-1080, 🇨🇳CN-121.33.221.44-7893, 🇨🇳CN-121.37.68.11-7890, 🇨🇳CN-121.4.210.45-33210, 🇨🇳CN-121.41.94.169-7890, 🇨🇳CN-121.5.52.156-7892, 🇨🇳CN-123.117.171.125-7890, 🇨🇳CN-123.249.118.252-18190, 🇨🇳CN-123.249.127.248-7899, 🇨🇳CN-123.56.99.153-33210, 🇨🇳CN-123.58.197.70-443, 🇨🇳CN-124.16.71.238*-33210, 🇨🇳CN-124.221.142.43-7890, 🇨🇳CN-124.221.230.222-7890, 🇨🇳CN-124.223.64.107-7890, 🇨🇳CN-124.234.245.125-37510, 🇨🇳CN-124.79.127.69-20482, 🇨🇳CN-125.124.9.27-7890, 🇨🇳CN-132.232.0.13-7890, 🇨🇳CN-139.224.131.134-7890, 🇨🇳CN-139.224.253.99-33210, 🇨🇳CN-139.227.219.181-7890, 🇨🇳CN-139.9.176.128-7890, 🇨🇳CN-14.115.89.151-7890, 🇨🇳CN-14.123.238.32-7890, 🇨🇳CN-14.212.140.43-7890, 🇨🇳CN-140.255.134.232-7890, 🇨🇳CN-150.158.214.98-33210, 🇨🇳CN-154.12.178.107-29985, 🇨🇳CN-159.75.125.46-7890, 🇨🇳CN-159.75.33.234-7890, 🇨🇳CN-162.14.64.240-7893, 🇨🇳CN-166.111.50.217*-7893, 🇨🇳CN-166.111.53.223*-33210, 🇨🇳CN-171.104.106.177-7902, 🇨🇳CN-175.27.247.28-7890, 🇨🇳CN-180.112.192.99-7890, 🇨🇳CN-180.120.5.37-7890, 🇨🇳CN-182.92.64.239-7890, 🇨🇳CN-182.98.36.167-7890, 🇨🇳CN-193.112.88.21-7890, 🇨🇳CN-194.156.98.99-443, 🇨🇳CN-20.239.80.27-443, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-202.38.67.107*-33210, 🇨🇳CN-202.38.71.143*-33210, 🇨🇳CN-210.45.64.116*-33210, 🇨🇳CN-210.77.29.242*-33210, 🇨🇳CN-218.73.52.42-7890, 🇨🇳CN-221.1.101.185-7890, 🇨🇳CN-222.195.82.132*-33210, 🇨🇳CN-222.64.182.4-7890, 🇨🇳CN-222.67.124.133-7890, 🇨🇳CN-223.165.4.173-989, 🇨🇳CN-27.150.30.119-33210, 🇨🇳CN-27.151.13.205-33210, 🇨🇳CN-27.157.204.162-7890, 🇨🇳CN-39.100.120.200-7890, 🇨🇳CN-39.106.80.73-7890, 🇨🇳CN-39.165.86.185-7890, 🇨🇳CN-39.96.93.57-7890, 🇨🇳CN-39.99.161.62-33336, 🇨🇳CN-42.194.234.236-7890, 🇨🇳CN-43.137.19.131-7890, 🇨🇳CN-43.139.224.158-33210, 🇨🇳CN-43.143.128.180-44789, 🇨🇳CN-43.143.26.175-7890, 🇨🇳CN-43.248.188.118-33210, 🇨🇳CN-47.103.5.145-7190, 🇨🇳CN-47.106.144.184-7890, 🇨🇳CN-47.108.69.115-33210, 🇨🇳CN-47.111.81.30-7890, 🇨🇳CN-47.120.32.61-7890, 🇨🇳CN-47.243.92.199-3128, 🇨🇳CN-47.93.220.24-7890, 🇨🇳CN-47.95.21.135-7890, 🇨🇳CN-47.97.125.212-7890, 🇨🇳CN-47.97.202.146-7893, 🇨🇳CN-47.98.46.112-443, 🇨🇳CN-47.99.180.88-7890, 🇨🇳CN-49.234.104.72-33210, 🇨🇳CN-49.7.133.6-33210, 🇨🇳CN-58.62.235.146-7890, 🇨🇳CN-60.204.132.217-7890, 🇨🇳CN-60.204.168.179-7890, 🇨🇳CN-60.25.246.48-7892, 🇨🇳CN-62.234.192.67-7890, 🇨🇳CN-62.234.193.73-7890, 🇨🇳CN-62.234.28.193-33210, 🇨🇳CN-8.140.135.120-7899, 🇨🇳CN-8.141.12.49-7890, 🇨🇳CN-8.217.135.205-443, 🇨🇳CN-8.217.217.138-80, 🇨🇳CN-81.68.166.248-7890, 🇨🇳CN-81.70.224.152-33210, 🇨🇳CN-81.70.46.92-7890, 🇨🇳CN-81.70.55.129-33210, 🇨🇳CN-81.71.4.7-7890, 🇨🇳CN-82.157.163.144-7890, 🇨🇳CN-82.157.75.151-6000, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+url-latency-benchmark=♻️ IPv6 Nodes - Auto Select, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Auto.png
+static=🚀 IPv6 Nodes - Manual Select, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+
+[server_remote]
+
+[filter_remote]
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/ChinaMedia.list, tag=🌏 China Media, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/ChinaIPv4.list, tag=🎯 China Website, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/ChinaIPv6.list, tag=🎯 China Website, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/ChinaDomain.list, tag=🎯 China Website, enabled=true
+
+[rewrite_remote]
+
+[server_local]
+vmess = 255.255.255.255:10086, method=chacha20-ietf-poly1305, password=00000000-0000-0000-0000-000000000000, fast-open=false, udp-relay=true, tag=File Creation Time: Sun Jan 14 09:33:22 GMT 2024
+http = 1.116.50.118:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-1.116.50.118-33210
+shadowsocks = 1.65.139.54:443, method=aes-128-gcm, password=a-wym4ovY4Yw, obfs=ws, fast-open=false, udp-relay=true, tag=🇨🇳CN-1.65.139.54-443
+http = 1.92.104.64:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-1.92.104.64-7890
+http = 101.132.118.201:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-101.132.118.201-7890
+http = 101.33.212.85:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-101.33.212.85-7890
+http = 101.35.55.43:3389, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-101.35.55.43-3389
+http = 101.42.19.253:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-101.42.19.253-7890
+http = 101.6.142.98:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-101.6.142.98*-33210
+http = 47.113.190.47:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-103.151.172.93-7890
+http = 103.59.148.187:7899, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-103.59.148.187-7899
+http = 106.124.137.81:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-106.124.137.81-33210
+http = 106.15.32.138:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-106.15.32.138-33210
+http = 106.52.121.30:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-106.52.121.30-7890
+http = 110.40.159.92:7891, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-110.40.159.92-7891
+http = 47.94.225.51:17890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-111.163.123.27-17890
+http = 112.86.217.118:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-112.86.217.118-33210
+http = 113.141.94.84:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-113.141.94.84-33210
+http = 113.79.161.46:8881, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-113.79.161.46-8881
+http = 114.214.196.155:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-114.214.196.155*-33210
+http = 116.196.121.11:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-116.196.121.11-7890
+http = 116.238.53.173:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-116.238.53.173-7890
+http = 116.62.50.250:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-116.62.50.250-7890
+http = 132.232.11.158:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-117.174.233.35-7890
+http = 117.23.6.48:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-117.23.6.48-33210
+http = 117.50.197.253:7893, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-117.50.197.253-7893
+http = 117.63.48.145:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-117.63.48.145-7890
+http = 118.24.2.230:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-118.24.2.230-7890
+http = 119.189.104.212:6890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-119.189.104.212-6890
+http = 119.34.134.66:7898, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-119.34.134.66-7898
+http = 119.57.114.62:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-119.57.114.62-7890
+http = 120.24.189.187:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-120.24.189.187-33210
+http = 120.25.253.193:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-120.25.253.193-33210
+http = 120.79.140.163:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-120.79.140.163-7890
+http = 121.224.185.47:7247, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-121.224.185.47-7247
+socks5 = 121.229.101.96:1080, fast-open=false, udp-relay=true, tag=🇨🇳CN-121.229.101.96-1080
+http = 121.33.221.44:7893, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-121.33.221.44-7893
+http = 121.37.68.11:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-121.37.68.11-7890
+http = 121.4.210.45:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-121.4.210.45-33210
+http = 121.41.94.169:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-121.41.94.169-7890
+http = 121.5.52.156:7892, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-121.5.52.156-7892
+http = 123.117.171.125:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-123.117.171.125-7890
+http = 123.249.118.252:18190, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-123.249.118.252-18190
+http = 123.249.127.248:7899, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-123.249.127.248-7899
+http = 123.56.99.153:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-123.56.99.153-33210
+vmess = 123.58.197.70:443, method=chacha20-ietf-poly1305, password=4ca0196c-05e7-45eb-9036-692c201f45fb, obfs=ws, obfs-host=, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇨🇳CN-123.58.197.70-443
+http = 124.16.71.238:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-124.16.71.238*-33210
+http = 124.221.142.43:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-124.221.142.43-7890
+http = 124.221.230.222:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-124.221.230.222-7890
+http = 124.223.64.107:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-124.223.64.107-7890
+http = 124.234.245.125:37510, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-124.234.245.125-37510
+http = 124.79.127.69:20482, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-124.79.127.69-20482
+http = 125.124.9.27:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-125.124.9.27-7890
+http = 132.232.0.13:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-132.232.0.13-7890
+http = 139.224.131.134:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-139.224.131.134-7890
+http = 139.224.253.99:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-139.224.253.99-33210
+http = 139.227.219.181:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-139.227.219.181-7890
+http = 139.9.176.128:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-139.9.176.128-7890
+http = 14.115.89.151:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-14.115.89.151-7890
+http = 14.123.238.32:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-14.123.238.32-7890
+http = 14.212.140.43:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-14.212.140.43-7890
+http = 140.255.134.232:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-140.255.134.232-7890
+http = 150.158.214.98:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-150.158.214.98-33210
+socks5 = 154.12.178.107:29985, fast-open=false, udp-relay=true, tag=🇨🇳CN-154.12.178.107-29985
+http = 159.75.125.46:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-159.75.125.46-7890
+http = 159.75.33.234:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-159.75.33.234-7890
+http = 162.14.64.240:7893, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-162.14.64.240-7893
+http = 166.111.50.217:7893, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-166.111.50.217*-7893
+http = 166.111.53.223:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-166.111.53.223*-33210
+http = 171.104.106.177:7902, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-171.104.106.177-7902
+http = 175.27.247.28:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-175.27.247.28-7890
+http = 180.112.192.99:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-180.112.192.99-7890
+http = mbobpop.jhr1314.myds.me:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-180.120.5.37-7890
+http = 182.92.64.239:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-182.92.64.239-7890
+http = 182.98.36.167:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-182.98.36.167-7890
+http = 193.112.88.21:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-193.112.88.21-7890
+trojan = hk-full.privateip.net:443, password=3c84d547-d058-48ef-8fd9-f9215cfbcbba, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-194.156.98.99-443
+vmess = hkaz.takeshi.wiki:443, method=chacha20-ietf-poly1305, password=b6ede839-a472-4b75-9961-1b5a82c38a6a, tls13=false, obfs=wss, obfs-host=hkaz.takeshi.wiki, obfs-uri=/takeshi.wiki, fast-open=false, udp-relay=true, tls-verification=false, tag=🇨🇳CN-20.239.80.27-443
+http = 202.112.51.155:27978, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-202.112.51.155*-27978
+http = 202.38.67.107:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-202.38.67.107*-33210
+http = 202.38.71.143:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-202.38.71.143*-33210
+http = 210.45.64.116:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-210.45.64.116*-33210
+http = 210.77.29.242:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-210.77.29.242*-33210
+http = 218.73.52.42:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-218.73.52.42-7890
+http = 221.1.101.185:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-221.1.101.185-7890
+http = 222.195.82.132:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-222.195.82.132*-33210
+http = 222.64.182.4:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-222.64.182.4-7890
+http = 222.67.124.133:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-222.67.124.133-7890
+shadowsocks = 223.165.4.173:989, method=aes-256-cfb, password=f8f7aCzcPKbsF8p3, fast-open=false, udp-relay=true, tag=🇨🇳CN-223.165.4.173-989
+http = 27.150.30.119:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-27.150.30.119-33210
+http = 27.151.13.205:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-27.151.13.205-33210
+http = 27.157.204.162:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-27.157.204.162-7890
+http = 39.100.120.200:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-39.100.120.200-7890
+http = 39.106.80.73:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-39.106.80.73-7890
+http = 39.165.86.185:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-39.165.86.185-7890
+http = 39.96.93.57:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-39.96.93.57-7890
+http = 39.99.161.62:33336, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-39.99.161.62-33336
+http = 42.194.234.236:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-42.194.234.236-7890
+http = 43.137.19.131:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-43.137.19.131-7890
+http = 43.139.224.158:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-43.139.224.158-33210
+http = 43.143.128.180:44789, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-43.143.128.180-44789
+http = 43.143.26.175:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-43.143.26.175-7890
+http = 43.248.188.118:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-43.248.188.118-33210
+http = 47.103.5.145:7190, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.103.5.145-7190
+http = 47.106.144.184:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.106.144.184-7890
+http = 47.108.69.115:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.108.69.115-33210
+http = 47.111.81.30:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.111.81.30-7890
+http = 47.120.32.61:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.120.32.61-7890
+http = 47.243.92.199:3128, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.243.92.199-3128
+http = 47.93.220.24:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.93.220.24-7890
+http = 47.95.21.135:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.95.21.135-7890
+http = 47.97.125.212:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.97.125.212-7890
+http = 47.97.202.146:7893, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.97.202.146-7893
+http = 47.98.46.112:443, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.98.46.112-443
+http = 47.99.180.88:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.99.180.88-7890
+http = 49.234.104.72:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-49.234.104.72-33210
+http = 49.7.133.6:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-49.7.133.6-33210
+http = 58.62.235.146:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-58.62.235.146-7890
+http = 60.204.132.217:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-60.204.132.217-7890
+http = 60.204.168.179:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-60.204.168.179-7890
+http = 60.25.246.48:7892, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-60.25.246.48-7892
+http = 62.234.192.67:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-62.234.192.67-7890
+http = 62.234.193.73:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-62.234.193.73-7890
+http = 62.234.28.193:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-62.234.28.193-33210
+http = 8.140.135.120:7899, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-8.140.135.120-7899
+http = 8.141.12.49:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-8.141.12.49-7890
+shadowsocks = 8.217.135.205:443, method=aes-128-gcm, password=a-wym4ovY4Yw, obfs=ws, fast-open=false, udp-relay=true, tag=🇨🇳CN-8.217.135.205-443
+shadowsocks = 8.217.217.138:80, method=aes-128-gcm, password=a-wym4ovY4Yw, obfs=http, fast-open=false, udp-relay=true, tag=🇨🇳CN-8.217.217.138-80
+http = 81.68.166.248:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-81.68.166.248-7890
+http = 81.70.224.152:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-81.70.224.152-33210
+http = 81.70.46.92:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-81.70.46.92-7890
+http = 81.70.55.129:33210, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-81.70.55.129-33210
+http = 81.71.4.7:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-81.71.4.7-7890
+http = 82.157.163.144:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-82.157.163.144-7890
+http = 82.157.75.151:6000, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-82.157.75.151-6000
+
+[filter_local]
+GEOIP,CN,🎯 China Website
+FINAL,🐟 Remaining Website
+
+[rewrite_local]
+
+[mitm]
+
