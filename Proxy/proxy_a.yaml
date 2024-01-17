@@ -1,7 +1,0 @@
-proxies:
-  - {"name": "File Creation Time: Tue Jan 16 12:01:51 UTC 2024", "server": "255.255.255.255", "port": 10086, "type": "vmess", "alterId": 0, "cipher": "auto", "skip-cert-verify": true, "tls": false, "udp": true, "uuid": "00000000-0000-0000-0000-000000000000"}
-  - {"name": "🇨🇳CN-124.221.230.222-7890", "server": "124.221.230.222", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
-  - {"name": "🇨🇳CN-150.158.214.98-33210", "server": "150.158.214.98", "port": 33210, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
-  - {"name": "🇨🇳CN-202.38.67.107*-33210", "server": "202.38.67.107", "port": 33210, "type": "http", "skip-cert-verify": true, "tls": false, "udp": true}
-  - {"name": "🇨🇳CN-47.108.69.115-33210", "server": "47.108.69.115", "port": 33210, "type": "http", "skip-cert-verify": true, "tls": false, "udp": true}
-  - {"name": "🇨🇳CN-81.68.166.248-7890", "server": "81.68.166.248", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
