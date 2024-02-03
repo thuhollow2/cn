@@ -1,0 +1,157 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/thuhollow2/cn/main/Surge4/surge4config.yaml interval=86400 strict=false
+
+[General]
+loglevel = notify
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
+# DNS settings or set them accordingly to your own network conditions.
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+dns-server = 1.0.0.1,8.8.4.4
+
+[Proxy]
+DIRECT = direct
+File Creation Time: Tue Jan  2 18:54:07 GMT 2024 = vmess, 255.255.255.255, 10086, username=00000000-0000-0000-0000-000000000000, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-1.116.1.32-7890 = http, 1.116.1.32, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-1.12.70.96-33210 = http, 1.12.70.96, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-1.14.60.68-33210 = http, 1.14.60.68, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-1.164.140.238-5643 = vmess, b11.ntbq.dynu.net, 5643, username=e6967991-7b0a-4d1a-a37b-5eb3b78d4c15, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-101.33.212.85-7890 = http, 101.33.212.85, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-101.34.72.57-7890 = http, 101.34.72.57, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-101.35.55.43-3389 = http, 101.35.55.43, 3389, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-101.43.155.136-7890 = http, 101.43.155.136, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-101.43.192.118-7890 = http, 101.43.192.118, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-101.6.35.49*-33780 = http, 101.6.35.49, 33780, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-101.6.41.235*-7893 = http, 101.6.41.235, 7893, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-101.6.51.6*-33210 = http, 101.6.51.6, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-101.6.69.176*-33210 = http, 101.6.69.176, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-101.6.69.60*-7893 = http, 101.6.69.60, 7893, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-103.110.33.7-80 = vmess, 103.110.33.7, 80, username=6f84907f-0f24-4d9f-9826-fc59fe89ccfe, tls=false, vmess-aead=true, ws=true, ws-path=/net5g.pro, sni=103.110.33.7, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-103.6.223.2-3128 = http, 103.6.223.2, 3128, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-104.28.245.199-7890 = http, 171.95.10.146, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-106.12.134.104-7890 = http, 106.12.134.104, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-106.15.32.138-33210 = http, 106.15.32.138, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-106.15.52.244-33210 = http, 106.15.52.244, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-106.15.65.176-7893 = http, 106.15.65.176, 7893, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-106.225.223.72-7890 = http, 106.225.223.72, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-106.55.197.115-7890 = http, 106.55.197.115, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-106.55.228.66-7890 = http, 106.55.228.66, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-110.184.19.231-9212 = http, 110.184.19.231, 9212, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-111.230.251.89-7890 = http, 111.230.251.89, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-111.51.90.54-7890 = http, 111.51.90.54, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-111.77.206.35-7890 = http, 111.77.206.35, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-112.91.139.123-7890 = http, 112.91.139.123, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-113.109.160.57-37893 = http, 113.109.160.57, 37893, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-113.141.85.13-33210 = http, 113.141.85.13, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-113.141.94.84-33210 = http, 113.141.94.84, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-113.87.224.28-7890 = http, 113.87.224.28, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-114.214.196.155*-33210 = http, 114.214.196.155, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-114.37.134.202-2024 = vmess, b23.ntbq.dynu.net, 2024, username=e6967991-7b0a-4d1a-a37b-5eb3b78d4c15, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-114.95.217.129-7890 = http, 114.95.217.129, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-115.171.217.48-7890 = http, 115.171.217.48, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-117.23.6.48-33210 = http, 117.23.6.48, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-118.114.86.248-7898 = http, 118.114.86.248, 7898, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-118.167.76.130-7773 = ss, b13.ntbq.dynu.net, 7773, encrypt-method=chacha20-ietf-poly1305, password=4c698ff1-ab96-4ce3-8c3a-e23ced87b441, tfo=false, udp-relay=true
+🇨🇳CN-119.23.251.29-7890 = http, 119.23.251.29, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-119.237.38.160-443 = trojan, hk03.trojanyyds.xyz, 443, password=93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni=hk03.trojanyyds.xyz, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-119.91.218.94-7890 = http, 119.91.218.94, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-119.91.23.157-33210 = http, 119.91.23.157, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-120.25.2.184-7890 = http, 120.25.2.184, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-121.235.203.225-7890 = http, 121.235.203.225, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-121.33.221.44-7893 = http, 121.33.221.44, 7893, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-121.5.52.156-7892 = http, 121.5.52.156, 7892, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-123.112.254.193-7890 = http, 123.112.254.193, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-123.125.240.218-7890 = http, 123.125.240.218, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-123.126.158.50-80 = http, 123.126.158.50, 80, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-123.58.197.70-443 = vmess, 123.58.197.70, 443, username=4ca0196c-05e7-45eb-9036-692c201f45fb, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=123.58.197.70, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-124.221.142.43-7890 = http, 124.221.142.43, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-125.124.9.27-7890 = http, 125.124.9.27, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-129.211.218.155-7890 = http, 129.211.218.155, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-139.196.78.175-7890 = http, 139.196.78.175, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-139.198.120.15-29527 = socks5, 139.198.120.15, 29527, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-139.198.168.65-7890 = http, 139.198.168.65, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-139.224.131.134-7890 = http, 139.224.131.134, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-139.9.176.128-7890 = http, 139.9.176.128, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-14.135.74.181-7890 = http, 14.135.74.181, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-14.153.215.237-7890 = http, 14.153.215.237, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-14.19.167.88-6660 = http, 14.19.167.88, 6660, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-14.212.140.10-7890 = http, 14.212.140.10, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-159.75.125.46-7890 = http, 159.75.125.46, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-159.75.178.50-47551 = vmess, 159.75.178.50, 47551, username=2500a228-8c00-4934-81e0-22281c015a33, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=159.75.178.50, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-159.75.33.234-7890 = http, 159.75.33.234, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-162.14.64.240-7893 = http, 162.14.64.240, 7893, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-166.111.249.124*-7893 = http, 166.111.249.124, 7893, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-166.111.41.14*-33210 = http, 166.111.41.14, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-175.178.164.182-7890 = http, 175.178.164.182, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-182.43.110.114-33210 = http, 182.43.110.114, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-182.43.12.244-7895 = http, 182.43.12.244, 7895, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-182.44.48.63-7892 = http, 182.44.48.63, 7892, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-182.92.100.20-7890 = http, 182.92.100.20, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-183.173.242.150*-33210 = http, 183.173.242.150, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-20.239.80.27-443 = vmess, hkaz.takeshi.wiki, 443, username=b6ede839-a472-4b75-9961-1b5a82c38a6a, tls=true, vmess-aead=true, tls13=false, ws=true, ws-path=/takeshi.wiki, sni=hkaz.takeshi.wiki, ws-headers=Host:hkaz.takeshi.wiki, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-203.198.16.219-443 = trojan, download2hkt.windowsupdatea.com, 443, password=29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni=glc-hkt2.windowsupdatea.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-210.77.30.38*-9893 = http, 210.77.30.38, 9893, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-221.219.97.143-7890 = http, 221.219.97.143, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-221.237.112.235-3003 = http, 221.237.112.235, 3003, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-222.190.246.206-10002 = http, 222.190.246.206, 10002, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-222.195.82.132*-33210 = http, 222.195.82.132, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-222.195.83.56*-33210 = http, 222.195.83.56, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-27.150.30.119-33210 = http, 27.150.30.119, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-36.138.4.65-7890 = http, 36.138.4.65, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-39.100.120.200-7890 = http, 39.100.120.200, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-39.101.244.246-7893 = http, 39.101.244.246, 7893, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-39.105.205.97-33210 = http, 39.105.205.97, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-39.108.224.175-7890 = http, 39.108.224.175, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-39.108.60.192-7890 = http, 39.108.60.192, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-39.165.86.185-7890 = http, 39.165.86.185, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-39.99.161.62-33336 = http, 39.99.161.62, 33336, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-42.53.173.10-7890 = http, 42.53.173.10, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-45.121.48.172-10001 = vmess, 45.121.48.172, 10001, username=dba51a2e-a788-43b7-9ac4-9f7cc1255f15, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-45.121.48.196-10001 = vmess, 45.121.48.196, 10001, username=0ed35629-919a-4891-ba0f-13cd198f863b, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-47.103.5.145-7190 = http, 47.103.5.145, 7190, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-47.108.69.115-33210 = http, 47.108.69.115, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-47.109.35.106-33210 = http, 47.109.35.106, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-47.119.22.174-7890 = http, 47.119.22.174, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-47.120.32.61-7890 = http, 47.120.32.61, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-47.93.220.24-7890 = http, 47.93.220.24, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-47.94.254.54-7890 = http, 47.94.254.54, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-47.96.139.139-7890 = http, 47.96.139.139, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-47.99.180.88-7890 = http, 47.99.180.88, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-47.99.45.126-7890 = http, 47.99.45.126, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-49.232.237.42-11449 = http, 49.232.237.42, 11449, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-49.234.104.72-33210 = http, 49.234.104.72, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-60.163.13.141-7890 = http, 60.163.13.141, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-60.204.132.217-7890 = http, 60.204.132.217, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-60.204.168.179-7890 = http, 60.204.168.179, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-61.170.164.66-7892 = http, 61.170.164.66, 7892, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-61.228.139.221-12002 = vmess, nb22.ntbq.dynu.net, 12002, username=e6967991-7b0a-4d1a-a37b-5eb3b78d4c15, tls=false, vmess-aead=true, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-62.234.193.73-7890 = http, 62.234.193.73, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-62.234.28.193-33210 = http, 62.234.28.193, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-8.141.12.49-7890 = http, 8.141.12.49, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-8.142.17.112-33210 = http, 8.142.17.112, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-8.217.17.254-443 = trojan, 8.217.17.254, 443, password=84b5b76e-3fdf-4673-bee0-959181c6b702, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-8.217.178.215-80 = ss, 8.217.178.215, 80, encrypt-method=aes-128-gcm, password=a-wym4ovY4Yw,obfs=http, tfo=false, udp-relay=true
+🇨🇳CN-8.217.217.138-80 = ss, 8.217.217.138, 80, encrypt-method=aes-128-gcm, password=a-wym4ovY4Yw,obfs=http, tfo=false, udp-relay=true
+🇨🇳CN-8.217.93.104-443 = vmess, 8.217.93.104, 443, username=dcd70249-06fa-4fe7-aaed-cbba86ac125b, tls=true, vmess-aead=true, tls13=false, ws=true, ws-path=/stream, sni=8.217.93.104, ws-headers=Host:sptufp5n3o19imic.iwebsocket.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-8.218.63.204-80 = ss, 8.218.63.204, 80, encrypt-method=aes-128-gcm, password=a-wym4ovY4Yw,obfs=http, tfo=false, udp-relay=true
+🇨🇳CN-81.68.166.248-7890 = http, 81.68.166.248, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-81.70.224.152-33210 = http, 81.70.224.152, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-81.71.4.7-7890 = http, 81.71.4.7, 7890, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳CN-82.156.107.192-33210 = http, 82.156.107.192, 33210, tls=false, skip-cert-verify=true, tfo=false, udp-relay=true
+
+[Proxy Group]
+🚀 Node Group = select,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,♻️ IPv6 Nodes - Auto Select,🚀 IPv6 Nodes - Manual Select,DIRECT,REJECT
+🌏 China Media = select,🚀 Node Group,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,♻️ IPv6 Nodes - Auto Select,🚀 IPv6 Nodes - Manual Select,DIRECT,REJECT
+🎯 China Website = select,🚀 Node Group,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,♻️ IPv6 Nodes - Auto Select,🚀 IPv6 Nodes - Manual Select,DIRECT,REJECT
+🐟 Remaining Website = select,DIRECT,🚀 Node Group,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,♻️ IPv6 Nodes - Auto Select,🚀 IPv6 Nodes - Manual Select,REJECT
+♻️ All Nodes - Auto Select = url-test,🇨🇳CN-1.116.1.32-7890,🇨🇳CN-1.12.70.96-33210,🇨🇳CN-1.14.60.68-33210,🇨🇳CN-1.164.140.238-5643,🇨🇳CN-101.33.212.85-7890,🇨🇳CN-101.34.72.57-7890,🇨🇳CN-101.35.55.43-3389,🇨🇳CN-101.43.155.136-7890,🇨🇳CN-101.43.192.118-7890,🇨🇳CN-101.6.35.49*-33780,🇨🇳CN-101.6.41.235*-7893,🇨🇳CN-101.6.51.6*-33210,🇨🇳CN-101.6.69.176*-33210,🇨🇳CN-101.6.69.60*-7893,🇨🇳CN-103.110.33.7-80,🇨🇳CN-103.6.223.2-3128,🇨🇳CN-104.28.245.199-7890,🇨🇳CN-106.12.134.104-7890,🇨🇳CN-106.15.32.138-33210,🇨🇳CN-106.15.52.244-33210,🇨🇳CN-106.15.65.176-7893,🇨🇳CN-106.225.223.72-7890,🇨🇳CN-106.55.197.115-7890,🇨🇳CN-106.55.228.66-7890,🇨🇳CN-110.184.19.231-9212,🇨🇳CN-111.230.251.89-7890,🇨🇳CN-111.51.90.54-7890,🇨🇳CN-111.77.206.35-7890,🇨🇳CN-112.91.139.123-7890,🇨🇳CN-113.109.160.57-37893,🇨🇳CN-113.141.85.13-33210,🇨🇳CN-113.141.94.84-33210,🇨🇳CN-113.87.224.28-7890,🇨🇳CN-114.214.196.155*-33210,🇨🇳CN-114.37.134.202-2024,🇨🇳CN-114.95.217.129-7890,🇨🇳CN-115.171.217.48-7890,🇨🇳CN-117.23.6.48-33210,🇨🇳CN-118.114.86.248-7898,🇨🇳CN-118.167.76.130-7773,🇨🇳CN-119.23.251.29-7890,🇨🇳CN-119.237.38.160-443,🇨🇳CN-119.91.218.94-7890,🇨🇳CN-119.91.23.157-33210,🇨🇳CN-120.25.2.184-7890,🇨🇳CN-121.235.203.225-7890,🇨🇳CN-121.33.221.44-7893,🇨🇳CN-121.5.52.156-7892,🇨🇳CN-123.112.254.193-7890,🇨🇳CN-123.125.240.218-7890,🇨🇳CN-123.126.158.50-80,🇨🇳CN-123.58.197.70-443,🇨🇳CN-124.221.142.43-7890,🇨🇳CN-125.124.9.27-7890,🇨🇳CN-129.211.218.155-7890,🇨🇳CN-139.196.78.175-7890,🇨🇳CN-139.198.120.15-29527,🇨🇳CN-139.198.168.65-7890,🇨🇳CN-139.224.131.134-7890,🇨🇳CN-139.9.176.128-7890,🇨🇳CN-14.135.74.181-7890,🇨🇳CN-14.153.215.237-7890,🇨🇳CN-14.19.167.88-6660,🇨🇳CN-14.212.140.10-7890,🇨🇳CN-159.75.125.46-7890,🇨🇳CN-159.75.178.50-47551,🇨🇳CN-159.75.33.234-7890,🇨🇳CN-162.14.64.240-7893,🇨🇳CN-166.111.249.124*-7893,🇨🇳CN-166.111.41.14*-33210,🇨🇳CN-175.178.164.182-7890,🇨🇳CN-182.43.110.114-33210,🇨🇳CN-182.43.12.244-7895,🇨🇳CN-182.44.48.63-7892,🇨🇳CN-182.92.100.20-7890,🇨🇳CN-183.173.242.150*-33210,🇨🇳CN-20.239.80.27-443,🇨🇳CN-203.198.16.219-443,🇨🇳CN-210.77.30.38*-9893,🇨🇳CN-221.219.97.143-7890,🇨🇳CN-221.237.112.235-3003,🇨🇳CN-222.190.246.206-10002,🇨🇳CN-222.195.82.132*-33210,🇨🇳CN-222.195.83.56*-33210,🇨🇳CN-27.150.30.119-33210,🇨🇳CN-36.138.4.65-7890,🇨🇳CN-39.100.120.200-7890,🇨🇳CN-39.101.244.246-7893,🇨🇳CN-39.105.205.97-33210,🇨🇳CN-39.108.224.175-7890,🇨🇳CN-39.108.60.192-7890,🇨🇳CN-39.165.86.185-7890,🇨🇳CN-39.99.161.62-33336,🇨🇳CN-42.53.173.10-7890,🇨🇳CN-45.121.48.172-10001,🇨🇳CN-45.121.48.196-10001,🇨🇳CN-47.103.5.145-7190,🇨🇳CN-47.108.69.115-33210,🇨🇳CN-47.109.35.106-33210,🇨🇳CN-47.119.22.174-7890,🇨🇳CN-47.120.32.61-7890,🇨🇳CN-47.93.220.24-7890,🇨🇳CN-47.94.254.54-7890,🇨🇳CN-47.96.139.139-7890,🇨🇳CN-47.99.180.88-7890,🇨🇳CN-47.99.45.126-7890,🇨🇳CN-49.232.237.42-11449,🇨🇳CN-49.234.104.72-33210,🇨🇳CN-60.163.13.141-7890,🇨🇳CN-60.204.132.217-7890,🇨🇳CN-60.204.168.179-7890,🇨🇳CN-61.170.164.66-7892,🇨🇳CN-61.228.139.221-12002,🇨🇳CN-62.234.193.73-7890,🇨🇳CN-62.234.28.193-33210,🇨🇳CN-8.141.12.49-7890,🇨🇳CN-8.142.17.112-33210,🇨🇳CN-8.217.17.254-443,🇨🇳CN-8.217.178.215-80,🇨🇳CN-8.217.217.138-80,🇨🇳CN-8.217.93.104-443,🇨🇳CN-8.218.63.204-80,🇨🇳CN-81.68.166.248-7890,🇨🇳CN-81.70.224.152-33210,🇨🇳CN-81.71.4.7-7890,🇨🇳CN-82.156.107.192-33210,url=http://www.apple.com/library/test/success.html,interval=300,tolerance=50
+🚀 All Nodes - 1 - Manual Select = select,File Creation Time: Tue Jan  2 18:54:07 GMT 2024,🇨🇳CN-1.116.1.32-7890,🇨🇳CN-1.12.70.96-33210,🇨🇳CN-1.14.60.68-33210,🇨🇳CN-1.164.140.238-5643,🇨🇳CN-101.33.212.85-7890,🇨🇳CN-101.34.72.57-7890,🇨🇳CN-101.35.55.43-3389,🇨🇳CN-101.43.155.136-7890,🇨🇳CN-101.43.192.118-7890,🇨🇳CN-101.6.35.49*-33780,🇨🇳CN-101.6.41.235*-7893,🇨🇳CN-101.6.51.6*-33210,🇨🇳CN-101.6.69.176*-33210,🇨🇳CN-101.6.69.60*-7893,🇨🇳CN-103.110.33.7-80,🇨🇳CN-103.6.223.2-3128,🇨🇳CN-104.28.245.199-7890,🇨🇳CN-106.12.134.104-7890,🇨🇳CN-106.15.32.138-33210,🇨🇳CN-106.15.52.244-33210,🇨🇳CN-106.15.65.176-7893,🇨🇳CN-106.225.223.72-7890,🇨🇳CN-106.55.197.115-7890,🇨🇳CN-106.55.228.66-7890,🇨🇳CN-110.184.19.231-9212,🇨🇳CN-111.230.251.89-7890,🇨🇳CN-111.51.90.54-7890,🇨🇳CN-111.77.206.35-7890,🇨🇳CN-112.91.139.123-7890,🇨🇳CN-113.109.160.57-37893,🇨🇳CN-113.141.85.13-33210,🇨🇳CN-113.141.94.84-33210,🇨🇳CN-113.87.224.28-7890,🇨🇳CN-114.214.196.155*-33210,🇨🇳CN-114.37.134.202-2024,🇨🇳CN-114.95.217.129-7890,🇨🇳CN-115.171.217.48-7890,🇨🇳CN-117.23.6.48-33210,🇨🇳CN-118.114.86.248-7898,🇨🇳CN-118.167.76.130-7773,🇨🇳CN-119.23.251.29-7890,🇨🇳CN-119.237.38.160-443,🇨🇳CN-119.91.218.94-7890,🇨🇳CN-119.91.23.157-33210,🇨🇳CN-120.25.2.184-7890,🇨🇳CN-121.235.203.225-7890,🇨🇳CN-121.33.221.44-7893,🇨🇳CN-121.5.52.156-7892,🇨🇳CN-123.112.254.193-7890,🇨🇳CN-123.125.240.218-7890,🇨🇳CN-123.126.158.50-80,🇨🇳CN-123.58.197.70-443,🇨🇳CN-124.221.142.43-7890,🇨🇳CN-125.124.9.27-7890,🇨🇳CN-129.211.218.155-7890,🇨🇳CN-139.196.78.175-7890,🇨🇳CN-139.198.120.15-29527,🇨🇳CN-139.198.168.65-7890,🇨🇳CN-139.224.131.134-7890,🇨🇳CN-139.9.176.128-7890,🇨🇳CN-14.135.74.181-7890,🇨🇳CN-14.153.215.237-7890,🇨🇳CN-14.19.167.88-6660,🇨🇳CN-14.212.140.10-7890,🇨🇳CN-159.75.125.46-7890,🇨🇳CN-159.75.178.50-47551,🇨🇳CN-159.75.33.234-7890,🇨🇳CN-162.14.64.240-7893,🇨🇳CN-166.111.249.124*-7893,🇨🇳CN-166.111.41.14*-33210,🇨🇳CN-175.178.164.182-7890,🇨🇳CN-182.43.110.114-33210,🇨🇳CN-182.43.12.244-7895,🇨🇳CN-182.44.48.63-7892,🇨🇳CN-182.92.100.20-7890,🇨🇳CN-183.173.242.150*-33210,🇨🇳CN-20.239.80.27-443,🇨🇳CN-203.198.16.219-443,🇨🇳CN-210.77.30.38*-9893,🇨🇳CN-221.219.97.143-7890,🇨🇳CN-221.237.112.235-3003,🇨🇳CN-222.190.246.206-10002,🇨🇳CN-222.195.82.132*-33210,🇨🇳CN-222.195.83.56*-33210,🇨🇳CN-27.150.30.119-33210,🇨🇳CN-36.138.4.65-7890,🇨🇳CN-39.100.120.200-7890,🇨🇳CN-39.101.244.246-7893,🇨🇳CN-39.105.205.97-33210,🇨🇳CN-39.108.224.175-7890,🇨🇳CN-39.108.60.192-7890,🇨🇳CN-39.165.86.185-7890,🇨🇳CN-39.99.161.62-33336,🇨🇳CN-42.53.173.10-7890,🇨🇳CN-45.121.48.172-10001,🇨🇳CN-45.121.48.196-10001,🇨🇳CN-47.103.5.145-7190,🇨🇳CN-47.108.69.115-33210,🇨🇳CN-47.109.35.106-33210,🇨🇳CN-47.119.22.174-7890,🇨🇳CN-47.120.32.61-7890,🇨🇳CN-47.93.220.24-7890,🇨🇳CN-47.94.254.54-7890,🇨🇳CN-47.96.139.139-7890,🇨🇳CN-47.99.180.88-7890,🇨🇳CN-47.99.45.126-7890,🇨🇳CN-49.232.237.42-11449,🇨🇳CN-49.234.104.72-33210,🇨🇳CN-60.163.13.141-7890,🇨🇳CN-60.204.132.217-7890,🇨🇳CN-60.204.168.179-7890,🇨🇳CN-61.170.164.66-7892,🇨🇳CN-61.228.139.221-12002,🇨🇳CN-62.234.193.73-7890,🇨🇳CN-62.234.28.193-33210,🇨🇳CN-8.141.12.49-7890,🇨🇳CN-8.142.17.112-33210,🇨🇳CN-8.217.17.254-443,🇨🇳CN-8.217.178.215-80,🇨🇳CN-8.217.217.138-80,🇨🇳CN-8.217.93.104-443,🇨🇳CN-8.218.63.204-80,🇨🇳CN-81.68.166.248-7890,🇨🇳CN-81.70.224.152-33210,🇨🇳CN-81.71.4.7-7890,🇨🇳CN-82.156.107.192-33210
+🚀 All Nodes - 2 - Manual Select = select,File Creation Time: Tue Jan  2 18:54:07 GMT 2024,🇨🇳CN-1.116.1.32-7890,🇨🇳CN-1.12.70.96-33210,🇨🇳CN-1.14.60.68-33210,🇨🇳CN-1.164.140.238-5643,🇨🇳CN-101.33.212.85-7890,🇨🇳CN-101.34.72.57-7890,🇨🇳CN-101.35.55.43-3389,🇨🇳CN-101.43.155.136-7890,🇨🇳CN-101.43.192.118-7890,🇨🇳CN-101.6.35.49*-33780,🇨🇳CN-101.6.41.235*-7893,🇨🇳CN-101.6.51.6*-33210,🇨🇳CN-101.6.69.176*-33210,🇨🇳CN-101.6.69.60*-7893,🇨🇳CN-103.110.33.7-80,🇨🇳CN-103.6.223.2-3128,🇨🇳CN-104.28.245.199-7890,🇨🇳CN-106.12.134.104-7890,🇨🇳CN-106.15.32.138-33210,🇨🇳CN-106.15.52.244-33210,🇨🇳CN-106.15.65.176-7893,🇨🇳CN-106.225.223.72-7890,🇨🇳CN-106.55.197.115-7890,🇨🇳CN-106.55.228.66-7890,🇨🇳CN-110.184.19.231-9212,🇨🇳CN-111.230.251.89-7890,🇨🇳CN-111.51.90.54-7890,🇨🇳CN-111.77.206.35-7890,🇨🇳CN-112.91.139.123-7890,🇨🇳CN-113.109.160.57-37893,🇨🇳CN-113.141.85.13-33210,🇨🇳CN-113.141.94.84-33210,🇨🇳CN-113.87.224.28-7890,🇨🇳CN-114.214.196.155*-33210,🇨🇳CN-114.37.134.202-2024,🇨🇳CN-114.95.217.129-7890,🇨🇳CN-115.171.217.48-7890,🇨🇳CN-117.23.6.48-33210,🇨🇳CN-118.114.86.248-7898,🇨🇳CN-118.167.76.130-7773,🇨🇳CN-119.23.251.29-7890,🇨🇳CN-119.237.38.160-443,🇨🇳CN-119.91.218.94-7890,🇨🇳CN-119.91.23.157-33210,🇨🇳CN-120.25.2.184-7890,🇨🇳CN-121.235.203.225-7890,🇨🇳CN-121.33.221.44-7893,🇨🇳CN-121.5.52.156-7892,🇨🇳CN-123.112.254.193-7890,🇨🇳CN-123.125.240.218-7890,🇨🇳CN-123.126.158.50-80,🇨🇳CN-123.58.197.70-443,🇨🇳CN-124.221.142.43-7890,🇨🇳CN-125.124.9.27-7890,🇨🇳CN-129.211.218.155-7890,🇨🇳CN-139.196.78.175-7890,🇨🇳CN-139.198.120.15-29527,🇨🇳CN-139.198.168.65-7890,🇨🇳CN-139.224.131.134-7890,🇨🇳CN-139.9.176.128-7890,🇨🇳CN-14.135.74.181-7890,🇨🇳CN-14.153.215.237-7890,🇨🇳CN-14.19.167.88-6660,🇨🇳CN-14.212.140.10-7890,🇨🇳CN-159.75.125.46-7890,🇨🇳CN-159.75.178.50-47551,🇨🇳CN-159.75.33.234-7890,🇨🇳CN-162.14.64.240-7893,🇨🇳CN-166.111.249.124*-7893,🇨🇳CN-166.111.41.14*-33210,🇨🇳CN-175.178.164.182-7890,🇨🇳CN-182.43.110.114-33210,🇨🇳CN-182.43.12.244-7895,🇨🇳CN-182.44.48.63-7892,🇨🇳CN-182.92.100.20-7890,🇨🇳CN-183.173.242.150*-33210,🇨🇳CN-20.239.80.27-443,🇨🇳CN-203.198.16.219-443,🇨🇳CN-210.77.30.38*-9893,🇨🇳CN-221.219.97.143-7890,🇨🇳CN-221.237.112.235-3003,🇨🇳CN-222.190.246.206-10002,🇨🇳CN-222.195.82.132*-33210,🇨🇳CN-222.195.83.56*-33210,🇨🇳CN-27.150.30.119-33210,🇨🇳CN-36.138.4.65-7890,🇨🇳CN-39.100.120.200-7890,🇨🇳CN-39.101.244.246-7893,🇨🇳CN-39.105.205.97-33210,🇨🇳CN-39.108.224.175-7890,🇨🇳CN-39.108.60.192-7890,🇨🇳CN-39.165.86.185-7890,🇨🇳CN-39.99.161.62-33336,🇨🇳CN-42.53.173.10-7890,🇨🇳CN-45.121.48.172-10001,🇨🇳CN-45.121.48.196-10001,🇨🇳CN-47.103.5.145-7190,🇨🇳CN-47.108.69.115-33210,🇨🇳CN-47.109.35.106-33210,🇨🇳CN-47.119.22.174-7890,🇨🇳CN-47.120.32.61-7890,🇨🇳CN-47.93.220.24-7890,🇨🇳CN-47.94.254.54-7890,🇨🇳CN-47.96.139.139-7890,🇨🇳CN-47.99.180.88-7890,🇨🇳CN-47.99.45.126-7890,🇨🇳CN-49.232.237.42-11449,🇨🇳CN-49.234.104.72-33210,🇨🇳CN-60.163.13.141-7890,🇨🇳CN-60.204.132.217-7890,🇨🇳CN-60.204.168.179-7890,🇨🇳CN-61.170.164.66-7892,🇨🇳CN-61.228.139.221-12002,🇨🇳CN-62.234.193.73-7890,🇨🇳CN-62.234.28.193-33210,🇨🇳CN-8.141.12.49-7890,🇨🇳CN-8.142.17.112-33210,🇨🇳CN-8.217.17.254-443,🇨🇳CN-8.217.178.215-80,🇨🇳CN-8.217.217.138-80,🇨🇳CN-8.217.93.104-443,🇨🇳CN-8.218.63.204-80,🇨🇳CN-81.68.166.248-7890,🇨🇳CN-81.70.224.152-33210,🇨🇳CN-81.71.4.7-7890,🇨🇳CN-82.156.107.192-33210
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaMedia.list,🌏 China Media,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIPv4.list,🎯 China Website,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIPv6.list,🎯 China Website,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaDomain.list,🎯 China Website,update-interval=86400
+GEOIP,CN,🎯 China Website
+FINAL,🐟 Remaining Website
+
