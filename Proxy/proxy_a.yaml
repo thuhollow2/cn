@@ -1,0 +1,13 @@
+proxies:
+  - {"name": "File Creation Time: Sun Feb 04 23:13:01 UTC 2024", "server": "255.255.255.255", "port": 10086, "type": "vmess", "alterId": 0, "cipher": "auto", "skip-cert-verify": true, "tls": false, "udp": true, "uuid": "00000000-0000-0000-0000-000000000000"}
+  - {"name": "🇨🇳CN-106.52.121.30-7890", "server": "106.52.121.30", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-120.24.189.187-33210", "server": "120.24.189.187", "port": 33210, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-121.36.22.226-53", "server": "121.36.22.226", "port": 53, "type": "http", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-175.27.247.28-7890", "server": "175.27.247.28", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-180.175.111.191-25570", "server": "180.175.111.191", "port": 25570, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-39.105.27.30-3128", "server": "39.105.27.30", "port": 3128, "type": "http", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-42.194.234.236-7890", "server": "42.194.234.236", "port": 7890, "type": "http", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-47.106.39.5-7890", "server": "47.106.39.5", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-47.119.22.174-7890", "server": "47.119.22.174", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-60.204.132.217-7890", "server": "60.204.132.217", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-82.157.75.151-6000", "server": "82.157.75.151", "port": 6000, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
