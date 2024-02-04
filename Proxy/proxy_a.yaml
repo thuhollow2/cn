@@ -1,0 +1,3 @@
+proxies:
+  - {"name": "File Creation Time: Sun Feb 04 01:43:45 UTC 2024", "server": "255.255.255.255", "port": 10086, "type": "vmess", "alterId": 0, "cipher": "auto", "skip-cert-verify": true, "tls": false, "udp": true, "uuid": "00000000-0000-0000-0000-000000000000"}
+  - {"name": "🇨🇳CN-121.36.22.226-53", "server": "121.36.22.226", "port": 53, "type": "http", "skip-cert-verify": true, "tls": false, "udp": true}
