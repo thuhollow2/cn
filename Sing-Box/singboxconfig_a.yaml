@@ -1,0 +1,1786 @@
+{
+    "log": {
+        "level": "debug",
+        "timestamp": true
+    },
+    "experimental": {
+        "clash_api": {
+            "external_controller": "127.0.0.1:9090",
+            "external_ui": "ui",
+            "secret": "",
+            "default_mode": "rule"
+        },
+        "cache_file": {
+            "enabled": true,
+            "store_fakeip": false
+        }
+    },
+    "dns": {
+        "servers": [
+            {
+                "address": "1.0.0.1",
+                "detour": "direct",
+                "tag": "local"
+            },
+            {
+                "address": "223.5.5.5",
+                "detour": "proxy",
+                "tag": "proxy"
+            },
+            {
+                "address": "rcode://success",
+                "tag": "block"
+            }
+        ],
+        "rules": [
+            {
+                "outbound": "any",
+                "server": "local",
+                "disable_cache": true
+            },
+            {
+                "clash_mode": "direct",
+                "server": "local"
+            },
+            {
+                "clash_mode": "global",
+                "server": "local"
+            },
+            {
+                "rule_set": "BiliBili",
+                "server": "proxy"
+            },
+            {
+                "rule_set": "iQIYI",
+                "server": "proxy"
+            },
+            {
+                "rule_set": "TencentVideo",
+                "server": "proxy"
+            },
+            {
+                "rule_set": "Youku",
+                "server": "proxy"
+            },
+            {
+                "rule_set": "MangoTV",
+                "server": "proxy"
+            },
+            {
+                "rule_set": "NetEaseMusic",
+                "server": "proxy"
+            },
+            {
+                "rule_set": "QQMusic",
+                "server": "proxy"
+            },
+            {
+                "rule_set": "KugouKuwo",
+                "server": "proxy"
+            },
+            {
+                "rule_set": "ChinaMedia",
+                "server": "proxy"
+            },
+            {
+                "rule_set": "ChinaIPv4",
+                "server": "proxy"
+            },
+            {
+                "rule_set": "ChinaIPv6",
+                "server": "proxy"
+            },
+            {
+                "rule_set": "ChinaDomain",
+                "server": "proxy"
+            }
+        ],
+        "strategy": "prefer_ipv4"
+    },
+    "inbounds": [
+        {
+            "type": "tun",
+            "inet4_address": "172.19.0.1/30",
+            "inet6_address": "2001:0470:f9da:fdfa::1/64",
+            "mtu": 9000,
+            "auto_route": true,
+            "strict_route": true,
+            "sniff": true,
+            "endpoint_independent_nat": false,
+            "stack": "system",
+            "platform": {
+                "http_proxy": {
+                    "enabled": true,
+                    "server": "127.0.0.1",
+                    "server_port": 9080
+                }
+            }
+        },
+        {
+            "type": "mixed",
+            "listen": "127.0.0.1",
+            "listen_port": 9080,
+            "sniff": true,
+            "users": []
+        }
+    ],
+    "outbounds": [
+        {
+            "tag": "🚀 Node Group - 1",
+            "type": "selector",
+            "outbounds": [
+                "♻️ All Nodes - Auto Select",
+                "🚀 All Nodes - 1 - Manual Select",
+                "🚀 All Nodes - 2 - Manual Select",
+                "♻️ IPv6 Nodes - Auto Select",
+                "🚀 IPv6 Nodes - Manual Select",
+                "🎥 BiliBili Unlocked Nodes - Auto Select",
+                "🎥 BiliBili Unlocked Nodes - Manual Select",
+                "🎥 iQIYI Unlocked Nodes - Auto Select",
+                "🎥 iQIYI Unlocked Nodes - Manual Select",
+                "🎥 Tencent Video Unlocked Nodes - Auto Select",
+                "🎥 Tencent Video Unlocked Nodes - Manual Select",
+                "🎥 Youku Video Unlocked Nodes - Auto Select",
+                "🎥 Youku Video Unlocked Nodes - Manual Select",
+                "🎥 Mango TV Unlocked Nodes - Auto Select",
+                "🎥 Mango TV Unlocked Nodes - Manual Select",
+                "🎥 NetEase Cloud Music Unlocked Nodes - Auto Select",
+                "🎥 NetEase Cloud Music Unlocked Nodes - Manual Select",
+                "🎥 QQ Music Unlocked Nodes - Auto Select",
+                "🎥 QQ Music Unlocked Nodes - Manual Select",
+                "🎥 Kugou Music Unlocked Nodes - Auto Select",
+                "🎥 Kugou Music Unlocked Nodes - Manual Select",
+                "direct",
+                "block"
+            ]
+        },
+        {
+            "tag": "🚀 Node Group - 2",
+            "type": "selector",
+            "outbounds": [
+                "♻️ All Nodes - Auto Select",
+                "🚀 All Nodes - 1 - Manual Select",
+                "🚀 All Nodes - 2 - Manual Select",
+                "♻️ IPv6 Nodes - Auto Select",
+                "🚀 IPv6 Nodes - Manual Select",
+                "🎥 BiliBili Unlocked Nodes - Auto Select",
+                "🎥 BiliBili Unlocked Nodes - Manual Select",
+                "🎥 iQIYI Unlocked Nodes - Auto Select",
+                "🎥 iQIYI Unlocked Nodes - Manual Select",
+                "🎥 Tencent Video Unlocked Nodes - Auto Select",
+                "🎥 Tencent Video Unlocked Nodes - Manual Select",
+                "🎥 Youku Video Unlocked Nodes - Auto Select",
+                "🎥 Youku Video Unlocked Nodes - Manual Select",
+                "🎥 Mango TV Unlocked Nodes - Auto Select",
+                "🎥 Mango TV Unlocked Nodes - Manual Select",
+                "🎥 NetEase Cloud Music Unlocked Nodes - Auto Select",
+                "🎥 NetEase Cloud Music Unlocked Nodes - Manual Select",
+                "🎥 QQ Music Unlocked Nodes - Auto Select",
+                "🎥 QQ Music Unlocked Nodes - Manual Select",
+                "🎥 Kugou Music Unlocked Nodes - Auto Select",
+                "🎥 Kugou Music Unlocked Nodes - Manual Select",
+                "direct",
+                "block"
+            ]
+        },
+        {
+            "tag": "🌏 China Media",
+            "type": "selector",
+            "outbounds": [
+                "🚀 Node Group - 1",
+                "🚀 Node Group - 2",
+                "♻️ All Nodes - Auto Select",
+                "🚀 All Nodes - 1 - Manual Select",
+                "🚀 All Nodes - 2 - Manual Select",
+                "♻️ IPv6 Nodes - Auto Select",
+                "🚀 IPv6 Nodes - Manual Select",
+                "direct",
+                "block"
+            ]
+        },
+        {
+            "tag": "🎯 China Website",
+            "type": "selector",
+            "outbounds": [
+                "🚀 Node Group - 1",
+                "🚀 Node Group - 2",
+                "♻️ All Nodes - Auto Select",
+                "🚀 All Nodes - 1 - Manual Select",
+                "🚀 All Nodes - 2 - Manual Select",
+                "♻️ IPv6 Nodes - Auto Select",
+                "🚀 IPv6 Nodes - Manual Select",
+                "direct",
+                "block"
+            ]
+        },
+        {
+            "tag": "🐟 Remaining Website",
+            "type": "selector",
+            "outbounds": [
+                "direct",
+                "🚀 Node Group - 1",
+                "🚀 Node Group - 2",
+                "♻️ All Nodes - Auto Select",
+                "🚀 All Nodes - 1 - Manual Select",
+                "🚀 All Nodes - 2 - Manual Select",
+                "♻️ IPv6 Nodes - Auto Select",
+                "🚀 IPv6 Nodes - Manual Select",
+                "block"
+            ]
+        },
+        {
+            "tag": "🎥 BiliBili",
+            "type": "selector",
+            "outbounds": [
+                "🎥 BiliBili Unlocked Nodes - Auto Select",
+                "🎥 BiliBili Unlocked Nodes - Manual Select",
+                "🚀 Node Group - 1",
+                "🚀 Node Group - 2",
+                "♻️ All Nodes - Auto Select",
+                "🚀 All Nodes - 1 - Manual Select",
+                "🚀 All Nodes - 2 - Manual Select",
+                "♻️ IPv6 Nodes - Auto Select",
+                "🚀 IPv6 Nodes - Manual Select",
+                "direct",
+                "block"
+            ]
+        },
+        {
+            "tag": "🎥 iQIYI",
+            "type": "selector",
+            "outbounds": [
+                "🎥 iQIYI Unlocked Nodes - Auto Select",
+                "🎥 iQIYI Unlocked Nodes - Manual Select",
+                "🚀 Node Group - 1",
+                "🚀 Node Group - 2",
+                "♻️ All Nodes - Auto Select",
+                "🚀 All Nodes - 1 - Manual Select",
+                "🚀 All Nodes - 2 - Manual Select",
+                "♻️ IPv6 Nodes - Auto Select",
+                "🚀 IPv6 Nodes - Manual Select",
+                "direct",
+                "block"
+            ]
+        },
+        {
+            "tag": "🎥 Tencent Video",
+            "type": "selector",
+            "outbounds": [
+                "🎥 Tencent Video Unlocked Nodes - Auto Select",
+                "🎥 Tencent Video Unlocked Nodes - Manual Select",
+                "🚀 Node Group - 1",
+                "🚀 Node Group - 2",
+                "♻️ All Nodes - Auto Select",
+                "🚀 All Nodes - 1 - Manual Select",
+                "🚀 All Nodes - 2 - Manual Select",
+                "♻️ IPv6 Nodes - Auto Select",
+                "🚀 IPv6 Nodes - Manual Select",
+                "direct",
+                "block"
+            ]
+        },
+        {
+            "tag": "🎥 Youku Video",
+            "type": "selector",
+            "outbounds": [
+                "🎥 Youku Video Unlocked Nodes - Auto Select",
+                "🎥 Youku Video Unlocked Nodes - Manual Select",
+                "🚀 Node Group - 1",
+                "🚀 Node Group - 2",
+                "♻️ All Nodes - Auto Select",
+                "🚀 All Nodes - 1 - Manual Select",
+                "🚀 All Nodes - 2 - Manual Select",
+                "♻️ IPv6 Nodes - Auto Select",
+                "🚀 IPv6 Nodes - Manual Select",
+                "direct",
+                "block"
+            ]
+        },
+        {
+            "tag": "🎥 Mango TV",
+            "type": "selector",
+            "outbounds": [
+                "🎥 Mango TV Unlocked Nodes - Auto Select",
+                "🎥 Mango TV Unlocked Nodes - Manual Select",
+                "🚀 Node Group - 1",
+                "🚀 Node Group - 2",
+                "♻️ All Nodes - Auto Select",
+                "🚀 All Nodes - 1 - Manual Select",
+                "🚀 All Nodes - 2 - Manual Select",
+                "♻️ IPv6 Nodes - Auto Select",
+                "🚀 IPv6 Nodes - Manual Select",
+                "direct",
+                "block"
+            ]
+        },
+        {
+            "tag": "🎥 NetEase Cloud Music",
+            "type": "selector",
+            "outbounds": [
+                "🎥 NetEase Cloud Music Unlocked Nodes - Auto Select",
+                "🎥 NetEase Cloud Music Unlocked Nodes - Manual Select",
+                "🚀 Node Group - 1",
+                "🚀 Node Group - 2",
+                "♻️ All Nodes - Auto Select",
+                "🚀 All Nodes - 1 - Manual Select",
+                "🚀 All Nodes - 2 - Manual Select",
+                "♻️ IPv6 Nodes - Auto Select",
+                "🚀 IPv6 Nodes - Manual Select",
+                "direct",
+                "block"
+            ]
+        },
+        {
+            "tag": "🎥 QQ Music",
+            "type": "selector",
+            "outbounds": [
+                "🎥 QQ Music Unlocked Nodes - Auto Select",
+                "🎥 QQ Music Unlocked Nodes - Manual Select",
+                "🚀 Node Group - 1",
+                "🚀 Node Group - 2",
+                "♻️ All Nodes - Auto Select",
+                "🚀 All Nodes - 1 - Manual Select",
+                "🚀 All Nodes - 2 - Manual Select",
+                "♻️ IPv6 Nodes - Auto Select",
+                "🚀 IPv6 Nodes - Manual Select",
+                "direct",
+                "block"
+            ]
+        },
+        {
+            "tag": "🎥 Kugou&Kuwo Music",
+            "type": "selector",
+            "outbounds": [
+                "🎥 Kugou Music Unlocked Nodes - Auto Select",
+                "🎥 Kugou Music Unlocked Nodes - Manual Select",
+                "🚀 Node Group - 1",
+                "🚀 Node Group - 2",
+                "♻️ All Nodes - Auto Select",
+                "🚀 All Nodes - 1 - Manual Select",
+                "🚀 All Nodes - 2 - Manual Select",
+                "♻️ IPv6 Nodes - Auto Select",
+                "🚀 IPv6 Nodes - Manual Select",
+                "direct",
+                "block"
+            ]
+        },
+        {
+            "tag": "♻️ All Nodes - Auto Select",
+            "type": "urltest",
+            "url": "http://www.baidu.com",
+            "interval": "5m",
+            "tolerance": 50,
+            "outbounds": [
+                "🇨🇳CN-1.117.13.183-33210",
+                "🇨🇳CN-1.14.95.70-9981",
+                "🇨🇳CN-101.132.113.116-25501",
+                "🇨🇳CN-101.43.23.228-7890",
+                "🇨🇳CN-101.6.69.69*-33210",
+                "🇨🇳CN-111.206.0.99-8181",
+                "🇨🇳CN-111.230.105.93-7890",
+                "🇨🇳CN-111.230.251.89-7890",
+                "🇨🇳CN-112.26.181.61-8118",
+                "🇨🇳CN-114.113.235.38-7890",
+                "🇨🇳CN-115.223.11.212-50000",
+                "🇨🇳CN-116.172.96.80-2510",
+                "🇨🇳CN-116.204.97.47-7890",
+                "🇨🇳CN-116.230.25.161-7890",
+                "🇨🇳CN-118.25.20.188-33210",
+                "🇨🇳CN-119.146.223.57-1087",
+                "🇨🇳CN-119.166.194.235-7890",
+                "🇨🇳CN-120.24.189.187-33210",
+                "🇨🇳CN-120.79.3.11-7890",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-139.198.164.238-33210",
+                "🇨🇳CN-139.9.222.146-7890",
+                "🇨🇳CN-14.103.24.148-8000",
+                "🇨🇳CN-175.24.114.216-33210",
+                "🇨🇳CN-175.24.178.130-7890",
+                "🇨🇳CN-175.27.247.28-7890",
+                "🇨🇳CN-202.112.51.155*-27978",
+                "🇨🇳CN-218.93.208.173-33210",
+                "🇨🇳CN-221.216.40.40-5050",
+                "🇨🇳CN-221.224.44.91-7302",
+                "🇨🇳CN-39.105.27.30-3128",
+                "🇨🇳CN-39.171.252.17-7890",
+                "🇨🇳CN-39.184.16.19-7890",
+                "🇨🇳CN-39.99.155.101-7890",
+                "🇨🇳CN-42.194.187.178-33210",
+                "🇨🇳CN-42.194.234.236-7890",
+                "🇨🇳CN-47.100.101.110-7890",
+                "🇨🇳CN-47.101.70.56-33210",
+                "🇨🇳CN-47.109.134.216-7890",
+                "🇨🇳CN-47.92.125.143-7890",
+                "🇨🇳CN-47.92.158.11-7890",
+                "🇨🇳CN-47.93.220.24-7892",
+                "🇨🇳CN-47.95.221.73-7890",
+                "🇨🇳CN-49.4.4.129-8888",
+                "🇨🇳CN-59.66.130.42*-8890",
+                "🇨🇳CN-60.204.132.217-7890",
+                "🇨🇳CN-61.152.183.116-7890",
+                "🇨🇳CN-81.71.123.87-33210",
+                "🇨🇳CN-82.156.182.112-7890"
+            ]
+        },
+        {
+            "tag": "🚀 All Nodes - 1 - Manual Select",
+            "type": "selector",
+            "outbounds": [
+                "File Creation Time: Tue Apr 16 09:38:49 UTC 2024",
+                "🇨🇳CN-1.117.13.183-33210",
+                "🇨🇳CN-1.14.95.70-9981",
+                "🇨🇳CN-101.132.113.116-25501",
+                "🇨🇳CN-101.43.23.228-7890",
+                "🇨🇳CN-101.6.69.69*-33210",
+                "🇨🇳CN-111.206.0.99-8181",
+                "🇨🇳CN-111.230.105.93-7890",
+                "🇨🇳CN-111.230.251.89-7890",
+                "🇨🇳CN-112.26.181.61-8118",
+                "🇨🇳CN-114.113.235.38-7890",
+                "🇨🇳CN-115.223.11.212-50000",
+                "🇨🇳CN-116.172.96.80-2510",
+                "🇨🇳CN-116.204.97.47-7890",
+                "🇨🇳CN-116.230.25.161-7890",
+                "🇨🇳CN-118.25.20.188-33210",
+                "🇨🇳CN-119.146.223.57-1087",
+                "🇨🇳CN-119.166.194.235-7890",
+                "🇨🇳CN-120.24.189.187-33210",
+                "🇨🇳CN-120.79.3.11-7890",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-139.198.164.238-33210",
+                "🇨🇳CN-139.9.222.146-7890",
+                "🇨🇳CN-14.103.24.148-8000",
+                "🇨🇳CN-175.24.114.216-33210",
+                "🇨🇳CN-175.24.178.130-7890",
+                "🇨🇳CN-175.27.247.28-7890",
+                "🇨🇳CN-202.112.51.155*-27978",
+                "🇨🇳CN-218.93.208.173-33210",
+                "🇨🇳CN-221.216.40.40-5050",
+                "🇨🇳CN-221.224.44.91-7302",
+                "🇨🇳CN-39.105.27.30-3128",
+                "🇨🇳CN-39.171.252.17-7890",
+                "🇨🇳CN-39.184.16.19-7890",
+                "🇨🇳CN-39.99.155.101-7890",
+                "🇨🇳CN-42.194.187.178-33210",
+                "🇨🇳CN-42.194.234.236-7890",
+                "🇨🇳CN-47.100.101.110-7890",
+                "🇨🇳CN-47.101.70.56-33210",
+                "🇨🇳CN-47.109.134.216-7890",
+                "🇨🇳CN-47.92.125.143-7890",
+                "🇨🇳CN-47.92.158.11-7890",
+                "🇨🇳CN-47.93.220.24-7892",
+                "🇨🇳CN-47.95.221.73-7890",
+                "🇨🇳CN-49.4.4.129-8888",
+                "🇨🇳CN-59.66.130.42*-8890",
+                "🇨🇳CN-60.204.132.217-7890",
+                "🇨🇳CN-61.152.183.116-7890",
+                "🇨🇳CN-81.71.123.87-33210",
+                "🇨🇳CN-82.156.182.112-7890"
+            ]
+        },
+        {
+            "tag": "🚀 All Nodes - 2 - Manual Select",
+            "type": "selector",
+            "outbounds": [
+                "File Creation Time: Tue Apr 16 09:38:49 UTC 2024",
+                "🇨🇳CN-1.117.13.183-33210",
+                "🇨🇳CN-1.14.95.70-9981",
+                "🇨🇳CN-101.132.113.116-25501",
+                "🇨🇳CN-101.43.23.228-7890",
+                "🇨🇳CN-101.6.69.69*-33210",
+                "🇨🇳CN-111.206.0.99-8181",
+                "🇨🇳CN-111.230.105.93-7890",
+                "🇨🇳CN-111.230.251.89-7890",
+                "🇨🇳CN-112.26.181.61-8118",
+                "🇨🇳CN-114.113.235.38-7890",
+                "🇨🇳CN-115.223.11.212-50000",
+                "🇨🇳CN-116.172.96.80-2510",
+                "🇨🇳CN-116.204.97.47-7890",
+                "🇨🇳CN-116.230.25.161-7890",
+                "🇨🇳CN-118.25.20.188-33210",
+                "🇨🇳CN-119.146.223.57-1087",
+                "🇨🇳CN-119.166.194.235-7890",
+                "🇨🇳CN-120.24.189.187-33210",
+                "🇨🇳CN-120.79.3.11-7890",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-139.198.164.238-33210",
+                "🇨🇳CN-139.9.222.146-7890",
+                "🇨🇳CN-14.103.24.148-8000",
+                "🇨🇳CN-175.24.114.216-33210",
+                "🇨🇳CN-175.24.178.130-7890",
+                "🇨🇳CN-175.27.247.28-7890",
+                "🇨🇳CN-202.112.51.155*-27978",
+                "🇨🇳CN-218.93.208.173-33210",
+                "🇨🇳CN-221.216.40.40-5050",
+                "🇨🇳CN-221.224.44.91-7302",
+                "🇨🇳CN-39.105.27.30-3128",
+                "🇨🇳CN-39.171.252.17-7890",
+                "🇨🇳CN-39.184.16.19-7890",
+                "🇨🇳CN-39.99.155.101-7890",
+                "🇨🇳CN-42.194.187.178-33210",
+                "🇨🇳CN-42.194.234.236-7890",
+                "🇨🇳CN-47.100.101.110-7890",
+                "🇨🇳CN-47.101.70.56-33210",
+                "🇨🇳CN-47.109.134.216-7890",
+                "🇨🇳CN-47.92.125.143-7890",
+                "🇨🇳CN-47.92.158.11-7890",
+                "🇨🇳CN-47.93.220.24-7892",
+                "🇨🇳CN-47.95.221.73-7890",
+                "🇨🇳CN-49.4.4.129-8888",
+                "🇨🇳CN-59.66.130.42*-8890",
+                "🇨🇳CN-60.204.132.217-7890",
+                "🇨🇳CN-61.152.183.116-7890",
+                "🇨🇳CN-81.71.123.87-33210",
+                "🇨🇳CN-82.156.182.112-7890"
+            ]
+        },
+        {
+            "tag": "♻️ IPv6 Nodes - Auto Select",
+            "type": "selector",
+            "outbounds": [
+                "block"
+            ]
+        },
+        {
+            "tag": "🚀 IPv6 Nodes - Manual Select",
+            "type": "selector",
+            "outbounds": [
+                "block"
+            ]
+        },
+        {
+            "tag": "🎥 BiliBili Unlocked Nodes - Auto Select",
+            "type": "urltest",
+            "url": "http://www.baidu.com",
+            "interval": "5m",
+            "tolerance": 50,
+            "outbounds": [
+                "🇨🇳CN-1.117.13.183-33210",
+                "🇨🇳CN-1.14.95.70-9981",
+                "🇨🇳CN-101.132.113.116-25501",
+                "🇨🇳CN-101.43.23.228-7890",
+                "🇨🇳CN-111.230.105.93-7890",
+                "🇨🇳CN-111.230.251.89-7890",
+                "🇨🇳CN-116.172.96.80-2510",
+                "🇨🇳CN-116.230.25.161-7890",
+                "🇨🇳CN-118.25.20.188-33210",
+                "🇨🇳CN-119.146.223.57-1087",
+                "🇨🇳CN-120.24.189.187-33210",
+                "🇨🇳CN-120.79.3.11-7890",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-139.198.164.238-33210",
+                "🇨🇳CN-139.9.222.146-7890",
+                "🇨🇳CN-175.24.114.216-33210",
+                "🇨🇳CN-221.216.40.40-5050",
+                "🇨🇳CN-221.224.44.91-7302",
+                "🇨🇳CN-39.99.155.101-7890",
+                "🇨🇳CN-42.194.187.178-33210",
+                "🇨🇳CN-47.100.101.110-7890",
+                "🇨🇳CN-47.101.70.56-33210",
+                "🇨🇳CN-47.109.134.216-7890",
+                "🇨🇳CN-47.92.125.143-7890",
+                "🇨🇳CN-47.92.158.11-7890",
+                "🇨🇳CN-47.93.220.24-7892",
+                "🇨🇳CN-47.95.221.73-7890",
+                "🇨🇳CN-49.4.4.129-8888",
+                "🇨🇳CN-60.204.132.217-7890",
+                "🇨🇳CN-81.71.123.87-33210",
+                "🇨🇳CN-82.156.182.112-7890"
+            ]
+        },
+        {
+            "tag": "🎥 BiliBili Unlocked Nodes - Manual Select",
+            "type": "selector",
+            "outbounds": [
+                "🇨🇳CN-1.117.13.183-33210",
+                "🇨🇳CN-1.14.95.70-9981",
+                "🇨🇳CN-101.132.113.116-25501",
+                "🇨🇳CN-101.43.23.228-7890",
+                "🇨🇳CN-111.230.105.93-7890",
+                "🇨🇳CN-111.230.251.89-7890",
+                "🇨🇳CN-116.172.96.80-2510",
+                "🇨🇳CN-116.230.25.161-7890",
+                "🇨🇳CN-118.25.20.188-33210",
+                "🇨🇳CN-119.146.223.57-1087",
+                "🇨🇳CN-120.24.189.187-33210",
+                "🇨🇳CN-120.79.3.11-7890",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-139.198.164.238-33210",
+                "🇨🇳CN-139.9.222.146-7890",
+                "🇨🇳CN-175.24.114.216-33210",
+                "🇨🇳CN-221.216.40.40-5050",
+                "🇨🇳CN-221.224.44.91-7302",
+                "🇨🇳CN-39.99.155.101-7890",
+                "🇨🇳CN-42.194.187.178-33210",
+                "🇨🇳CN-47.100.101.110-7890",
+                "🇨🇳CN-47.101.70.56-33210",
+                "🇨🇳CN-47.109.134.216-7890",
+                "🇨🇳CN-47.92.125.143-7890",
+                "🇨🇳CN-47.92.158.11-7890",
+                "🇨🇳CN-47.93.220.24-7892",
+                "🇨🇳CN-47.95.221.73-7890",
+                "🇨🇳CN-49.4.4.129-8888",
+                "🇨🇳CN-60.204.132.217-7890",
+                "🇨🇳CN-81.71.123.87-33210",
+                "🇨🇳CN-82.156.182.112-7890"
+            ]
+        },
+        {
+            "tag": "🎥 iQIYI Unlocked Nodes - Auto Select",
+            "type": "urltest",
+            "url": "http://www.baidu.com",
+            "interval": "5m",
+            "tolerance": 50,
+            "outbounds": [
+                "🇨🇳CN-111.230.105.93-7890",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-175.24.114.216-33210",
+                "🇨🇳CN-221.224.44.91-7302"
+            ]
+        },
+        {
+            "tag": "🎥 iQIYI Unlocked Nodes - Manual Select",
+            "type": "selector",
+            "outbounds": [
+                "🇨🇳CN-111.230.105.93-7890",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-175.24.114.216-33210",
+                "🇨🇳CN-221.224.44.91-7302"
+            ]
+        },
+        {
+            "tag": "🎥 Tencent Video Unlocked Nodes - Auto Select",
+            "type": "urltest",
+            "url": "http://www.baidu.com",
+            "interval": "5m",
+            "tolerance": 50,
+            "outbounds": [
+                "🇨🇳CN-1.117.13.183-33210",
+                "🇨🇳CN-1.14.95.70-9981",
+                "🇨🇳CN-101.132.113.116-25501",
+                "🇨🇳CN-101.43.23.228-7890",
+                "🇨🇳CN-111.206.0.99-8181",
+                "🇨🇳CN-111.230.105.93-7890",
+                "🇨🇳CN-111.230.251.89-7890",
+                "🇨🇳CN-115.223.11.212-50000",
+                "🇨🇳CN-116.172.96.80-2510",
+                "🇨🇳CN-116.204.97.47-7890",
+                "🇨🇳CN-116.230.25.161-7890",
+                "🇨🇳CN-118.25.20.188-33210",
+                "🇨🇳CN-119.146.223.57-1087",
+                "🇨🇳CN-119.166.194.235-7890",
+                "🇨🇳CN-120.24.189.187-33210",
+                "🇨🇳CN-120.79.3.11-7890",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-139.198.164.238-33210",
+                "🇨🇳CN-139.9.222.146-7890",
+                "🇨🇳CN-14.103.24.148-8000",
+                "🇨🇳CN-175.24.114.216-33210",
+                "🇨🇳CN-218.93.208.173-33210",
+                "🇨🇳CN-221.216.40.40-5050",
+                "🇨🇳CN-221.224.44.91-7302",
+                "🇨🇳CN-39.105.27.30-3128",
+                "🇨🇳CN-39.99.155.101-7890",
+                "🇨🇳CN-42.194.187.178-33210",
+                "🇨🇳CN-42.194.234.236-7890",
+                "🇨🇳CN-47.100.101.110-7890",
+                "🇨🇳CN-47.101.70.56-33210",
+                "🇨🇳CN-47.109.134.216-7890",
+                "🇨🇳CN-47.92.125.143-7890",
+                "🇨🇳CN-47.92.158.11-7890",
+                "🇨🇳CN-47.93.220.24-7892",
+                "🇨🇳CN-47.95.221.73-7890",
+                "🇨🇳CN-49.4.4.129-8888",
+                "🇨🇳CN-60.204.132.217-7890",
+                "🇨🇳CN-81.71.123.87-33210",
+                "🇨🇳CN-82.156.182.112-7890"
+            ]
+        },
+        {
+            "tag": "🎥 Tencent Video Unlocked Nodes - Manual Select",
+            "type": "selector",
+            "outbounds": [
+                "🇨🇳CN-1.117.13.183-33210",
+                "🇨🇳CN-1.14.95.70-9981",
+                "🇨🇳CN-101.132.113.116-25501",
+                "🇨🇳CN-101.43.23.228-7890",
+                "🇨🇳CN-111.206.0.99-8181",
+                "🇨🇳CN-111.230.105.93-7890",
+                "🇨🇳CN-111.230.251.89-7890",
+                "🇨🇳CN-115.223.11.212-50000",
+                "🇨🇳CN-116.172.96.80-2510",
+                "🇨🇳CN-116.204.97.47-7890",
+                "🇨🇳CN-116.230.25.161-7890",
+                "🇨🇳CN-118.25.20.188-33210",
+                "🇨🇳CN-119.146.223.57-1087",
+                "🇨🇳CN-119.166.194.235-7890",
+                "🇨🇳CN-120.24.189.187-33210",
+                "🇨🇳CN-120.79.3.11-7890",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-139.198.164.238-33210",
+                "🇨🇳CN-139.9.222.146-7890",
+                "🇨🇳CN-14.103.24.148-8000",
+                "🇨🇳CN-175.24.114.216-33210",
+                "🇨🇳CN-218.93.208.173-33210",
+                "🇨🇳CN-221.216.40.40-5050",
+                "🇨🇳CN-221.224.44.91-7302",
+                "🇨🇳CN-39.105.27.30-3128",
+                "🇨🇳CN-39.99.155.101-7890",
+                "🇨🇳CN-42.194.187.178-33210",
+                "🇨🇳CN-42.194.234.236-7890",
+                "🇨🇳CN-47.100.101.110-7890",
+                "🇨🇳CN-47.101.70.56-33210",
+                "🇨🇳CN-47.109.134.216-7890",
+                "🇨🇳CN-47.92.125.143-7890",
+                "🇨🇳CN-47.92.158.11-7890",
+                "🇨🇳CN-47.93.220.24-7892",
+                "🇨🇳CN-47.95.221.73-7890",
+                "🇨🇳CN-49.4.4.129-8888",
+                "🇨🇳CN-60.204.132.217-7890",
+                "🇨🇳CN-81.71.123.87-33210",
+                "🇨🇳CN-82.156.182.112-7890"
+            ]
+        },
+        {
+            "tag": "🎥 Youku Video Unlocked Nodes - Auto Select",
+            "type": "urltest",
+            "url": "http://www.baidu.com",
+            "interval": "5m",
+            "tolerance": 50,
+            "outbounds": [
+                "🇨🇳CN-116.172.96.80-2510",
+                "🇨🇳CN-116.230.25.161-7890",
+                "🇨🇳CN-119.146.223.57-1087",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-221.216.40.40-5050",
+                "🇨🇳CN-221.224.44.91-7302"
+            ]
+        },
+        {
+            "tag": "🎥 Youku Video Unlocked Nodes - Manual Select",
+            "type": "selector",
+            "outbounds": [
+                "🇨🇳CN-116.172.96.80-2510",
+                "🇨🇳CN-116.230.25.161-7890",
+                "🇨🇳CN-119.146.223.57-1087",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-221.216.40.40-5050",
+                "🇨🇳CN-221.224.44.91-7302"
+            ]
+        },
+        {
+            "tag": "🎥 Mango TV Unlocked Nodes - Auto Select",
+            "type": "urltest",
+            "url": "http://www.baidu.com",
+            "interval": "5m",
+            "tolerance": 50,
+            "outbounds": [
+                "🇨🇳CN-1.117.13.183-33210",
+                "🇨🇳CN-1.14.95.70-9981",
+                "🇨🇳CN-101.43.23.228-7890",
+                "🇨🇳CN-111.230.105.93-7890",
+                "🇨🇳CN-111.230.251.89-7890",
+                "🇨🇳CN-116.172.96.80-2510",
+                "🇨🇳CN-116.230.25.161-7890",
+                "🇨🇳CN-118.25.20.188-33210",
+                "🇨🇳CN-119.146.223.57-1087",
+                "🇨🇳CN-120.24.189.187-33210",
+                "🇨🇳CN-120.79.3.11-7890",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-139.198.164.238-33210",
+                "🇨🇳CN-139.9.222.146-7890",
+                "🇨🇳CN-175.24.114.216-33210",
+                "🇨🇳CN-218.93.208.173-33210",
+                "🇨🇳CN-221.216.40.40-5050",
+                "🇨🇳CN-221.224.44.91-7302",
+                "🇨🇳CN-39.99.155.101-7890",
+                "🇨🇳CN-42.194.187.178-33210",
+                "🇨🇳CN-42.194.234.236-7890",
+                "🇨🇳CN-47.100.101.110-7890",
+                "🇨🇳CN-47.101.70.56-33210",
+                "🇨🇳CN-47.109.134.216-7890",
+                "🇨🇳CN-47.92.125.143-7890",
+                "🇨🇳CN-47.92.158.11-7890",
+                "🇨🇳CN-47.93.220.24-7892",
+                "🇨🇳CN-47.95.221.73-7890",
+                "🇨🇳CN-49.4.4.129-8888",
+                "🇨🇳CN-60.204.132.217-7890",
+                "🇨🇳CN-81.71.123.87-33210",
+                "🇨🇳CN-82.156.182.112-7890"
+            ]
+        },
+        {
+            "tag": "🎥 Mango TV Unlocked Nodes - Manual Select",
+            "type": "selector",
+            "outbounds": [
+                "🇨🇳CN-1.117.13.183-33210",
+                "🇨🇳CN-1.14.95.70-9981",
+                "🇨🇳CN-101.43.23.228-7890",
+                "🇨🇳CN-111.230.105.93-7890",
+                "🇨🇳CN-111.230.251.89-7890",
+                "🇨🇳CN-116.172.96.80-2510",
+                "🇨🇳CN-116.230.25.161-7890",
+                "🇨🇳CN-118.25.20.188-33210",
+                "🇨🇳CN-119.146.223.57-1087",
+                "🇨🇳CN-120.24.189.187-33210",
+                "🇨🇳CN-120.79.3.11-7890",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-139.198.164.238-33210",
+                "🇨🇳CN-139.9.222.146-7890",
+                "🇨🇳CN-175.24.114.216-33210",
+                "🇨🇳CN-218.93.208.173-33210",
+                "🇨🇳CN-221.216.40.40-5050",
+                "🇨🇳CN-221.224.44.91-7302",
+                "🇨🇳CN-39.99.155.101-7890",
+                "🇨🇳CN-42.194.187.178-33210",
+                "🇨🇳CN-42.194.234.236-7890",
+                "🇨🇳CN-47.100.101.110-7890",
+                "🇨🇳CN-47.101.70.56-33210",
+                "🇨🇳CN-47.109.134.216-7890",
+                "🇨🇳CN-47.92.125.143-7890",
+                "🇨🇳CN-47.92.158.11-7890",
+                "🇨🇳CN-47.93.220.24-7892",
+                "🇨🇳CN-47.95.221.73-7890",
+                "🇨🇳CN-49.4.4.129-8888",
+                "🇨🇳CN-60.204.132.217-7890",
+                "🇨🇳CN-81.71.123.87-33210",
+                "🇨🇳CN-82.156.182.112-7890"
+            ]
+        },
+        {
+            "tag": "🎥 NetEase Cloud Music Unlocked Nodes - Auto Select",
+            "type": "urltest",
+            "url": "http://www.baidu.com",
+            "interval": "5m",
+            "tolerance": 50,
+            "outbounds": [
+                "🇨🇳CN-1.117.13.183-33210",
+                "🇨🇳CN-1.14.95.70-9981",
+                "🇨🇳CN-101.132.113.116-25501",
+                "🇨🇳CN-101.43.23.228-7890",
+                "🇨🇳CN-111.230.105.93-7890",
+                "🇨🇳CN-111.230.251.89-7890",
+                "🇨🇳CN-116.172.96.80-2510",
+                "🇨🇳CN-116.204.97.47-7890",
+                "🇨🇳CN-116.230.25.161-7890",
+                "🇨🇳CN-118.25.20.188-33210",
+                "🇨🇳CN-119.146.223.57-1087",
+                "🇨🇳CN-119.166.194.235-7890",
+                "🇨🇳CN-120.24.189.187-33210",
+                "🇨🇳CN-120.79.3.11-7890",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-139.198.164.238-33210",
+                "🇨🇳CN-139.9.222.146-7890",
+                "🇨🇳CN-175.24.114.216-33210",
+                "🇨🇳CN-175.27.247.28-7890",
+                "🇨🇳CN-218.93.208.173-33210",
+                "🇨🇳CN-221.216.40.40-5050",
+                "🇨🇳CN-221.224.44.91-7302",
+                "🇨🇳CN-39.99.155.101-7890",
+                "🇨🇳CN-42.194.187.178-33210",
+                "🇨🇳CN-42.194.234.236-7890",
+                "🇨🇳CN-47.100.101.110-7890",
+                "🇨🇳CN-47.101.70.56-33210",
+                "🇨🇳CN-47.109.134.216-7890",
+                "🇨🇳CN-47.92.125.143-7890",
+                "🇨🇳CN-47.92.158.11-7890",
+                "🇨🇳CN-47.93.220.24-7892",
+                "🇨🇳CN-47.95.221.73-7890",
+                "🇨🇳CN-60.204.132.217-7890",
+                "🇨🇳CN-81.71.123.87-33210"
+            ]
+        },
+        {
+            "tag": "🎥 NetEase Cloud Music Unlocked Nodes - Manual Select",
+            "type": "selector",
+            "outbounds": [
+                "🇨🇳CN-1.117.13.183-33210",
+                "🇨🇳CN-1.14.95.70-9981",
+                "🇨🇳CN-101.132.113.116-25501",
+                "🇨🇳CN-101.43.23.228-7890",
+                "🇨🇳CN-111.230.105.93-7890",
+                "🇨🇳CN-111.230.251.89-7890",
+                "🇨🇳CN-116.172.96.80-2510",
+                "🇨🇳CN-116.204.97.47-7890",
+                "🇨🇳CN-116.230.25.161-7890",
+                "🇨🇳CN-118.25.20.188-33210",
+                "🇨🇳CN-119.146.223.57-1087",
+                "🇨🇳CN-119.166.194.235-7890",
+                "🇨🇳CN-120.24.189.187-33210",
+                "🇨🇳CN-120.79.3.11-7890",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-139.198.164.238-33210",
+                "🇨🇳CN-139.9.222.146-7890",
+                "🇨🇳CN-175.24.114.216-33210",
+                "🇨🇳CN-175.27.247.28-7890",
+                "🇨🇳CN-218.93.208.173-33210",
+                "🇨🇳CN-221.216.40.40-5050",
+                "🇨🇳CN-221.224.44.91-7302",
+                "🇨🇳CN-39.99.155.101-7890",
+                "🇨🇳CN-42.194.187.178-33210",
+                "🇨🇳CN-42.194.234.236-7890",
+                "🇨🇳CN-47.100.101.110-7890",
+                "🇨🇳CN-47.101.70.56-33210",
+                "🇨🇳CN-47.109.134.216-7890",
+                "🇨🇳CN-47.92.125.143-7890",
+                "🇨🇳CN-47.92.158.11-7890",
+                "🇨🇳CN-47.93.220.24-7892",
+                "🇨🇳CN-47.95.221.73-7890",
+                "🇨🇳CN-60.204.132.217-7890",
+                "🇨🇳CN-81.71.123.87-33210"
+            ]
+        },
+        {
+            "tag": "🎥 QQ Music Unlocked Nodes - Auto Select",
+            "type": "urltest",
+            "url": "http://www.baidu.com",
+            "interval": "5m",
+            "tolerance": 50,
+            "outbounds": [
+                "🇨🇳CN-1.117.13.183-33210",
+                "🇨🇳CN-1.14.95.70-9981",
+                "🇨🇳CN-101.132.113.116-25501",
+                "🇨🇳CN-101.43.23.228-7890",
+                "🇨🇳CN-111.230.105.93-7890",
+                "🇨🇳CN-111.230.251.89-7890",
+                "🇨🇳CN-116.172.96.80-2510",
+                "🇨🇳CN-116.230.25.161-7890",
+                "🇨🇳CN-118.25.20.188-33210",
+                "🇨🇳CN-119.146.223.57-1087",
+                "🇨🇳CN-120.24.189.187-33210",
+                "🇨🇳CN-120.79.3.11-7890",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-139.198.164.238-33210",
+                "🇨🇳CN-139.9.222.146-7890",
+                "🇨🇳CN-14.103.24.148-8000",
+                "🇨🇳CN-175.24.114.216-33210",
+                "🇨🇳CN-218.93.208.173-33210",
+                "🇨🇳CN-221.216.40.40-5050",
+                "🇨🇳CN-221.224.44.91-7302",
+                "🇨🇳CN-39.99.155.101-7890",
+                "🇨🇳CN-42.194.187.178-33210",
+                "🇨🇳CN-42.194.234.236-7890",
+                "🇨🇳CN-47.100.101.110-7890",
+                "🇨🇳CN-47.101.70.56-33210",
+                "🇨🇳CN-47.109.134.216-7890",
+                "🇨🇳CN-47.92.125.143-7890",
+                "🇨🇳CN-47.92.158.11-7890",
+                "🇨🇳CN-47.93.220.24-7892",
+                "🇨🇳CN-47.95.221.73-7890",
+                "🇨🇳CN-49.4.4.129-8888",
+                "🇨🇳CN-81.71.123.87-33210",
+                "🇨🇳CN-82.156.182.112-7890"
+            ]
+        },
+        {
+            "tag": "🎥 QQ Music Unlocked Nodes - Manual Select",
+            "type": "selector",
+            "outbounds": [
+                "🇨🇳CN-1.117.13.183-33210",
+                "🇨🇳CN-1.14.95.70-9981",
+                "🇨🇳CN-101.132.113.116-25501",
+                "🇨🇳CN-101.43.23.228-7890",
+                "🇨🇳CN-111.230.105.93-7890",
+                "🇨🇳CN-111.230.251.89-7890",
+                "🇨🇳CN-116.172.96.80-2510",
+                "🇨🇳CN-116.230.25.161-7890",
+                "🇨🇳CN-118.25.20.188-33210",
+                "🇨🇳CN-119.146.223.57-1087",
+                "🇨🇳CN-120.24.189.187-33210",
+                "🇨🇳CN-120.79.3.11-7890",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-139.198.164.238-33210",
+                "🇨🇳CN-139.9.222.146-7890",
+                "🇨🇳CN-14.103.24.148-8000",
+                "🇨🇳CN-175.24.114.216-33210",
+                "🇨🇳CN-218.93.208.173-33210",
+                "🇨🇳CN-221.216.40.40-5050",
+                "🇨🇳CN-221.224.44.91-7302",
+                "🇨🇳CN-39.99.155.101-7890",
+                "🇨🇳CN-42.194.187.178-33210",
+                "🇨🇳CN-42.194.234.236-7890",
+                "🇨🇳CN-47.100.101.110-7890",
+                "🇨🇳CN-47.101.70.56-33210",
+                "🇨🇳CN-47.109.134.216-7890",
+                "🇨🇳CN-47.92.125.143-7890",
+                "🇨🇳CN-47.92.158.11-7890",
+                "🇨🇳CN-47.93.220.24-7892",
+                "🇨🇳CN-47.95.221.73-7890",
+                "🇨🇳CN-49.4.4.129-8888",
+                "🇨🇳CN-81.71.123.87-33210",
+                "🇨🇳CN-82.156.182.112-7890"
+            ]
+        },
+        {
+            "tag": "🎥 Kugou Music Unlocked Nodes - Auto Select",
+            "type": "urltest",
+            "url": "http://www.baidu.com",
+            "interval": "5m",
+            "tolerance": 50,
+            "outbounds": [
+                "🇨🇳CN-1.14.95.70-9981",
+                "🇨🇳CN-101.43.23.228-7890",
+                "🇨🇳CN-111.230.105.93-7890",
+                "🇨🇳CN-116.172.96.80-2510",
+                "🇨🇳CN-116.204.97.47-7890",
+                "🇨🇳CN-116.230.25.161-7890",
+                "🇨🇳CN-118.25.20.188-33210",
+                "🇨🇳CN-119.146.223.57-1087",
+                "🇨🇳CN-120.24.189.187-33210",
+                "🇨🇳CN-120.79.3.11-7890",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-139.198.164.238-33210",
+                "🇨🇳CN-139.9.222.146-7890",
+                "🇨🇳CN-175.24.114.216-33210",
+                "🇨🇳CN-175.24.178.130-7890",
+                "🇨🇳CN-218.93.208.173-33210",
+                "🇨🇳CN-221.216.40.40-5050",
+                "🇨🇳CN-221.224.44.91-7302",
+                "🇨🇳CN-39.99.155.101-7890",
+                "🇨🇳CN-42.194.187.178-33210",
+                "🇨🇳CN-42.194.234.236-7890",
+                "🇨🇳CN-47.100.101.110-7890",
+                "🇨🇳CN-47.101.70.56-33210",
+                "🇨🇳CN-47.109.134.216-7890",
+                "🇨🇳CN-47.92.125.143-7890",
+                "🇨🇳CN-47.92.158.11-7890",
+                "🇨🇳CN-47.93.220.24-7892",
+                "🇨🇳CN-47.95.221.73-7890",
+                "🇨🇳CN-49.4.4.129-8888",
+                "🇨🇳CN-60.204.132.217-7890",
+                "🇨🇳CN-61.152.183.116-7890",
+                "🇨🇳CN-81.71.123.87-33210",
+                "🇨🇳CN-82.156.182.112-7890"
+            ]
+        },
+        {
+            "tag": "🎥 Kugou Music Unlocked Nodes - Manual Select",
+            "type": "selector",
+            "outbounds": [
+                "🇨🇳CN-1.14.95.70-9981",
+                "🇨🇳CN-101.43.23.228-7890",
+                "🇨🇳CN-111.230.105.93-7890",
+                "🇨🇳CN-116.172.96.80-2510",
+                "🇨🇳CN-116.204.97.47-7890",
+                "🇨🇳CN-116.230.25.161-7890",
+                "🇨🇳CN-118.25.20.188-33210",
+                "🇨🇳CN-119.146.223.57-1087",
+                "🇨🇳CN-120.24.189.187-33210",
+                "🇨🇳CN-120.79.3.11-7890",
+                "🇨🇳CN-123.126.158.50-80",
+                "🇨🇳CN-125.124.9.27-7890",
+                "🇨🇳CN-139.198.164.238-33210",
+                "🇨🇳CN-139.9.222.146-7890",
+                "🇨🇳CN-175.24.114.216-33210",
+                "🇨🇳CN-175.24.178.130-7890",
+                "🇨🇳CN-218.93.208.173-33210",
+                "🇨🇳CN-221.216.40.40-5050",
+                "🇨🇳CN-221.224.44.91-7302",
+                "🇨🇳CN-39.99.155.101-7890",
+                "🇨🇳CN-42.194.187.178-33210",
+                "🇨🇳CN-42.194.234.236-7890",
+                "🇨🇳CN-47.100.101.110-7890",
+                "🇨🇳CN-47.101.70.56-33210",
+                "🇨🇳CN-47.109.134.216-7890",
+                "🇨🇳CN-47.92.125.143-7890",
+                "🇨🇳CN-47.92.158.11-7890",
+                "🇨🇳CN-47.93.220.24-7892",
+                "🇨🇳CN-47.95.221.73-7890",
+                "🇨🇳CN-49.4.4.129-8888",
+                "🇨🇳CN-60.204.132.217-7890",
+                "🇨🇳CN-61.152.183.116-7890",
+                "🇨🇳CN-81.71.123.87-33210",
+                "🇨🇳CN-82.156.182.112-7890"
+            ]
+        },
+        {
+            "type": "direct",
+            "tag": "direct"
+        },
+        {
+            "type": "dns",
+            "tag": "dns-out"
+        },
+        {
+            "type": "block",
+            "tag": "block"
+        },
+        {
+            "tag": "File Creation Time: Tue Apr 16 09:38:49 UTC 2024",
+            "type": "vmess",
+            "server": "255.255.255.255",
+            "server_port": 10086,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "security": "auto",
+            "alter_id": 0,
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇨🇳CN-1.117.13.183-33210",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "1.117.13.183",
+            "server_port": 33210
+        },
+        {
+            "tag": "🇨🇳CN-1.14.95.70-9981",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "1.14.95.70",
+            "server_port": 9981
+        },
+        {
+            "tag": "🇨🇳CN-101.132.113.116-25501",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "101.132.113.116",
+            "server_port": 25501
+        },
+        {
+            "tag": "🇨🇳CN-101.43.23.228-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "101.43.23.228",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-101.6.69.69*-33210",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "101.6.69.69",
+            "server_port": 33210
+        },
+        {
+            "tag": "🇨🇳CN-111.206.0.99-8181",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "111.206.0.99",
+            "server_port": 8181
+        },
+        {
+            "tag": "🇨🇳CN-111.230.105.93-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "111.230.105.93",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-111.230.251.89-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "111.230.251.89",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-112.26.181.61-8118",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "112.26.181.61",
+            "server_port": 8118
+        },
+        {
+            "tag": "🇨🇳CN-114.113.235.38-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "114.113.235.38",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-115.223.11.212-50000",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "115.223.11.212",
+            "server_port": 50000
+        },
+        {
+            "tag": "🇨🇳CN-116.172.96.80-2510",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "116.172.96.80",
+            "server_port": 2510
+        },
+        {
+            "tag": "🇨🇳CN-116.204.97.47-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "116.204.97.47",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-116.230.25.161-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "116.230.25.161",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-118.25.20.188-33210",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "118.25.20.188",
+            "server_port": 33210
+        },
+        {
+            "tag": "🇨🇳CN-119.146.223.57-1087",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "119.146.223.57",
+            "server_port": 1087
+        },
+        {
+            "tag": "🇨🇳CN-119.166.194.235-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "119.166.194.235",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-120.24.189.187-33210",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "120.24.189.187",
+            "server_port": 33210
+        },
+        {
+            "tag": "🇨🇳CN-120.79.3.11-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "120.79.3.11",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-123.126.158.50-80",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "123.126.158.50",
+            "server_port": 80
+        },
+        {
+            "tag": "🇨🇳CN-125.124.9.27-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "125.124.9.27",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-139.198.164.238-33210",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "139.198.164.238",
+            "server_port": 33210
+        },
+        {
+            "tag": "🇨🇳CN-139.9.222.146-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "139.9.222.146",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-14.103.24.148-8000",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "14.103.24.148",
+            "server_port": 8000
+        },
+        {
+            "tag": "🇨🇳CN-175.24.114.216-33210",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "175.24.114.216",
+            "server_port": 33210
+        },
+        {
+            "tag": "🇨🇳CN-175.24.178.130-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "175.24.178.130",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-175.27.247.28-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "175.27.247.28",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-202.112.51.155*-27978",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "202.112.51.155",
+            "server_port": 27978
+        },
+        {
+            "tag": "🇨🇳CN-218.93.208.173-33210",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "218.93.208.173",
+            "server_port": 33210
+        },
+        {
+            "tag": "🇨🇳CN-221.216.40.40-5050",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "221.216.40.40",
+            "server_port": 5050
+        },
+        {
+            "tag": "🇨🇳CN-221.224.44.91-7302",
+            "type": "socks",
+            "version": "5",
+            "server": "221.224.44.91",
+            "server_port": 7302
+        },
+        {
+            "tag": "🇨🇳CN-39.105.27.30-3128",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "39.105.27.30",
+            "server_port": 3128
+        },
+        {
+            "tag": "🇨🇳CN-39.171.252.17-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "39.171.252.17",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-39.184.16.19-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "39.184.16.19",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-39.99.155.101-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "39.99.155.101",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-42.194.187.178-33210",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "42.194.187.178",
+            "server_port": 33210
+        },
+        {
+            "tag": "🇨🇳CN-42.194.234.236-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "42.194.234.236",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-47.100.101.110-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "47.100.101.110",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-47.101.70.56-33210",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "47.101.70.56",
+            "server_port": 33210
+        },
+        {
+            "tag": "🇨🇳CN-47.109.134.216-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "47.109.134.216",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-47.92.125.143-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "47.92.125.143",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-47.92.158.11-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "47.92.158.11",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-47.93.220.24-7892",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "47.93.220.24",
+            "server_port": 7892
+        },
+        {
+            "tag": "🇨🇳CN-47.95.221.73-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "47.95.221.73",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-49.4.4.129-8888",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "ecs-49-4-48-128.compute.hwclouds-dns.com",
+            "server_port": 8888
+        },
+        {
+            "tag": "🇨🇳CN-59.66.130.42*-8890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "59.66.130.42",
+            "server_port": 8890
+        },
+        {
+            "tag": "🇨🇳CN-60.204.132.217-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "60.204.132.217",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-61.152.183.116-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "61.152.183.116",
+            "server_port": 7890
+        },
+        {
+            "tag": "🇨🇳CN-81.71.123.87-33210",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "81.71.123.87",
+            "server_port": 33210
+        },
+        {
+            "tag": "🇨🇳CN-82.156.182.112-7890",
+            "type": "http",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "server": "82.156.182.112",
+            "server_port": 7890
+        }
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "final": "🐟 Remaining Website",
+        "rules": [
+            {
+                "protocol": "dns",
+                "outbound": "dns-out"
+            },
+            {
+                "clash_mode": "direct",
+                "outbound": "direct"
+            },
+            {
+                "clash_mode": "global",
+                "outbound": "🚀 Node Group - 1"
+            },
+            {
+                "rule_set": "BiliBili",
+                "outbound": "🎥 BiliBili"
+            },
+            {
+                "rule_set": "iQIYI",
+                "outbound": "🎥 iQIYI"
+            },
+            {
+                "rule_set": "TencentVideo",
+                "outbound": "🎥 Tencent Video"
+            },
+            {
+                "rule_set": "Youku",
+                "outbound": "🎥 Youku Video"
+            },
+            {
+                "rule_set": "MangoTV",
+                "outbound": "🎥 Mango TV"
+            },
+            {
+                "rule_set": "NetEaseMusic",
+                "outbound": "🎥 NetEase Cloud Music"
+            },
+            {
+                "rule_set": "QQMusic",
+                "outbound": "🎥 QQ Music"
+            },
+            {
+                "rule_set": "KugouKuwo",
+                "outbound": "🎥 Kugou&Kuwo Music"
+            },
+            {
+                "rule_set": "ChinaMedia",
+                "outbound": "🌏 China Media"
+            },
+            {
+                "rule_set": "ChinaIPv4",
+                "outbound": "🎯 China Website"
+            },
+            {
+                "rule_set": "ChinaIPv6",
+                "outbound": "🎯 China Website"
+            },
+            {
+                "rule_set": "ChinaDomain",
+                "outbound": "🎯 China Website"
+            }
+        ],
+        "rule_set": [
+            {
+                "tag": "BiliBili",
+                "type": "remote",
+                "format": "source",
+                "url": "https://raw.githubusercontent.com/thuhollow2/rule/main/Sing-Box/BiliBili.json",
+                "download_detour": "direct"
+            },
+            {
+                "tag": "iQIYI",
+                "type": "remote",
+                "format": "source",
+                "url": "https://raw.githubusercontent.com/thuhollow2/rule/main/Sing-Box/iQIYI.json",
+                "download_detour": "direct"
+            },
+            {
+                "tag": "TencentVideo",
+                "type": "remote",
+                "format": "source",
+                "url": "https://raw.githubusercontent.com/thuhollow2/rule/main/Sing-Box/TencentVideo.json",
+                "download_detour": "direct"
+            },
+            {
+                "tag": "Youku",
+                "type": "remote",
+                "format": "source",
+                "url": "https://raw.githubusercontent.com/thuhollow2/rule/main/Sing-Box/Youku.json",
+                "download_detour": "direct"
+            },
+            {
+                "tag": "MangoTV",
+                "type": "remote",
+                "format": "source",
+                "url": "https://raw.githubusercontent.com/thuhollow2/rule/main/Sing-Box/MangoTV.json",
+                "download_detour": "direct"
+            },
+            {
+                "tag": "NetEaseMusic",
+                "type": "remote",
+                "format": "source",
+                "url": "https://raw.githubusercontent.com/thuhollow2/rule/main/Sing-Box/NetEaseMusic.json",
+                "download_detour": "direct"
+            },
+            {
+                "tag": "QQMusic",
+                "type": "remote",
+                "format": "source",
+                "url": "https://raw.githubusercontent.com/thuhollow2/rule/main/Sing-Box/QQMusic.json",
+                "download_detour": "direct"
+            },
+            {
+                "tag": "KugouKuwo",
+                "type": "remote",
+                "format": "source",
+                "url": "https://raw.githubusercontent.com/thuhollow2/rule/main/Sing-Box/KugouKuwo.json",
+                "download_detour": "direct"
+            },
+            {
+                "tag": "ChinaMedia",
+                "type": "remote",
+                "format": "source",
+                "url": "https://raw.githubusercontent.com/thuhollow2/rule/main/Sing-Box/ChinaMedia.json",
+                "download_detour": "direct"
+            },
+            {
+                "tag": "ChinaIPv4",
+                "type": "remote",
+                "format": "source",
+                "url": "https://raw.githubusercontent.com/thuhollow2/rule/main/Sing-Box/ChinaIPv4.json",
+                "download_detour": "direct"
+            },
+            {
+                "tag": "ChinaIPv6",
+                "type": "remote",
+                "format": "source",
+                "url": "https://raw.githubusercontent.com/thuhollow2/rule/main/Sing-Box/ChinaIPv6.json",
+                "download_detour": "direct"
+            },
+            {
+                "tag": "ChinaDomain",
+                "type": "remote",
+                "format": "source",
+                "url": "https://raw.githubusercontent.com/thuhollow2/rule/main/Sing-Box/ChinaDomain.json",
+                "download_detour": "direct"
+            }
+        ]
+    }
+}
