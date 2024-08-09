@@ -1,0 +1,14 @@
+proxies:
+  - {"name": "File Creation Time: Fri Aug 09 23:14:09 UTC 2024", "server": "255.255.255.255", "port": 10086, "type": "vmess", "alterId": 0, "cipher": "auto", "skip-cert-verify": true, "tls": false, "udp": true, "uuid": "00000000-0000-0000-0000-000000000000"}
+  - {"name": "🇨🇳CN-111.6.86.215-80", "server": "hn.xn--wlqw1swrj04ju56d.com", "port": 80, "type": "vmess", "alterId": 0, "cipher": "auto", "network": "ws", "servername": "", "skip-cert-verify": true, "tls": false, "uuid": "f9ddefc5-d121-486f-9e2f-0c2cd1a3decc", "ws-opts": {"headers": {"host": "tms.dingtalk.com"}, "path": "/"}}
+  - {"name": "🇨🇳CN-114.113.235.38-7890", "server": "114.113.235.38", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-116.204.97.47-7890", "server": "116.204.97.47", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-119.166.197.246-7890", "server": "119.166.197.246", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-120.24.189.187-33210", "server": "120.24.189.187", "port": 33210, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-123.126.158.50-80", "server": "123.126.158.50", "port": 80, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-124.90.140.44-7890", "server": "124.90.140.44", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-139.198.164.238-33210", "server": "139.198.164.238", "port": 33210, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-203.34.153.79-7890", "server": "203.34.153.79", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-36.251.111.70-7890", "server": "36.251.111.70", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-39.105.27.30-3128", "server": "39.105.27.30", "port": 3128, "type": "http", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-69.230.238.225-7890", "server": "69.230.238.225", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
