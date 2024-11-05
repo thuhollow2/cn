@@ -1,0 +1,97 @@
+[General]
+allow-udp-proxy=false
+bypass-tun=10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+dns-server=system,1.0.0.1,8.8.4.4
+host=127.0.0.1
+skip-proxy=192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
+
+[Proxy]
+File Creation Time: Tue Nov 05 02:41:17 UTC 2024 = vmess,255.255.255.255,10086,chacha20-ietf-poly1305,"00000000-0000-0000-0000-000000000000",over-tls=false,transport=tcp,skip-cert-verify=true,udp=true
+🇨🇳CN-1.14.95.70-9981 = http,1.14.95.70,9981,,"",udp=true
+🇨🇳CN-1.15.137.60-7890 = http,1.15.137.60,7890,,"",udp=true
+🇨🇳CN-101.200.192.109-7890 = http,101.200.192.109,7890,,"",udp=true
+🇨🇳CN-103.79.25.104-7890 = http,103.79.25.104,7890,,"",udp=true
+🇨🇳CN-112.126.68.55-7890 = http,112.126.68.55,7890,,"",udp=true
+🇨🇳CN-112.254.5.63-7890 = http,112.254.5.63,7890,,"",udp=true
+🇨🇳CN-114.218.58.238-7890 = http,114.218.58.238,7890,,"",udp=true
+🇨🇳CN-120.86.247.251-7890 = http,120.86.247.251,7890,,"",udp=true
+🇨🇳CN-124.70.104.145-7890 = http,124.70.104.145,7890,,"",udp=true
+🇨🇳CN-139.155.236.28-7860 = http,139.155.236.28,7860,,"",udp=true
+🇨🇳CN-144.255.15.106-7890 = http,144.255.15.106,7890,,"",udp=true
+🇨🇳CN-175.27.251.91-7890 = http,175.27.251.91,7890,,"",udp=true
+🇨🇳CN-222.187.226.80-7890 = http,222.187.226.80,7890,,"",udp=true
+🇨🇳CN-222.208.232.168-7890 = http,222.208.232.168,7890,,"",udp=true
+🇨🇳CN-36.251.111.219-7890 = http,36.251.111.219,7890,,"",udp=true
+🇨🇳CN-39.105.27.30-3128 = http,39.105.27.30,3128,,"",udp=true
+🇨🇳CN-60.204.211.93-7890 = http,60.204.211.93,7890,,"",udp=true
+🇨🇳CN-81.71.123.87-33210 = http,81.71.123.87,33210,,"",udp=true
+🇨🇳CN-82.156.23.38-7890 = http,82.156.23.38,7890,,"",udp=true
+
+[Remote Proxy]
+
+[Proxy Group]
+🚀 Node Group - 1 = select,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,♻️ IPv6 Nodes - Auto Select,🚀 IPv6 Nodes - Manual Select,🎥 BiliBili Unlocked Nodes - Auto Select,🎥 BiliBili Unlocked Nodes - Manual Select,🎥 iQIYI Unlocked Nodes - Auto Select,🎥 iQIYI Unlocked Nodes - Manual Select,🎥 Tencent Video Unlocked Nodes - Auto Select,🎥 Tencent Video Unlocked Nodes - Manual Select,🎥 Youku Video Unlocked Nodes - Auto Select,🎥 Youku Video Unlocked Nodes - Manual Select,🎥 Mango TV Unlocked Nodes - Auto Select,🎥 Mango TV Unlocked Nodes - Manual Select,🎥 NetEase Cloud Music Unlocked Nodes - Auto Select,🎥 NetEase Cloud Music Unlocked Nodes - Manual Select,🎥 QQ Music Unlocked Nodes - Auto Select,🎥 QQ Music Unlocked Nodes - Manual Select,🎥 Kugou Music Unlocked Nodes - Auto Select,🎥 Kugou Music Unlocked Nodes - Manual Select,DIRECT,REJECT
+🚀 Node Group - 2 = select,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,♻️ IPv6 Nodes - Auto Select,🚀 IPv6 Nodes - Manual Select,🎥 BiliBili Unlocked Nodes - Auto Select,🎥 BiliBili Unlocked Nodes - Manual Select,🎥 iQIYI Unlocked Nodes - Auto Select,🎥 iQIYI Unlocked Nodes - Manual Select,🎥 Tencent Video Unlocked Nodes - Auto Select,🎥 Tencent Video Unlocked Nodes - Manual Select,🎥 Youku Video Unlocked Nodes - Auto Select,🎥 Youku Video Unlocked Nodes - Manual Select,🎥 Mango TV Unlocked Nodes - Auto Select,🎥 Mango TV Unlocked Nodes - Manual Select,🎥 NetEase Cloud Music Unlocked Nodes - Auto Select,🎥 NetEase Cloud Music Unlocked Nodes - Manual Select,🎥 QQ Music Unlocked Nodes - Auto Select,🎥 QQ Music Unlocked Nodes - Manual Select,🎥 Kugou Music Unlocked Nodes - Auto Select,🎥 Kugou Music Unlocked Nodes - Manual Select,DIRECT,REJECT
+🌏 China Media = select,🚀 Node Group - 1,🚀 Node Group - 2,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,♻️ IPv6 Nodes - Auto Select,🚀 IPv6 Nodes - Manual Select,DIRECT,REJECT
+🎯 China Website = select,🚀 Node Group - 1,🚀 Node Group - 2,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,♻️ IPv6 Nodes - Auto Select,🚀 IPv6 Nodes - Manual Select,DIRECT,REJECT
+🐟 Remaining Website = select,DIRECT,🚀 Node Group - 1,🚀 Node Group - 2,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,♻️ IPv6 Nodes - Auto Select,🚀 IPv6 Nodes - Manual Select,REJECT
+🎥 BiliBili = select,🎥 BiliBili Unlocked Nodes - Auto Select,🎥 BiliBili Unlocked Nodes - Manual Select,🚀 Node Group - 1,🚀 Node Group - 2,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,DIRECT,REJECT
+🎥 iQIYI = select,🎥 iQIYI Unlocked Nodes - Auto Select,🎥 iQIYI Unlocked Nodes - Manual Select,🚀 Node Group - 1,🚀 Node Group - 2,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,DIRECT,REJECT
+🎥 Tencent Video = select,🎥 Tencent Video Unlocked Nodes - Auto Select,🎥 Tencent Video Unlocked Nodes - Manual Select,🚀 Node Group - 1,🚀 Node Group - 2,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,DIRECT,REJECT
+🎥 Youku Video = select,🎥 Youku Video Unlocked Nodes - Auto Select,🎥 Youku Video Unlocked Nodes - Manual Select,🚀 Node Group - 1,🚀 Node Group - 2,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,DIRECT,REJECT
+🎥 Mango TV = select,🎥 Mango TV Unlocked Nodes - Auto Select,🎥 Mango TV Unlocked Nodes - Manual Select,🚀 Node Group - 1,🚀 Node Group - 2,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,DIRECT,REJECT
+🎥 NetEase Cloud Music = select,🎥 NetEase Cloud Music Unlocked Nodes - Auto Select,🎥 NetEase Cloud Music Unlocked Nodes - Manual Select,🚀 Node Group - 1,🚀 Node Group - 2,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,DIRECT,REJECT
+🎥 QQ Music = select,🎥 QQ Music Unlocked Nodes - Auto Select,🎥 QQ Music Unlocked Nodes - Manual Select,🚀 Node Group - 1,🚀 Node Group - 2,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,DIRECT,REJECT
+🎥 Kugou&Kuwo Music = select,🎥 Kugou Music Unlocked Nodes - Auto Select,🎥 Kugou Music Unlocked Nodes - Manual Select,🚀 Node Group - 1,🚀 Node Group - 2,♻️ All Nodes - Auto Select,🚀 All Nodes - 1 - Manual Select,🚀 All Nodes - 2 - Manual Select,DIRECT,REJECT
+♻️ All Nodes - Auto Select = url-test,🇨🇳CN-1.14.95.70-9981,🇨🇳CN-1.15.137.60-7890,🇨🇳CN-101.200.192.109-7890,🇨🇳CN-103.79.25.104-7890,🇨🇳CN-112.126.68.55-7890,🇨🇳CN-112.254.5.63-7890,🇨🇳CN-114.218.58.238-7890,🇨🇳CN-120.86.247.251-7890,🇨🇳CN-124.70.104.145-7890,🇨🇳CN-139.155.236.28-7860,🇨🇳CN-144.255.15.106-7890,🇨🇳CN-175.27.251.91-7890,🇨🇳CN-222.187.226.80-7890,🇨🇳CN-222.208.232.168-7890,🇨🇳CN-36.251.111.219-7890,🇨🇳CN-39.105.27.30-3128,🇨🇳CN-60.204.211.93-7890,🇨🇳CN-81.71.123.87-33210,🇨🇳CN-82.156.23.38-7890,url=http://www.baidu.com,interval=300
+🚀 All Nodes - 1 - Manual Select = select,File Creation Time: Tue Nov 05 02:41:17 UTC 2024,🇨🇳CN-1.14.95.70-9981,🇨🇳CN-1.15.137.60-7890,🇨🇳CN-101.200.192.109-7890,🇨🇳CN-103.79.25.104-7890,🇨🇳CN-112.126.68.55-7890,🇨🇳CN-112.254.5.63-7890,🇨🇳CN-114.218.58.238-7890,🇨🇳CN-120.86.247.251-7890,🇨🇳CN-124.70.104.145-7890,🇨🇳CN-139.155.236.28-7860,🇨🇳CN-144.255.15.106-7890,🇨🇳CN-175.27.251.91-7890,🇨🇳CN-222.187.226.80-7890,🇨🇳CN-222.208.232.168-7890,🇨🇳CN-36.251.111.219-7890,🇨🇳CN-39.105.27.30-3128,🇨🇳CN-60.204.211.93-7890,🇨🇳CN-81.71.123.87-33210,🇨🇳CN-82.156.23.38-7890
+🚀 All Nodes - 2 - Manual Select = select,File Creation Time: Tue Nov 05 02:41:17 UTC 2024,🇨🇳CN-1.14.95.70-9981,🇨🇳CN-1.15.137.60-7890,🇨🇳CN-101.200.192.109-7890,🇨🇳CN-103.79.25.104-7890,🇨🇳CN-112.126.68.55-7890,🇨🇳CN-112.254.5.63-7890,🇨🇳CN-114.218.58.238-7890,🇨🇳CN-120.86.247.251-7890,🇨🇳CN-124.70.104.145-7890,🇨🇳CN-139.155.236.28-7860,🇨🇳CN-144.255.15.106-7890,🇨🇳CN-175.27.251.91-7890,🇨🇳CN-222.187.226.80-7890,🇨🇳CN-222.208.232.168-7890,🇨🇳CN-36.251.111.219-7890,🇨🇳CN-39.105.27.30-3128,🇨🇳CN-60.204.211.93-7890,🇨🇳CN-81.71.123.87-33210,🇨🇳CN-82.156.23.38-7890
+♻️ IPv6 Nodes - Auto Select = select,REJECT
+🚀 IPv6 Nodes - Manual Select = select,REJECT
+🎥 BiliBili Unlocked Nodes - Auto Select = url-test,🇨🇳CN-1.14.95.70-9981,🇨🇳CN-1.15.137.60-7890,🇨🇳CN-101.200.192.109-7890,🇨🇳CN-114.218.58.238-7890,🇨🇳CN-124.70.104.145-7890,🇨🇳CN-139.155.236.28-7860,🇨🇳CN-144.255.15.106-7890,🇨🇳CN-222.187.226.80-7890,🇨🇳CN-222.208.232.168-7890,🇨🇳CN-36.251.111.219-7890,🇨🇳CN-81.71.123.87-33210,🇨🇳CN-82.156.23.38-7890,url=http://www.baidu.com,interval=300
+🎥 BiliBili Unlocked Nodes - Manual Select = select,🇨🇳CN-1.14.95.70-9981,🇨🇳CN-1.15.137.60-7890,🇨🇳CN-101.200.192.109-7890,🇨🇳CN-114.218.58.238-7890,🇨🇳CN-124.70.104.145-7890,🇨🇳CN-139.155.236.28-7860,🇨🇳CN-144.255.15.106-7890,🇨🇳CN-222.187.226.80-7890,🇨🇳CN-222.208.232.168-7890,🇨🇳CN-36.251.111.219-7890,🇨🇳CN-81.71.123.87-33210,🇨🇳CN-82.156.23.38-7890
+🎥 iQIYI Unlocked Nodes - Auto Select = url-test,🇨🇳CN-120.86.247.251-7890,🇨🇳CN-139.155.236.28-7860,url=http://www.baidu.com,interval=300
+🎥 iQIYI Unlocked Nodes - Manual Select = select,🇨🇳CN-120.86.247.251-7890,🇨🇳CN-139.155.236.28-7860
+🎥 Tencent Video Unlocked Nodes - Auto Select = url-test,🇨🇳CN-1.14.95.70-9981,🇨🇳CN-1.15.137.60-7890,🇨🇳CN-101.200.192.109-7890,🇨🇳CN-114.218.58.238-7890,🇨🇳CN-124.70.104.145-7890,🇨🇳CN-139.155.236.28-7860,🇨🇳CN-144.255.15.106-7890,🇨🇳CN-222.187.226.80-7890,🇨🇳CN-222.208.232.168-7890,🇨🇳CN-36.251.111.219-7890,🇨🇳CN-81.71.123.87-33210,🇨🇳CN-82.156.23.38-7890,url=http://www.baidu.com,interval=300
+🎥 Tencent Video Unlocked Nodes - Manual Select = select,🇨🇳CN-1.14.95.70-9981,🇨🇳CN-1.15.137.60-7890,🇨🇳CN-101.200.192.109-7890,🇨🇳CN-114.218.58.238-7890,🇨🇳CN-124.70.104.145-7890,🇨🇳CN-139.155.236.28-7860,🇨🇳CN-144.255.15.106-7890,🇨🇳CN-222.187.226.80-7890,🇨🇳CN-222.208.232.168-7890,🇨🇳CN-36.251.111.219-7890,🇨🇳CN-81.71.123.87-33210,🇨🇳CN-82.156.23.38-7890
+🎥 Youku Video Unlocked Nodes - Auto Select = url-test,🇨🇳CN-103.79.25.104-7890,🇨🇳CN-114.218.58.238-7890,🇨🇳CN-144.255.15.106-7890,🇨🇳CN-222.187.226.80-7890,🇨🇳CN-222.208.232.168-7890,url=http://www.baidu.com,interval=300
+🎥 Youku Video Unlocked Nodes - Manual Select = select,🇨🇳CN-103.79.25.104-7890,🇨🇳CN-114.218.58.238-7890,🇨🇳CN-144.255.15.106-7890,🇨🇳CN-222.187.226.80-7890,🇨🇳CN-222.208.232.168-7890
+🎥 Mango TV Unlocked Nodes - Auto Select = url-test,🇨🇳CN-1.14.95.70-9981,🇨🇳CN-1.15.137.60-7890,🇨🇳CN-101.200.192.109-7890,🇨🇳CN-112.254.5.63-7890,🇨🇳CN-114.218.58.238-7890,🇨🇳CN-124.70.104.145-7890,🇨🇳CN-139.155.236.28-7860,🇨🇳CN-144.255.15.106-7890,🇨🇳CN-175.27.251.91-7890,🇨🇳CN-222.187.226.80-7890,🇨🇳CN-222.208.232.168-7890,🇨🇳CN-36.251.111.219-7890,🇨🇳CN-81.71.123.87-33210,🇨🇳CN-82.156.23.38-7890,url=http://www.baidu.com,interval=300
+🎥 Mango TV Unlocked Nodes - Manual Select = select,🇨🇳CN-1.14.95.70-9981,🇨🇳CN-1.15.137.60-7890,🇨🇳CN-101.200.192.109-7890,🇨🇳CN-112.254.5.63-7890,🇨🇳CN-114.218.58.238-7890,🇨🇳CN-124.70.104.145-7890,🇨🇳CN-139.155.236.28-7860,🇨🇳CN-144.255.15.106-7890,🇨🇳CN-175.27.251.91-7890,🇨🇳CN-222.187.226.80-7890,🇨🇳CN-222.208.232.168-7890,🇨🇳CN-36.251.111.219-7890,🇨🇳CN-81.71.123.87-33210,🇨🇳CN-82.156.23.38-7890
+🎥 NetEase Cloud Music Unlocked Nodes - Auto Select = url-test,🇨🇳CN-1.14.95.70-9981,🇨🇳CN-1.15.137.60-7890,🇨🇳CN-101.200.192.109-7890,🇨🇳CN-103.79.25.104-7890,🇨🇳CN-114.218.58.238-7890,🇨🇳CN-124.70.104.145-7890,🇨🇳CN-139.155.236.28-7860,🇨🇳CN-144.255.15.106-7890,🇨🇳CN-222.187.226.80-7890,🇨🇳CN-222.208.232.168-7890,🇨🇳CN-36.251.111.219-7890,🇨🇳CN-81.71.123.87-33210,🇨🇳CN-82.156.23.38-7890,url=http://www.baidu.com,interval=300
+🎥 NetEase Cloud Music Unlocked Nodes - Manual Select = select,🇨🇳CN-1.14.95.70-9981,🇨🇳CN-1.15.137.60-7890,🇨🇳CN-101.200.192.109-7890,🇨🇳CN-103.79.25.104-7890,🇨🇳CN-114.218.58.238-7890,🇨🇳CN-124.70.104.145-7890,🇨🇳CN-139.155.236.28-7860,🇨🇳CN-144.255.15.106-7890,🇨🇳CN-222.187.226.80-7890,🇨🇳CN-222.208.232.168-7890,🇨🇳CN-36.251.111.219-7890,🇨🇳CN-81.71.123.87-33210,🇨🇳CN-82.156.23.38-7890
+🎥 QQ Music Unlocked Nodes - Auto Select = url-test,🇨🇳CN-1.14.95.70-9981,🇨🇳CN-1.15.137.60-7890,🇨🇳CN-101.200.192.109-7890,🇨🇳CN-103.79.25.104-7890,🇨🇳CN-112.254.5.63-7890,🇨🇳CN-114.218.58.238-7890,🇨🇳CN-124.70.104.145-7890,🇨🇳CN-139.155.236.28-7860,🇨🇳CN-144.255.15.106-7890,🇨🇳CN-222.187.226.80-7890,🇨🇳CN-222.208.232.168-7890,🇨🇳CN-36.251.111.219-7890,🇨🇳CN-81.71.123.87-33210,🇨🇳CN-82.156.23.38-7890,url=http://www.baidu.com,interval=300
+🎥 QQ Music Unlocked Nodes - Manual Select = select,🇨🇳CN-1.14.95.70-9981,🇨🇳CN-1.15.137.60-7890,🇨🇳CN-101.200.192.109-7890,🇨🇳CN-103.79.25.104-7890,🇨🇳CN-112.254.5.63-7890,🇨🇳CN-114.218.58.238-7890,🇨🇳CN-124.70.104.145-7890,🇨🇳CN-139.155.236.28-7860,🇨🇳CN-144.255.15.106-7890,🇨🇳CN-222.187.226.80-7890,🇨🇳CN-222.208.232.168-7890,🇨🇳CN-36.251.111.219-7890,🇨🇳CN-81.71.123.87-33210,🇨🇳CN-82.156.23.38-7890
+🎥 Kugou Music Unlocked Nodes - Auto Select = url-test,🇨🇳CN-1.14.95.70-9981,🇨🇳CN-1.15.137.60-7890,🇨🇳CN-101.200.192.109-7890,🇨🇳CN-103.79.25.104-7890,🇨🇳CN-114.218.58.238-7890,🇨🇳CN-124.70.104.145-7890,🇨🇳CN-139.155.236.28-7860,🇨🇳CN-144.255.15.106-7890,🇨🇳CN-175.27.251.91-7890,🇨🇳CN-222.187.226.80-7890,🇨🇳CN-222.208.232.168-7890,🇨🇳CN-36.251.111.219-7890,🇨🇳CN-82.156.23.38-7890,url=http://www.baidu.com,interval=300
+🎥 Kugou Music Unlocked Nodes - Manual Select = select,🇨🇳CN-1.14.95.70-9981,🇨🇳CN-1.15.137.60-7890,🇨🇳CN-101.200.192.109-7890,🇨🇳CN-103.79.25.104-7890,🇨🇳CN-114.218.58.238-7890,🇨🇳CN-124.70.104.145-7890,🇨🇳CN-139.155.236.28-7860,🇨🇳CN-144.255.15.106-7890,🇨🇳CN-175.27.251.91-7890,🇨🇳CN-222.187.226.80-7890,🇨🇳CN-222.208.232.168-7890,🇨🇳CN-36.251.111.219-7890,🇨🇳CN-82.156.23.38-7890
+
+[Rule]
+GEOIP,CN,🎯 China Website
+FINAL,🐟 Remaining Website
+
+[Remote Rule]
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/BiliBili.list,🎥 BiliBili
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/iQIYI.list,🎥 iQIYI
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/TencentVideo.list,🎥 Tencent Video
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/Youku.list,🎥 Youku Video
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/MangoTV.list,🎥 Mango TV
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/NetEaseMusic.list,🎥 NetEase Cloud Music
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/QQMusic.list,🎥 QQ Music
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/KugouKuwo.list,🎥 Kugou&Kuwo Music
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaMedia.list,🌏 China Media
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIPv4.list,🎯 China Website
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaIPv6.list,🎯 China Website
+https://raw.githubusercontent.com/thuhollow2/rule/main/Clash/ChinaDomain.list,🎯 China Website
+
+[URL Rewrite]
+enable=true
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+
+[Remote Rewrite]
+https://raw.githubusercontent.com/thuhollow2/rule/main/Loon/AutoRewrite_Example.list,auto
+
+[MITM]
+enable=true
+hostname=*.example.com,*.sample.com
+skip-server-cert-verify=true
+
