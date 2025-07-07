@@ -1,0 +1,88 @@
+[general]
+excluded_routes=192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
+geo_location_checker=https://raw.githubusercontent.com/thuhollow2/qure/main/Other/IP_API.js
+network_check_url=http://www.apple.com/library/test/success.html
+server_check_url=http://www.gstatic.com/generate_204
+
+[dns]
+server=1.0.0.1
+server=8.8.4.4
+
+[policy]
+static=🚀 Node Group - 1, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, ♻️ IPv6 Nodes - Auto Select, 🚀 IPv6 Nodes - Manual Select, 🎥 BiliBili Unlocked Nodes - Auto Select, 🎥 BiliBili Unlocked Nodes - Manual Select, 🎥 iQIYI Unlocked Nodes - Auto Select, 🎥 iQIYI Unlocked Nodes - Manual Select, 🎥 Tencent Video Unlocked Nodes - Auto Select, 🎥 Tencent Video Unlocked Nodes - Manual Select, 🎥 Youku Video Unlocked Nodes - Auto Select, 🎥 Youku Video Unlocked Nodes - Manual Select, 🎥 Mango TV Unlocked Nodes - Auto Select, 🎥 Mango TV Unlocked Nodes - Manual Select, 🎥 NetEase Cloud Music Unlocked Nodes - Auto Select, 🎥 NetEase Cloud Music Unlocked Nodes - Manual Select, 🎥 QQ Music Unlocked Nodes - Auto Select, 🎥 QQ Music Unlocked Nodes - Manual Select, 🎥 Kugou Music Unlocked Nodes - Auto Select, 🎥 Kugou Music Unlocked Nodes - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+static=🚀 Node Group - 2, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, ♻️ IPv6 Nodes - Auto Select, 🚀 IPv6 Nodes - Manual Select, 🎥 BiliBili Unlocked Nodes - Auto Select, 🎥 BiliBili Unlocked Nodes - Manual Select, 🎥 iQIYI Unlocked Nodes - Auto Select, 🎥 iQIYI Unlocked Nodes - Manual Select, 🎥 Tencent Video Unlocked Nodes - Auto Select, 🎥 Tencent Video Unlocked Nodes - Manual Select, 🎥 Youku Video Unlocked Nodes - Auto Select, 🎥 Youku Video Unlocked Nodes - Manual Select, 🎥 Mango TV Unlocked Nodes - Auto Select, 🎥 Mango TV Unlocked Nodes - Manual Select, 🎥 NetEase Cloud Music Unlocked Nodes - Auto Select, 🎥 NetEase Cloud Music Unlocked Nodes - Manual Select, 🎥 QQ Music Unlocked Nodes - Auto Select, 🎥 QQ Music Unlocked Nodes - Manual Select, 🎥 Kugou Music Unlocked Nodes - Auto Select, 🎥 Kugou Music Unlocked Nodes - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+static=🌏 China Media, 🚀 Node Group - 1, 🚀 Node Group - 2, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, ♻️ IPv6 Nodes - Auto Select, 🚀 IPv6 Nodes - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Media.png
+static=🎯 China Website, 🚀 Node Group - 1, 🚀 Node Group - 2, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, ♻️ IPv6 Nodes - Auto Select, 🚀 IPv6 Nodes - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Direct.png
+static=🐟 Remaining Website, DIRECT, 🚀 Node Group - 1, 🚀 Node Group - 2, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, ♻️ IPv6 Nodes - Auto Select, 🚀 IPv6 Nodes - Manual Select, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Final.png
+static=🎥 BiliBili, 🎥 BiliBili Unlocked Nodes - Auto Select, 🎥 BiliBili Unlocked Nodes - Manual Select, 🚀 Node Group - 1, 🚀 Node Group - 2, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/bilibili.png
+static=🎥 iQIYI, 🎥 iQIYI Unlocked Nodes - Auto Select, 🎥 iQIYI Unlocked Nodes - Manual Select, 🚀 Node Group - 1, 🚀 Node Group - 2, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/iQIYI.png
+static=🎥 Tencent Video, 🎥 Tencent Video Unlocked Nodes - Auto Select, 🎥 Tencent Video Unlocked Nodes - Manual Select, 🚀 Node Group - 1, 🚀 Node Group - 2, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/TencentVideo.png
+static=🎥 Youku Video, 🎥 Youku Video Unlocked Nodes - Auto Select, 🎥 Youku Video Unlocked Nodes - Manual Select, 🚀 Node Group - 1, 🚀 Node Group - 2, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Youku.png
+static=🎥 Mango TV, 🎥 Mango TV Unlocked Nodes - Auto Select, 🎥 Mango TV Unlocked Nodes - Manual Select, 🚀 Node Group - 1, 🚀 Node Group - 2, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/MangoTV.png
+static=🎥 NetEase Cloud Music, 🎥 NetEase Cloud Music Unlocked Nodes - Auto Select, 🎥 NetEase Cloud Music Unlocked Nodes - Manual Select, 🚀 Node Group - 1, 🚀 Node Group - 2, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Netease_Music.png
+static=🎥 QQ Music, 🎥 QQ Music Unlocked Nodes - Auto Select, 🎥 QQ Music Unlocked Nodes - Manual Select, 🚀 Node Group - 1, 🚀 Node Group - 2, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/QQMusic.png
+static=🎥 Kugou&Kuwo Music, 🎥 Kugou Music Unlocked Nodes - Auto Select, 🎥 Kugou Music Unlocked Nodes - Manual Select, 🚀 Node Group - 1, 🚀 Node Group - 2, ♻️ All Nodes - Auto Select, 🚀 All Nodes - 1 - Manual Select, 🚀 All Nodes - 2 - Manual Select, DIRECT, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Kugou.png
+url-latency-benchmark=♻️ All Nodes - Auto Select, 🇨🇳CN-110.43.84.217*-80, 🇨🇳CN-111.6.86.215-80, 🇨🇳CN-112.5.33.179-999, 🇨🇳CN-114.215.80.112-7890, 🇨🇳CN-114.249.211.252-8000, 🇨🇳CN-116.236.146.234-4145, 🇨🇳CN-121.43.238.218-7890, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-220.167.89.46-1080, 🇨🇳CN-39.100.70.103-10800, 🇨🇳CN-47.103.124.6-7890, 🇨🇳CN-8.130.26.233-7890, 🇨🇳CN-8.217.0.164*-1080, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Auto.png
+static=🚀 All Nodes - 1 - Manual Select, File Creation Time: Mon Jul  7 17:02:48 UTC 2025, 🇨🇳CN-110.43.84.217*-80, 🇨🇳CN-111.6.86.215-80, 🇨🇳CN-112.5.33.179-999, 🇨🇳CN-114.215.80.112-7890, 🇨🇳CN-114.249.211.252-8000, 🇨🇳CN-116.236.146.234-4145, 🇨🇳CN-121.43.238.218-7890, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-220.167.89.46-1080, 🇨🇳CN-39.100.70.103-10800, 🇨🇳CN-47.103.124.6-7890, 🇨🇳CN-8.130.26.233-7890, 🇨🇳CN-8.217.0.164*-1080, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+static=🚀 All Nodes - 2 - Manual Select, File Creation Time: Mon Jul  7 17:02:48 UTC 2025, 🇨🇳CN-110.43.84.217*-80, 🇨🇳CN-111.6.86.215-80, 🇨🇳CN-112.5.33.179-999, 🇨🇳CN-114.215.80.112-7890, 🇨🇳CN-114.249.211.252-8000, 🇨🇳CN-116.236.146.234-4145, 🇨🇳CN-121.43.238.218-7890, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-220.167.89.46-1080, 🇨🇳CN-39.100.70.103-10800, 🇨🇳CN-47.103.124.6-7890, 🇨🇳CN-8.130.26.233-7890, 🇨🇳CN-8.217.0.164*-1080, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+static=♻️ IPv6 Nodes - Auto Select, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Auto.png
+static=🚀 IPv6 Nodes - Manual Select, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Proxy.png
+url-latency-benchmark=🎥 BiliBili Unlocked Nodes - Auto Select, 🇨🇳CN-110.43.84.217*-80, 🇨🇳CN-111.6.86.215-80, 🇨🇳CN-112.5.33.179-999, 🇨🇳CN-114.215.80.112-7890, 🇨🇳CN-116.236.146.234-4145, 🇨🇳CN-121.43.238.218-7890, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-220.167.89.46-1080, 🇨🇳CN-39.100.70.103-10800, 🇨🇳CN-47.103.124.6-7890, 🇨🇳CN-8.130.26.233-7890, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/bilibili.png
+static=🎥 BiliBili Unlocked Nodes - Manual Select, 🇨🇳CN-110.43.84.217*-80, 🇨🇳CN-111.6.86.215-80, 🇨🇳CN-112.5.33.179-999, 🇨🇳CN-114.215.80.112-7890, 🇨🇳CN-116.236.146.234-4145, 🇨🇳CN-121.43.238.218-7890, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-220.167.89.46-1080, 🇨🇳CN-39.100.70.103-10800, 🇨🇳CN-47.103.124.6-7890, 🇨🇳CN-8.130.26.233-7890, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/bilibili.png
+url-latency-benchmark=🎥 iQIYI Unlocked Nodes - Auto Select, 🇨🇳CN-110.43.84.217*-80, 🇨🇳CN-111.6.86.215-80, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/iQIYI.png
+static=🎥 iQIYI Unlocked Nodes - Manual Select, 🇨🇳CN-110.43.84.217*-80, 🇨🇳CN-111.6.86.215-80, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/iQIYI.png
+url-latency-benchmark=🎥 Tencent Video Unlocked Nodes - Auto Select, 🇨🇳CN-111.6.86.215-80, 🇨🇳CN-112.5.33.179-999, 🇨🇳CN-114.215.80.112-7890, 🇨🇳CN-121.43.238.218-7890, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-220.167.89.46-1080, 🇨🇳CN-39.100.70.103-10800, 🇨🇳CN-47.103.124.6-7890, 🇨🇳CN-8.130.26.233-7890, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/TencentVideo.png
+static=🎥 Tencent Video Unlocked Nodes - Manual Select, 🇨🇳CN-111.6.86.215-80, 🇨🇳CN-112.5.33.179-999, 🇨🇳CN-114.215.80.112-7890, 🇨🇳CN-121.43.238.218-7890, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-220.167.89.46-1080, 🇨🇳CN-39.100.70.103-10800, 🇨🇳CN-47.103.124.6-7890, 🇨🇳CN-8.130.26.233-7890, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/TencentVideo.png
+static=🎥 Youku Video Unlocked Nodes - Auto Select, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Youku.png
+static=🎥 Youku Video Unlocked Nodes - Manual Select, REJECT, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Youku.png
+url-latency-benchmark=🎥 Mango TV Unlocked Nodes - Auto Select, 🇨🇳CN-110.43.84.217*-80, 🇨🇳CN-111.6.86.215-80, 🇨🇳CN-112.5.33.179-999, 🇨🇳CN-114.215.80.112-7890, 🇨🇳CN-121.43.238.218-7890, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-220.167.89.46-1080, 🇨🇳CN-39.100.70.103-10800, 🇨🇳CN-47.103.124.6-7890, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/MangoTV.png
+static=🎥 Mango TV Unlocked Nodes - Manual Select, 🇨🇳CN-110.43.84.217*-80, 🇨🇳CN-111.6.86.215-80, 🇨🇳CN-112.5.33.179-999, 🇨🇳CN-114.215.80.112-7890, 🇨🇳CN-121.43.238.218-7890, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-220.167.89.46-1080, 🇨🇳CN-39.100.70.103-10800, 🇨🇳CN-47.103.124.6-7890, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/MangoTV.png
+url-latency-benchmark=🎥 NetEase Cloud Music Unlocked Nodes - Auto Select, 🇨🇳CN-110.43.84.217*-80, 🇨🇳CN-111.6.86.215-80, 🇨🇳CN-112.5.33.179-999, 🇨🇳CN-114.215.80.112-7890, 🇨🇳CN-116.236.146.234-4145, 🇨🇳CN-121.43.238.218-7890, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-220.167.89.46-1080, 🇨🇳CN-39.100.70.103-10800, 🇨🇳CN-47.103.124.6-7890, 🇨🇳CN-8.130.26.233-7890, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Netease_Music.png
+static=🎥 NetEase Cloud Music Unlocked Nodes - Manual Select, 🇨🇳CN-110.43.84.217*-80, 🇨🇳CN-111.6.86.215-80, 🇨🇳CN-112.5.33.179-999, 🇨🇳CN-114.215.80.112-7890, 🇨🇳CN-116.236.146.234-4145, 🇨🇳CN-121.43.238.218-7890, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-220.167.89.46-1080, 🇨🇳CN-39.100.70.103-10800, 🇨🇳CN-47.103.124.6-7890, 🇨🇳CN-8.130.26.233-7890, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Netease_Music.png
+url-latency-benchmark=🎥 QQ Music Unlocked Nodes - Auto Select, 🇨🇳CN-110.43.84.217*-80, 🇨🇳CN-111.6.86.215-80, 🇨🇳CN-112.5.33.179-999, 🇨🇳CN-114.215.80.112-7890, 🇨🇳CN-121.43.238.218-7890, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-220.167.89.46-1080, 🇨🇳CN-39.100.70.103-10800, 🇨🇳CN-47.103.124.6-7890, 🇨🇳CN-8.130.26.233-7890, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/QQMusic.png
+static=🎥 QQ Music Unlocked Nodes - Manual Select, 🇨🇳CN-110.43.84.217*-80, 🇨🇳CN-111.6.86.215-80, 🇨🇳CN-112.5.33.179-999, 🇨🇳CN-114.215.80.112-7890, 🇨🇳CN-121.43.238.218-7890, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-220.167.89.46-1080, 🇨🇳CN-39.100.70.103-10800, 🇨🇳CN-47.103.124.6-7890, 🇨🇳CN-8.130.26.233-7890, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/QQMusic.png
+url-latency-benchmark=🎥 Kugou Music Unlocked Nodes - Auto Select, 🇨🇳CN-110.43.84.217*-80, 🇨🇳CN-111.6.86.215-80, 🇨🇳CN-112.5.33.179-999, 🇨🇳CN-114.215.80.112-7890, 🇨🇳CN-116.236.146.234-4145, 🇨🇳CN-121.43.238.218-7890, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-220.167.89.46-1080, 🇨🇳CN-39.100.70.103-10800, 🇨🇳CN-47.103.124.6-7890, 🇨🇳CN-8.130.26.233-7890, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Kugou.png
+static=🎥 Kugou Music Unlocked Nodes - Manual Select, 🇨🇳CN-110.43.84.217*-80, 🇨🇳CN-111.6.86.215-80, 🇨🇳CN-112.5.33.179-999, 🇨🇳CN-114.215.80.112-7890, 🇨🇳CN-116.236.146.234-4145, 🇨🇳CN-121.43.238.218-7890, 🇨🇳CN-202.112.51.155*-27978, 🇨🇳CN-220.167.89.46-1080, 🇨🇳CN-39.100.70.103-10800, 🇨🇳CN-47.103.124.6-7890, 🇨🇳CN-8.130.26.233-7890, img-url=https://raw.githubusercontent.com/thuhollow2/qure/main/IconSet/Color/Kugou.png
+
+[server_remote]
+
+[filter_remote]
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/BiliBili.list, tag=🎥 BiliBili, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/iQIYI.list, tag=🎥 iQIYI, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/TencentVideo.list, tag=🎥 Tencent Video, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/Youku.list, tag=🎥 Youku Video, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/MangoTV.list, tag=🎥 Mango TV, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/NetEaseMusic.list, tag=🎥 NetEase Cloud Music, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/QQMusic.list, tag=🎥 QQ Music, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/KugouKuwo.list, tag=🎥 Kugou&Kuwo Music, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/ChinaMedia.list, tag=🌏 China Media, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/ChinaIPv4.list, tag=🎯 China Website, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/ChinaIPv6.list, tag=🎯 China Website, enabled=true
+https://raw.githubusercontent.com/thuhollow2/rule/main/QuantumultX/ChinaDomain.list, tag=🎯 China Website, enabled=true
+
+[rewrite_remote]
+
+[server_local]
+vmess = 255.255.255.255:10086, method=chacha20-ietf-poly1305, password=00000000-0000-0000-0000-000000000000, fast-open=false, udp-relay=true, tag=File Creation Time: Mon Jul  7 17:02:48 UTC 2025
+http = 110.43.84.217:80, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-110.43.84.217*-80
+vmess = hn.xn--wlqw1swrj04ju56d.com:80, method=chacha20-ietf-poly1305, password=f9ddefc5-d121-486f-9e2f-0c2cd1a3decc, obfs=ws, obfs-host=hn.xn--wlqw1swrj04ju56d.com, obfs-uri=/, fast-open=false, udp-relay=true, tag=🇨🇳CN-111.6.86.215-80
+socks5 = 112.5.33.179:999, fast-open=false, udp-relay=true, tag=🇨🇳CN-112.5.33.179-999
+http = 114.215.80.112:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-114.215.80.112-7890
+http = 114.249.211.252:8000, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-114.249.211.252-8000
+socks5 = 116.236.146.234:4145, fast-open=false, udp-relay=true, tag=🇨🇳CN-116.236.146.234-4145
+http = 121.43.238.218:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-121.43.238.218-7890
+http = 202.112.51.155:27978, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-202.112.51.155*-27978
+socks5 = 220.167.89.46:1080, fast-open=false, udp-relay=true, tag=🇨🇳CN-220.167.89.46-1080
+socks5 = 39.100.70.103:10800, fast-open=false, udp-relay=true, tag=🇨🇳CN-39.100.70.103-10800
+http = 47.103.124.6:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-47.103.124.6-7890
+http = 8.130.26.233:7890, username=none, password=none, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-8.130.26.233-7890
+socks5 = 8.217.0.164:1080, username=123456, password=123456, over-tls=false, fast-open=false, udp-relay=true, tag=🇨🇳CN-8.217.0.164*-1080
+
+[filter_local]
+GEOIP,CN,🎯 China Website
+FINAL,🐟 Remaining Website
+
+[rewrite_local]
+
+[mitm]
+
