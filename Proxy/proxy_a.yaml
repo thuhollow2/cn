@@ -1,0 +1,37 @@
+proxies:
+  - {"name": "File Creation Time: Tue Aug  5 01:30:46 UTC 2025", "server": "255.255.255.255", "port": 10086, "type": "vmess", "alterId": 0, "cipher": "auto", "skip-cert-verify": true, "tls": false, "udp": true, "uuid": "00000000-0000-0000-0000-000000000000"}
+  - {"name": "🇨🇳CN-1.194.218.151-11298", "server": "1.194.218.151", "port": 11298, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-1.94.56.124-7890", "server": "1.94.56.124", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-101.133.228.90-7890", "server": "101.133.228.90", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-101.200.57.92-7890", "server": "101.200.57.92", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-101.201.174.236-61409", "server": "101.201.174.236", "port": 61409, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-110.43.84.217-80", "server": "110.43.84.217", "port": 80, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-111.229.31.68-7890", "server": "111.229.31.68", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-114.215.80.112-7890", "server": "114.215.80.112", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-115.159.226.176-7890", "server": "115.159.226.176", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-115.190.19.83-29185", "server": "115.190.19.83", "port": 29185, "type": "vless", "client-fingerprint": "chrome", "reality-opts": {"public-key": "Ox0EsEq7UYtFUy24Wg3_84XvN4gl3HhH21eX0nPj4x4", "short-id": "689a9a"}, "servername": "yahoo.com", "skip-cert-verify": true, "tls": true, "udp": true, "uuid": "0395a16c-cb48-4614-bf19-7bf9ac7aed41"}
+  - {"name": "🇨🇳CN-117.161.89.195-10086", "server": "117.161.89.195", "port": 10086, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-117.72.216.184-7891", "server": "117.72.216.184", "port": 7891, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-118.178.197.213-3128", "server": "118.178.197.213", "port": 3128, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-119.166.11.89-7890", "server": "119.166.11.89", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-119.91.225.75-7890", "server": "119.91.225.75", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-121.43.238.218-7890", "server": "121.43.238.218", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-123.206.218.140-1424", "server": "123.206.218.140", "port": 1424, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-14.103.146.174-7890", "server": "14.103.146.174", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-218.16.181.133-7890", "server": "218.16.181.133", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-218.79.10.119-7892", "server": "218.79.10.119", "port": 7892, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-219.145.19.17-7890", "server": "219.145.19.17", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-27.221.248.231-7890", "server": "27.221.248.231", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-36.213.46.210-7890", "server": "36.213.46.210", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-43.140.252.37-7890", "server": "43.140.252.37", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-43.142.159.62-7890", "server": "43.142.159.62", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-43.143.104.104-7890", "server": "43.143.104.104", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-47.103.124.6-7890", "server": "47.103.124.6", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-47.103.5.145-7890", "server": "47.103.5.145", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-47.96.156.28-9002", "server": "47.96.156.28", "port": 9002, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-47.96.86.120-33210", "server": "47.96.86.120", "port": 33210, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-8.130.26.233-7890", "server": "8.130.26.233", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-8.134.144.10-3129", "server": "8.134.144.10", "port": 3129, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": true, "udp": true}
+  - {"name": "🇨🇳CN-8.140.235.207-9001", "server": "8.140.235.207", "port": 9001, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇨🇳CN-8.218.2.214-11209", "server": "8.218.2.214", "port": 11209, "type": "socks5", "password": "123", "skip-cert-verify": true, "udp": true, "username": "123"}
+  - {"name": "🇨🇳CN-81.70.160.154-7890", "server": "81.70.160.154", "port": 7890, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
